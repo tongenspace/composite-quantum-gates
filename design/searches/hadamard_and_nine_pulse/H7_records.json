@@ -1,0 +1,574 @@
+[
+  {
+    "controls": {
+      "name": "H7p",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        0.6234195752507148,
+        0.7805188005491237,
+        2.474252297881259,
+        -0.6165385378033368,
+        -2.297462815280594,
+        -0.6694014535368868,
+        1.9968026404446713
+      ],
+      "amplitudes": [
+        1.192378183690817,
+        1.069977104284638,
+        0.9505931936791551,
+        0.9372115902574483,
+        1.8803374524357697,
+        0.9128784033606028,
+        0.7165817694949936
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "precision_coarse",
+    "start": 0,
+    "grid": 19,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 30,
+    "nominal": 9.008255615518096e-26,
+    "area": 7.659957697203424,
+    "peak": 1.8803374524357697,
+    "objective": 2.6366039409763395
+  },
+  {
+    "controls": {
+      "name": "H7p",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.51730565908134,
+        0.4918094819335517,
+        0.6657659031170833,
+        -2.003732824061278,
+        0.42891377574336786,
+        0.5632977127392289,
+        -2.491766603289546
+      ],
+      "amplitudes": [
+        1.3264524219983096,
+        0.8433720650943706,
+        1.2475188348728585,
+        1.0515918745283497,
+        0.6556085555505101,
+        1.326452421996862,
+        1.2089615231621627
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "precision_coarse",
+    "start": 1,
+    "grid": 19,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 85,
+    "nominal": 4.791200120316939e-30,
+    "area": 7.659957697203423,
+    "peak": 1.3264524219983096,
+    "objective": 1.893040568133327
+  },
+  {
+    "controls": {
+      "name": "H7p",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        0.6234195821726844,
+        0.7805187992163587,
+        2.474252277100435,
+        -0.6165385608037477,
+        -2.2974628189315567,
+        -0.6694014788404843,
+        1.9968026205919518
+      ],
+      "amplitudes": [
+        1.192378156021029,
+        1.0699771308085206,
+        0.9505931936052235,
+        0.9372115811911884,
+        1.8803374443964085,
+        0.912878415065695,
+        0.7165817761153594
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "precision_coarse",
+    "start": 2,
+    "grid": 19,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 96,
+    "nominal": 5.70742919252676e-28,
+    "area": 7.659957697203424,
+    "peak": 1.8803374443964085,
+    "objective": 2.636603941019527
+  },
+  {
+    "controls": {
+      "name": "H7p",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.5138792829612977,
+        0.49587107548793874,
+        0.6704445871648677,
+        -1.9996164747379304,
+        0.43142431525181646,
+        0.563883569798596,
+        -2.4923295549272706
+      ],
+      "amplitudes": [
+        1.3256180958997932,
+        0.8438362064169181,
+        1.2465764316150694,
+        1.0515661369591833,
+        0.6565977907532968,
+        1.3256180959050483,
+        1.2101449396540318
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "precision_fine",
+    "start": 1,
+    "grid": 31,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 18,
+    "nominal": 2.1198339527218894e-25,
+    "area": 7.65995769720334,
+    "peak": 1.3256180959050483,
+    "objective": 1.9529478225055206,
+    "selection_dynamic": {
+      "mean": 0.00019202796167918547,
+      "maximum": 0.004074857230865004,
+      "coverage": 0.5775234131113424,
+      "norm_error": 8.215650382226158e-15
+    },
+    "selection_rect": {
+      "name": "H7p",
+      "N": 7,
+      "center": 2.1198339527218894e-25,
+      "mean": 0.00020897660111511245,
+      "fraction_below_1e4": 0.4968140378394275,
+      "area_over_target": 15.319915394406681,
+      "duration_over_target": 18.558653342670677
+    },
+    "selection_score": 0.00019711255350996355
+  },
+  {
+    "controls": {
+      "name": "H7p",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        0.6232392996430329,
+        0.7811186234282115,
+        2.4752834338027645,
+        -0.6157224360022817,
+        -2.2968690498034556,
+        -0.668998136465556,
+        1.996692062129406
+      ],
+      "amplitudes": [
+        1.1926214753447049,
+        1.069881664598047,
+        0.9506182922990803,
+        0.9372806427886525,
+        1.8805826117650677,
+        0.9125678492693197,
+        0.7164051611385515
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "precision_fine",
+    "start": 0,
+    "grid": 31,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 15,
+    "nominal": 4.9766029762966174e-31,
+    "area": 7.659957697203423,
+    "peak": 1.8805826117650677,
+    "objective": 2.720154079473328,
+    "selection_dynamic": {
+      "mean": 0.0002761447544158921,
+      "maximum": 0.0022007157981615063,
+      "coverage": 0.39542143600416235,
+      "norm_error": 7.66053886991358e-15
+    },
+    "selection_rect": {
+      "name": "H7p",
+      "N": 7,
+      "center": 4.9766029762966174e-31,
+      "mean": 0.00027156906426406536,
+      "fraction_below_1e4": 0.45721007744338793,
+      "area_over_target": 15.319915394406845,
+      "duration_over_target": 26.328156564710945
+    },
+    "selection_score": 0.00027477204737034403
+  },
+  {
+    "controls": {
+      "name": "H7c",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.328198447214075,
+        0.677995668280146,
+        0.8645251705679744,
+        -1.7861975431465578,
+        0.5117581336506927,
+        0.5597186329998953,
+        -2.5103001824075144
+      ],
+      "amplitudes": [
+        1.2606042944790559,
+        0.8759428572359131,
+        1.1480617805334468,
+        1.0192436533738107,
+        0.6957577071759561,
+        1.26060429447933,
+        1.260604294477455
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "coverage_coarse",
+    "start": 0,
+    "grid": 31,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 61,
+    "nominal": 3.0814879110195774e-31,
+    "area": 7.520818881754968,
+    "peak": 1.26060429447933,
+    "objective": 0.9103087759485362,
+    "selection_dynamic": {
+      "mean": 0.09158608364507229,
+      "maximum": 0.6666661363696768,
+      "coverage": 0.06799247514109111,
+      "norm_error": 8.215650382226158e-15
+    },
+    "selection_rect": {
+      "name": "H7c",
+      "N": 7,
+      "center": 3.0814879110195774e-31,
+      "mean": 0.09036993240040883,
+      "fraction_below_1e4": 0.06576569886883989,
+      "area_over_target": 15.041637763509936,
+      "duration_over_target": 17.64846012271062
+    },
+    "selection_score": 0.06732444225941574
+  },
+  {
+    "controls": {
+      "name": "H7c",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.328198227188125,
+        0.6779959053847575,
+        0.8645254254976482,
+        -1.786197300144625,
+        0.51175827943019,
+        0.5597186830287066,
+        -2.5103002250550386
+      ],
+      "amplitudes": [
+        1.2606043219914393,
+        0.8759428724428203,
+        1.1480617932213515,
+        1.0192436273650174,
+        0.6957576537910948,
+        1.2606043219981644,
+        1.2606043219888734
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "coverage_coarse",
+    "start": 1,
+    "grid": 31,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 49,
+    "nominal": 3.074508340901118e-28,
+    "area": 7.520818912798761,
+    "peak": 1.2606043219981644,
+    "objective": 0.9103087759489231,
+    "selection_dynamic": {
+      "mean": 0.09158608577199684,
+      "maximum": 0.6666661363449493,
+      "coverage": 0.06799247514109111,
+      "norm_error": 8.43769498715119e-15
+    },
+    "selection_rect": {
+      "name": "H7c",
+      "N": 7,
+      "center": 3.074508340901118e-28,
+      "mean": 0.09036993386942047,
+      "fraction_below_1e4": 0.06576569886883989,
+      "area_over_target": 15.041637825597522,
+      "duration_over_target": 17.6484605079743
+    },
+    "selection_score": 0.06732444225941574
+  },
+  {
+    "controls": {
+      "name": "H7c",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.328198458726884,
+        0.6779956003006795,
+        0.8645251053954848,
+        -1.7861976301364548,
+        0.5117580123290462,
+        0.559718644387865,
+        -2.5103001304045187
+      ],
+      "amplitudes": [
+        1.2606042825089796,
+        0.8759427167366656,
+        1.148061888669098,
+        1.0192436110983674,
+        0.6957577074989493,
+        1.2606042825090626,
+        1.260604282508939
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "coverage_coarse",
+    "start": 2,
+    "grid": 31,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 76,
+    "nominal": 4.302989718947738e-29,
+    "area": 7.520818771530062,
+    "peak": 1.2606042825090626,
+    "objective": 0.9103087759486167,
+    "selection_dynamic": {
+      "mean": 0.09158608534882039,
+      "maximum": 0.6666661363408382,
+      "coverage": 0.06799247514109111,
+      "norm_error": 8.43769498715119e-15
+    },
+    "selection_rect": {
+      "name": "H7c",
+      "N": 7,
+      "center": 4.302989718947738e-29,
+      "mean": 0.09036993526607655,
+      "fraction_below_1e4": 0.06576569886883989,
+      "area_over_target": 15.041637543060125,
+      "duration_over_target": 17.648459955126878
+    },
+    "selection_score": 0.06732444225941574
+  },
+  {
+    "controls": {
+      "name": "H7c",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.335191827309332,
+        0.6709810935881095,
+        0.854755513403449,
+        -1.7981770818419973,
+        0.5085025159289334,
+        0.5607133372836168,
+        -2.510009797143824
+      ],
+      "amplitudes": [
+        1.254933013865528,
+        0.8690395953272901,
+        1.1464725554894042,
+        1.0154824970999121,
+        0.6943690223848198,
+        1.2549330138658248,
+        1.254933013865234
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "coverage_fine",
+    "start": 0,
+    "grid": 51,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 67,
+    "nominal": 1.6887067333705785e-29,
+    "area": 7.490162711898012,
+    "peak": 1.2549330138658248,
+    "objective": 0.9138185948186882,
+    "selection_dynamic": {
+      "mean": 0.09152837034258465,
+      "maximum": 0.6666623917266254,
+      "coverage": 0.06960494490728299,
+      "norm_error": 7.993605777301127e-15
+    },
+    "selection_rect": {
+      "name": "H7c",
+      "N": 7,
+      "center": 1.6887067333705785e-29,
+      "mean": 0.0903402844441946,
+      "fraction_below_1e4": 0.06618648053266009,
+      "area_over_target": 14.980325423796025,
+      "duration_over_target": 17.569062194121546
+    },
+    "selection_score": 0.06857940559489611
+  },
+  {
+    "controls": {
+      "name": "H7c",
+      "N": 7,
+      "theta": 1.5707963267948966,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "phases": [
+        -2.3351915747536496,
+        0.6709814630529616,
+        0.8547560453538421,
+        -1.7981765046499483,
+        0.5085030053028365,
+        0.5607136840172791,
+        -2.5100096686310933
+      ],
+      "amplitudes": [
+        1.254932962777778,
+        0.8690395246091708,
+        1.1464725146418504,
+        1.0154824636826227,
+        0.6943689838032682,
+        1.25493296267499,
+        1.2549329626745442
+      ],
+      "origin": "research/numerical/design_h.py; deterministic edge-aware search"
+    },
+    "kind": "coverage_fine",
+    "start": 2,
+    "grid": 51,
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 65,
+    "nominal": 1.020306326404507e-28,
+    "area": 7.490162374864225,
+    "peak": 1.254932962777778,
+    "objective": 0.91381859482127,
+    "selection_dynamic": {
+      "mean": 0.09152835756570038,
+      "maximum": 0.6666623916671368,
+      "coverage": 0.06960494490728299,
+      "norm_error": 8.881784197001252e-15
+    },
+    "selection_rect": {
+      "name": "H7c",
+      "N": 7,
+      "center": 1.020306326404507e-28,
+      "mean": 0.09034027197455738,
+      "fraction_below_1e4": 0.06618648053266009,
+      "area_over_target": 14.98032474972845,
+      "duration_over_target": 17.569061478888894
+    },
+    "selection_score": 0.06857940559489611
+  }
+]

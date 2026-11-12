@@ -1,0 +1,6 @@
+{
+  "status": "Stopped the optional exploratory follow-up when its completed H7 candidates did not qualify. Recorded completed fits remain available; no unfinished fit is selected.",
+  "completed_records": {
+    "h7_followup_records.json": 15
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "protocol": {
+    "controls_fixed": true,
+    "domain": "|epsilon|, |delta_c| <= 0.15",
+    "quadrature": "equal-weight cell midpoints in both coordinates",
+    "grids_per_axis": [
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512,
+      801,
+      1601,
+      3201
+    ],
+    "reference_grid": 3201,
+    "drive": "common peak nominal Rabi frequency; native delta=p*delta_c",
+    "metric": "average gate infidelity; ideal virtual Z completion for Hadamard",
+    "noise": "none; deterministic rectangular pulses",
+    "controls_sha256": "eabac8e2cf511fd57f71f876d84dd645f4fd8c6cc7b9ad6ac838a087bd9599cc"
+  },
+  "checks": {
+    "X5c": {
+      "matrix_check_max_abs_difference": 6.356948387825634e-16,
+      "publication_mean_801": 0.0018904096770212216,
+      "calculated_mean_801": 0.0018904096770212206,
+      "reference_mean_3201": 0.001890419314165232,
+      "relative_difference_801_vs_3201_percent": -0.0005097886981553224
+    },
+    "H5c": {
+      "matrix_check_max_abs_difference": 7.837646682920876e-16,
+      "publication_mean_801": 0.0006929533326248507,
+      "calculated_mean_801": 0.0006929533326248505,
+      "reference_mean_3201": 0.0006929568878242635,
+      "relative_difference_801_vs_3201_percent": -0.0005130477054970939
+    },
+    "X15c": {
+      "matrix_check_max_abs_difference": 6.828391309097412e-16,
+      "publication_mean_801": 2.570670543025513e-07,
+      "calculated_mean_801": 2.57067054302551e-07,
+      "reference_mean_3201": 2.570751442502467e-07,
+      "relative_difference_801_vs_3201_percent": -0.0031469194422983904
+    },
+    "H15c": {
+      "matrix_check_max_abs_difference": 1.3584560353947187e-15,
+      "publication_mean_801": 8.919709355986374e-07,
+      "calculated_mean_801": 8.919709355986393e-07,
+      "reference_mean_3201": 8.919811658927294e-07,
+      "relative_difference_801_vs_3201_percent": -0.0011469181728562816
+    }
+  }
+}

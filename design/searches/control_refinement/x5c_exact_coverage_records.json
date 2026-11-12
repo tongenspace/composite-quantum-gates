@@ -1,0 +1,1214 @@
+[
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.045896942409831,
+        2.985836834791428,
+        0.9414715852403459,
+        2.985822440192573,
+        2.045873914742258
+      ],
+      "amplitudes": [
+        0.9931820281222784,
+        1.9999999999999594,
+        1.0037821998627785,
+        1.9999999999999594,
+        0.9931801048017335
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.937331914819777e-05,
+      "native_mean": 0.00025643455977717507,
+      "peak_mean": 0.001943988862291453,
+      "area_over_target": 6.990144332786709,
+      "duration_over_target": 9.999999999999796,
+      "native_fraction": 0.4493380016293431,
+      "peak_fraction": 0.2245508423455078,
+      "native_sobol_mean": 0.0002564426331693778,
+      "peak_sobol_mean": 0.001944028640551658,
+      "native_sobol_max": 0.0024902525376449174,
+      "peak_sobol_max": 0.011039532468601228,
+      "wide_mean": 0.009430965480891156
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.937331914819777e-05,
+        "mean": 0.1003218978414885,
+        "fraction_below_1e4": 0.04034800778602123,
+        "area_over_target": 6.990144332786709,
+        "duration_over_target": 9.999999999999796
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.937331914819777e-05,
+        "mean": 0.14959907914008183,
+        "fraction_below_1e4": 0.020205098227001075,
+        "area_over_target": 6.990144332786709,
+        "duration_over_target": 9.999999999999796
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 131,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0458803400660637,
+        2.985804818686306,
+        0.9414494878204893,
+        2.9857977659588952,
+        2.0458678445054517
+      ],
+      "amplitudes": [
+        0.9931835662312296,
+        1.9999999999999594,
+        1.0037848150103543,
+        1.9999999999991234,
+        0.9931816574270703
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.933359147906627e-05,
+      "native_mean": 0.0002564691064260974,
+      "peak_mean": 0.0019442131172937203,
+      "area_over_target": 6.990150038667736,
+      "duration_over_target": 9.999999999999796,
+      "native_fraction": 0.449263375227766,
+      "peak_fraction": 0.22451352914471925,
+      "native_sobol_mean": 0.00025647717961111154,
+      "peak_sobol_mean": 0.0019442528957268695,
+      "native_sobol_max": 0.0024903242873136103,
+      "peak_sobol_max": 0.011040169560185917,
+      "wide_mean": 0.009430708054506411
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.933359147906627e-05,
+        "mean": 0.10032051157240413,
+        "fraction_below_1e4": 0.04034800778602123,
+        "area_over_target": 6.990150038667736,
+        "duration_over_target": 9.999999999999796
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.933359147906627e-05,
+        "mean": 0.14959776521993684,
+        "fraction_below_1e4": 0.02021131709379917,
+        "area_over_target": 6.990150038667736,
+        "duration_over_target": 9.999999999999796
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 91,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0458186896900594,
+        2.985681395122789,
+        0.9413418538191802,
+        2.9856732890966944,
+        2.0458061060216064
+      ],
+      "amplitudes": [
+        0.9932211770406472,
+        1.9999999999301674,
+        1.0038300053268057,
+        1.9999999999999594,
+        0.9932194051667782
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.85269988009348e-05,
+      "native_mean": 0.0002572705703512942,
+      "peak_mean": 0.0019486769005382348,
+      "area_over_target": 6.990270587464358,
+      "duration_over_target": 9.999999999999796,
+      "native_fraction": 0.44828079427366746,
+      "peak_fraction": 0.2241652726040261,
+      "native_sobol_mean": 0.00025727864987838635,
+      "peak_sobol_mean": 0.0019487166977009082,
+      "native_sobol_max": 0.002495035331602821,
+      "peak_sobol_max": 0.011050881767675082,
+      "wide_mean": 0.009432969114364309
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.85269988009348e-05,
+        "mean": 0.10032438473760544,
+        "fraction_below_1e4": 0.04022984931685748,
+        "area_over_target": 6.990270587464358,
+        "duration_over_target": 9.999999999999796
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 5.85269988009348e-05,
+        "mean": 0.14960467855272075,
+        "fraction_below_1e4": 0.020167785026212522,
+        "area_over_target": 6.990270587464358,
+        "duration_over_target": 9.999999999999796
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 271,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.130161553699473,
+        -0.4936748159573252,
+        1.089618850453724,
+        -0.49346151952275363,
+        2.130599350051856
+      ],
+      "amplitudes": [
+        1.1491396736918993,
+        0.9912242442875583,
+        1.153746979480917,
+        0.9912364085641323,
+        1.1491508320485793
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.7573161028785834e-06,
+      "native_mean": 0.00042896916328698335,
+      "peak_mean": 0.0005932872008069686,
+      "area_over_target": 5.434498138073086,
+      "duration_over_target": 5.768734897404585,
+      "native_fraction": 0.3323673360240297,
+      "peak_fraction": 0.28807034782122004,
+      "native_sobol_mean": 0.00042898121913709225,
+      "peak_sobol_mean": 0.0005933033854635027,
+      "native_sobol_max": 0.003098512452314379,
+      "peak_sobol_max": 0.003497040848879973,
+      "wide_mean": 0.007322295309371304
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.7573161028785834e-06,
+        "mean": 0.05763740381670938,
+        "fraction_below_1e4": 0.030478666177449144,
+        "area_over_target": 5.434498138073086,
+        "duration_over_target": 5.768734897404585
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.7573161028785834e-06,
+        "mean": 0.07818852791723542,
+        "fraction_below_1e4": 0.026423965025093126,
+        "area_over_target": 5.434498138073086,
+        "duration_over_target": 5.768734897404585
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 340,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.129764938981231,
+        -0.49398188704099244,
+        1.0893764181330425,
+        -0.4935508389680945,
+        2.1306522215527295
+      ],
+      "amplitudes": [
+        1.1487595067792853,
+        0.9911756020579282,
+        1.1533205646951876,
+        0.9911598389662546,
+        1.148737674147558
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.579093996753242e-06,
+      "native_mean": 0.0004289948205397133,
+      "peak_mean": 0.0005924992719332823,
+      "area_over_target": 5.433153186646213,
+      "duration_over_target": 5.766602823475938,
+      "native_fraction": 0.3326782793639343,
+      "peak_fraction": 0.288611389232654,
+      "native_sobol_mean": 0.0004290068821871531,
+      "peak_sobol_mean": 0.0005925154512002478,
+      "native_sobol_max": 0.00310404743313991,
+      "peak_sobol_max": 0.0034901752973796373,
+      "wide_mean": 0.007323727892133151
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.579093996753242e-06,
+        "mean": 0.05765665889259773,
+        "fraction_below_1e4": 0.030509760511439606,
+        "area_over_target": 5.433153186646213,
+        "duration_over_target": 5.766602823475938
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.579093996753242e-06,
+        "mean": 0.07815074143708592,
+        "fraction_below_1e4": 0.026486153693074048,
+        "area_over_target": 5.433153186646213,
+        "duration_over_target": 5.766602823475938
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 247,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.1295646802121198,
+        -0.4947830590217581,
+        1.0880757135408867,
+        -0.49490118448937537,
+        2.1293240817980035
+      ],
+      "amplitudes": [
+        1.1470967113408932,
+        0.990888656806784,
+        1.1514970959073103,
+        0.990884183608391,
+        1.1470945402760888
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.6558168023331705e-06,
+      "native_mean": 0.00042912810450871085,
+      "peak_mean": 0.0005884866917303089,
+      "area_over_target": 5.427461187939468,
+      "duration_over_target": 5.757485479536552,
+      "native_fraction": 0.33438224886661155,
+      "peak_fraction": 0.2903713285365141,
+      "native_sobol_mean": 0.00042914018831999686,
+      "peak_sobol_mean": 0.0005885028412716531,
+      "native_sobol_max": 0.0031376350632500755,
+      "peak_sobol_max": 0.0034531824068699656,
+      "wide_mean": 0.007327096617549156
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 2.6558168023331705e-06,
+        "mean": 0.05772126497749372,
+        "fraction_below_1e4": 0.030727420849372827,
+        "area_over_target": 5.427461187939468,
+        "duration_over_target": 5.757485479536552
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 2.6558168023331705e-06,
+        "mean": 0.07796706265399653,
+        "fraction_below_1e4": 0.02682197250017102,
+        "area_over_target": 5.427461187939468,
+        "duration_over_target": 5.757485479536552
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 460,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.017174716056175,
+        2.9140207764730093,
+        0.8927219333042888,
+        2.9140269961286442,
+        2.0171828041047615
+      ],
+      "amplitudes": [
+        0.9961176411250804,
+        1.9989203350180837,
+        1.0024115460875564,
+        1.9989203349554618,
+        0.9961179911527126
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.8462490005981348e-13,
+      "native_mean": 0.0003840317928362461,
+      "peak_mean": 0.002412583513575542,
+      "area_over_target": 6.992487848338895,
+      "duration_over_target": 9.994601675090419,
+      "native_fraction": 0.23637290812868078,
+      "peak_fraction": 0.11823931443212418,
+      "native_sobol_mean": 0.00038403914787822364,
+      "peak_sobol_mean": 0.0024126231926087467,
+      "native_sobol_max": 0.0024537715496942194,
+      "peak_sobol_max": 0.011418408812183103,
+      "wide_mean": 0.008718875693560032
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.8462490005981348e-13,
+        "mean": 0.09585099037300415,
+        "fraction_below_1e4": 0.021268524449474815,
+        "area_over_target": 6.992487848338895,
+        "duration_over_target": 9.994601675090419
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.8462490005981348e-13,
+        "mean": 0.14541878994586846,
+        "fraction_below_1e4": 0.010665356558727869,
+        "area_over_target": 6.992487848338895,
+        "duration_over_target": 9.994601675090419
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 219,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0171769426849355,
+        2.914021951664221,
+        0.8927210341197709,
+        2.914023719817063,
+        2.0171796793818215
+      ],
+      "amplitudes": [
+        0.9961175031445669,
+        1.9989203717498385,
+        1.0024117330299815,
+        1.9989203717506534,
+        0.9961178444236899
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.7388455161433565e-13,
+      "native_mean": 0.000384032379751978,
+      "peak_mean": 0.002412585530686535,
+      "area_over_target": 6.99248782409873,
+      "duration_over_target": 9.994601858753267,
+      "native_fraction": 0.2363791269954789,
+      "peak_fraction": 0.11823931443212418,
+      "native_sobol_mean": 0.00038403973478843656,
+      "peak_sobol_mean": 0.002412625209701176,
+      "native_sobol_max": 0.0024538247234664272,
+      "peak_sobol_max": 0.01141831555235954,
+      "wide_mean": 0.008718869418795907
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.7388455161433565e-13,
+        "mean": 0.09585094932307472,
+        "fraction_below_1e4": 0.02127474331627291,
+        "area_over_target": 6.99248782409873,
+        "duration_over_target": 9.994601858753267
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.7388455161433565e-13,
+        "mean": 0.14541874903926988,
+        "fraction_below_1e4": 0.010665356558727869,
+        "area_over_target": 6.99248782409873,
+        "duration_over_target": 9.994601858753267
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 106,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0171914265345565,
+        2.914047661777051,
+        0.8927397700635469,
+        2.914044517133056,
+        2.017183937688828
+      ],
+      "amplitudes": [
+        0.9961168545688723,
+        1.9989204994538847,
+        1.0024125027926034,
+        1.9989204994897163,
+        0.9961171711662777
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.6032890194350993e-13,
+      "native_mean": 0.00038403372068264023,
+      "peak_mean": 0.0024125572723737755,
+      "area_over_target": 6.992487527471354,
+      "duration_over_target": 9.99460249744858,
+      "native_fraction": 0.23639778359587316,
+      "peak_fraction": 0.11826418989931654,
+      "native_sobol_mean": 0.00038404107594973994,
+      "peak_sobol_mean": 0.0024125969517975942,
+      "native_sobol_max": 0.002453975494001494,
+      "peak_sobol_max": 0.01141823240555723,
+      "wide_mean": 0.008719061749126827
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.6032890194350993e-13,
+        "mean": 0.09585196792632357,
+        "fraction_below_1e4": 0.02127474331627291,
+        "area_over_target": 6.992487527471354,
+        "duration_over_target": 9.99460249744858
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 1.6032890194350993e-13,
+        "mean": 0.14541991932246706,
+        "fraction_below_1e4": 0.010665356558727869,
+        "area_over_target": 6.992487527471354,
+        "duration_over_target": 9.99460249744858
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 163,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 3,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0306915615341143,
+        2.950403548919496,
+        0.9197198044530932,
+        2.950400687396212,
+        2.030692444561476
+      ],
+      "amplitudes": [
+        0.9943615172949343,
+        1.9995703714168926,
+        1.0046237439512202,
+        1.9995703700418321,
+        0.9943615237040828
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.937816536558954e-18,
+      "native_mean": 0.0003936218768653995,
+      "peak_mean": 0.0023760770579208234,
+      "area_over_target": 6.992487526408961,
+      "duration_over_target": 9.997851857084463,
+      "native_fraction": 0.2646874086603939,
+      "peak_fraction": 0.13248673826655308,
+      "native_sobol_mean": 0.0003936299901839583,
+      "peak_sobol_mean": 0.0023761176771057674,
+      "native_sobol_max": 0.00283672651437397,
+      "peak_sobol_max": 0.011918955648015527,
+      "wide_mean": 0.009264424265810374
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 7.937816536558954e-18,
+        "mean": 0.0982809428510079,
+        "fraction_below_1e4": 0.023780946635904007,
+        "area_over_target": 6.992487526408961,
+        "duration_over_target": 9.997851857084463
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 7.937816536558954e-18,
+        "mean": 0.14793561558297832,
+        "fraction_below_1e4": 0.011902911051548186,
+        "area_over_target": 6.992487526408961,
+        "duration_over_target": 9.997851857084463
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 93,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 3,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0306877390646747,
+        2.9503907399225158,
+        0.9196930702382957,
+        2.9503662915665796,
+        2.0306694918049963
+      ],
+      "amplitudes": [
+        0.9943643893320245,
+        1.9995690536028197,
+        1.004620698586212,
+        1.9995699454349969,
+        0.9943634539307606
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.853285236185913e-17,
+      "native_mean": 0.000393612726248505,
+      "peak_mean": 0.0023760878312269816,
+      "area_over_target": 6.992487540886814,
+      "duration_over_target": 9.997849727174984,
+      "native_fraction": 0.2646998463939901,
+      "peak_fraction": 0.13248051939975497,
+      "native_sobol_mean": 0.0003936208405461327,
+      "peak_sobol_mean": 0.0023761284508525752,
+      "native_sobol_max": 0.002836917133545638,
+      "peak_sobol_max": 0.011918551160090232,
+      "wide_mean": 0.009264973689254585
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.853285236185913e-17,
+        "mean": 0.09828254861805481,
+        "fraction_below_1e4": 0.023780946635904007,
+        "area_over_target": 6.992487540886814,
+        "duration_over_target": 9.997849727174984
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 3.853285236185913e-17,
+        "mean": 0.1479359057014881,
+        "fraction_below_1e4": 0.011902911051548186,
+        "area_over_target": 6.992487540886814,
+        "duration_over_target": 9.997849727174984
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 166,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  },
+  {
+    "name": "X5c",
+    "stage": "coverage",
+    "start_index": 3,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.030707288066031,
+        2.950437761077753,
+        0.919738064527758,
+        2.9504106020607663,
+        2.030695012782642
+      ],
+      "amplitudes": [
+        0.9943594349712068,
+        1.999571164033199,
+        1.004626355445538,
+        1.9995711153962095,
+        0.9943594570010674
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610170",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.2952018358978396e-17,
+      "native_mean": 0.00039363480342894714,
+      "peak_mean": 0.0023760641384397325,
+      "area_over_target": 6.9924875268472215,
+      "duration_over_target": 9.997855820165993,
+      "native_fraction": 0.2646998463939901,
+      "peak_fraction": 0.13246808166615878,
+      "native_sobol_mean": 0.0003936429169208064,
+      "peak_sobol_mean": 0.0023761047579934453,
+      "native_sobol_max": 0.002837241112137871,
+      "peak_sobol_max": 0.011918640645599473,
+      "wide_mean": 0.009264577417081794
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X5c",
+        "N": 5,
+        "center": 2.2952018358978396e-17,
+        "mean": 0.09828175091815751,
+        "fraction_below_1e4": 0.023780946635904007,
+        "area_over_target": 6.9924875268472215,
+        "duration_over_target": 9.997855820165993
+      },
+      "peak": {
+        "name": "X5c",
+        "N": 5,
+        "center": 2.2952018358978396e-17,
+        "mean": 0.1479368305153696,
+        "fraction_below_1e4": 0.011902911051548186,
+        "area_over_target": 6.9924875268472215,
+        "duration_over_target": 9.997855820165993
+      }
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 210,
+    "protocol": {
+      "seed": 202610170,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 6.992487526379424,
+      "peak_cap": 1.9999999999999594,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.10387532830561028,
+          "fraction_below_1e4": 0.044058534821485626,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        },
+        "peak": {
+          "name": "X5c",
+          "N": 5,
+          "center": 8.271082413894101e-05,
+          "mean": 0.15316148434900576,
+          "fraction_below_1e4": 0.022029267410742813,
+          "area_over_target": 6.992487526379425,
+          "duration_over_target": 9.999999999999796
+        }
+      }
+    }
+  }
+]

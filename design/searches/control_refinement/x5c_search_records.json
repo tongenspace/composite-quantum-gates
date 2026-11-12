@@ -1,0 +1,3358 @@
+[
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0598724205720584,
+        3.00961574026804,
+        0.9611715544831005,
+        3.00961574026876,
+        2.0598724205718852
+      ],
+      "amplitudes": [
+        0.9962267015938177,
+        2.0,
+        0.9985346851316846,
+        2.0,
+        0.9962267015093782
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00023284002996553735,
+      "native_mean": 0.0001877889328002091,
+      "peak_mean": 0.0016198436310686877,
+      "area_over_target": 6.9909880882348805,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.3276899086656271,
+      "peak_fraction": 0.16403059330214598,
+      "native_sobol_mean": 0.00018781569144445435,
+      "peak_sobol_mean": 0.0016199946277449845,
+      "native_sobol_max": 0.0015312355125151145,
+      "peak_sobol_max": 0.00923027114878511,
+      "wide_mean": 0.0089245823441962
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 0,
+    "success": true,
+    "iterations": 19,
+    "seconds": 3.2064326999999366
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.1203722680746226,
+        -0.5064109365726961,
+        1.0718015968102188,
+        -0.50640651897276,
+        2.120381085378451
+      ],
+      "amplitudes": [
+        1.1275242489241244,
+        0.9884154088515975,
+        1.1297959264426718,
+        0.9884152152229432,
+        1.1275240418710328
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.053318839621927e-06,
+      "native_mean": 0.00043016748667782273,
+      "peak_mean": 0.0005642863838526323,
+      "area_over_target": 5.36167484131237,
+      "duration_over_target": 5.648979632213359,
+      "native_fraction": 0.345189475508032,
+      "peak_fraction": 0.3052894730328457,
+      "native_sobol_mean": 0.00043021651067307493,
+      "peak_sobol_mean": 0.0005643495310931189,
+      "native_sobol_max": 0.0031979582057329228,
+      "peak_sobol_max": 0.0033478602527625594,
+      "wide_mean": 0.007381845697288668
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 1,
+    "success": true,
+    "iterations": 50,
+    "seconds": 2.537307499999997
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0758240812055,
+        3.046021533174878,
+        0.986978612495359,
+        3.0460214337638787,
+        2.075823190773753
+      ],
+      "amplitudes": [
+        0.9818759232619346,
+        1.9665339437362477,
+        0.9747949576090967,
+        1.966533943735102,
+        0.9818759111556704
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0005855861569568771,
+      "native_mean": 0.0002292223436641112,
+      "peak_mean": 0.0012759408919925993,
+      "area_over_target": 6.871614679498052,
+      "duration_over_target": 9.832669718681238,
+      "native_fraction": 0.31281403925645407,
+      "peak_fraction": 0.16977302542016287,
+      "native_sobol_mean": 0.00022924765341961737,
+      "peak_sobol_mean": 0.00127608073425633,
+      "native_sobol_max": 0.0015487791570812535,
+      "peak_sobol_max": 0.007829288798270257,
+      "wide_mean": 0.008658582301410594
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 2,
+    "success": true,
+    "iterations": 143,
+    "seconds": 2.0300264999999627
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.043845326846335,
+        -2.973617650993608,
+        -0.9354115667267786,
+        -2.9736176506792193,
+        -2.043845326124031
+      ],
+      "amplitudes": [
+        0.9964138302172794,
+        2.0,
+        0.9999363431624199,
+        2.0,
+        0.9964138302245255
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.401702259564416e-05,
+      "native_mean": 0.000219073806567431,
+      "peak_mean": 0.001856902699118186,
+      "area_over_target": 6.992764003604225,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.40729189871537835,
+      "peak_fraction": 0.203584069701245,
+      "native_sobol_mean": 0.00021910150055590242,
+      "peak_sobol_mean": 0.0018570558750615946,
+      "native_sobol_max": 0.0018161461157594262,
+      "peak_sobol_max": 0.009888361263929099,
+      "wide_mean": 0.008808656839936228
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 3,
+    "success": true,
+    "iterations": 118,
+    "seconds": 2.5843426000000136
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.048703099089632,
+        2.9852643769571383,
+        0.9437635156979978,
+        2.985264376526029,
+        2.048703098077313
+      ],
+      "amplitudes": [
+        0.9957297795226552,
+        2.0,
+        0.9996496281260571,
+        2.0,
+        0.9957297795467821
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00012631085368756717,
+      "native_mean": 0.00020655353026280103,
+      "peak_mean": 0.0017712242295923766,
+      "area_over_target": 6.9911091871954945,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.37934704586520135,
+      "peak_fraction": 0.1895992673448677,
+      "native_sobol_mean": 0.00020658126920963061,
+      "peak_sobol_mean": 0.0017713768402273314,
+      "native_sobol_max": 0.0017813419370976379,
+      "peak_sobol_max": 0.009604999475019476,
+      "wide_mean": 0.008883681508648437
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 4,
+    "success": true,
+    "iterations": 96,
+    "seconds": 2.2547895000000153
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.055189139502003,
+        3.000626517958435,
+        0.9541470958613614,
+        3.000626516401608,
+        2.055189137899225
+      ],
+      "amplitudes": [
+        0.9944198425545269,
+        2.0,
+        0.9990050684139624,
+        2.0,
+        0.9944198423960493
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00020466406764002614,
+      "native_mean": 0.00019530347707644004,
+      "peak_mean": 0.0016198014537300229,
+      "area_over_target": 6.987844753364539,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.31721987079527736,
+      "peak_fraction": 0.1587089428479493,
+      "native_sobol_mean": 0.00019533092348816876,
+      "peak_sobol_mean": 0.0016199522070298568,
+      "native_sobol_max": 0.0016964902408298321,
+      "peak_sobol_max": 0.009323386455408787,
+      "wide_mean": 0.008970326359202689
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 5,
+    "success": true,
+    "iterations": 92,
+    "seconds": 2.247511799999984
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.320957078634269,
+        1.1746769032629771,
+        -2.0666789571269373,
+        2.104219680045105,
+        0.9270867109897729
+      ],
+      "amplitudes": [
+        2.0,
+        1.0070030068737925,
+        2.0,
+        0.9926571902573206,
+        1.0059976748326351
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.863751101281901e-06,
+      "native_mean": 0.0016508586134404825,
+      "peak_mean": 0.007225011412495773,
+      "area_over_target": 7.005657871963748,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.1959357441647484,
+      "peak_fraction": 0.09957674314992203,
+      "native_sobol_mean": 0.0016509396967544455,
+      "peak_sobol_mean": 0.0072253803246445,
+      "native_sobol_max": 0.02379056667768306,
+      "peak_sobol_max": 0.08221377106277501,
+      "wide_mean": 0.020915606887210277
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 6,
+    "success": true,
+    "iterations": 172,
+    "seconds": 2.4281493999999384
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.027297783081207,
+        2.937986725382693,
+        0.9104074963286761,
+        2.9379867253831353,
+        2.027297783099315
+      ],
+      "amplitudes": [
+        0.9963857702806408,
+        2.0,
+        1.0022051951845283,
+        2.0,
+        0.9963857702769544
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.9863044462543225e-06,
+      "native_mean": 0.00032866617090426733,
+      "peak_mean": 0.0022434264743888973,
+      "area_over_target": 6.994976735742123,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2959827727036459,
+      "peak_fraction": 0.14796663448924532,
+      "native_sobol_mean": 0.00032869565908839464,
+      "peak_sobol_mean": 0.002243583779164339,
+      "native_sobol_max": 0.0023142634703369495,
+      "peak_sobol_max": 0.011006353478940613,
+      "wide_mean": 0.008862122697348637
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.1,
+    "center_weight": 5.0,
+    "start_index": 7,
+    "success": true,
+    "iterations": 217,
+    "seconds": 2.855238800000052
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0336333346671758,
+        2.954449821472913,
+        0.9224752629608055,
+        2.954449820181578,
+        2.033633333170055
+      ],
+      "amplitudes": [
+        0.9954524422283374,
+        2.0,
+        1.0026465469733787,
+        2.0,
+        0.9954524422230826
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.938154180710486e-06,
+      "native_mean": 0.00031803414149903127,
+      "peak_mean": 0.002186559141923186,
+      "area_over_target": 6.993551431424798,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.32061087596841664,
+      "peak_fraction": 0.16026831019034182,
+      "native_sobol_mean": 0.000318064639384575,
+      "peak_sobol_mean": 0.0021867173922294945,
+      "native_sobol_max": 0.0024128162683474293,
+      "peak_sobol_max": 0.01109056418481995,
+      "wide_mean": 0.00905905525433312
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.3,
+    "center_weight": 5.0,
+    "start_index": 8,
+    "success": true,
+    "iterations": 190,
+    "seconds": 2.373603600000024
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.081720235817393,
+        0.13197691536023548,
+        2.1804211007852405,
+        0.131976913989877,
+        1.08172023196407
+      ],
+      "amplitudes": [
+        0.996226701097555,
+        2.0,
+        0.998534685385955,
+        2.0,
+        0.9962267010846413
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00023284003112941984,
+      "native_mean": 0.0001877889327575594,
+      "peak_mean": 0.0016198436223367092,
+      "area_over_target": 6.990988087568151,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.3276899086656271,
+      "peak_fraction": 0.16403059330214598,
+      "native_sobol_mean": 0.00018781569140204912,
+      "peak_sobol_mean": 0.0016199946190128822,
+      "native_sobol_max": 0.0015312355592991297,
+      "peak_sobol_max": 0.009230270991303972,
+      "wide_mean": 0.008924582377716414
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 9,
+    "success": true,
+    "iterations": 103,
+    "seconds": 2.1325256999999738
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -0.839903702382585,
+        2.8474319595220114,
+        -2.8160335239398786,
+        -0.15620854350985347,
+        -0.4995242177368593
+      ],
+      "amplitudes": [
+        2.0,
+        1.8580328525593162,
+        1.066866599110367,
+        1.3074797455889902,
+        0.6691176593264958
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0014687190095909928,
+      "native_mean": 0.0023696097443105394,
+      "peak_mean": 0.004808436200821165,
+      "area_over_target": 6.901496856585169,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.01606395881290067,
+      "peak_fraction": 0.007945347887428528,
+      "native_sobol_mean": 0.002369814692283472,
+      "peak_sobol_mean": 0.004808753278563508,
+      "native_sobol_max": 0.01610052958129581,
+      "peak_sobol_max": 0.043620789977245875,
+      "wide_mean": 0.03676551181293371
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 10,
+    "success": true,
+    "iterations": 75,
+    "seconds": 2.660777600000074
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.9982048270287613,
+        -2.816006316749668,
+        -0.48046167393701467,
+        -2.8335418795644727,
+        -0.29482036056269934
+      ],
+      "amplitudes": [
+        0.4553899552497466,
+        1.308137900665662,
+        0.9143438113256039,
+        2.0,
+        1.7439284201985936
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.000310252016076037,
+      "native_mean": 0.00026835545337691827,
+      "peak_mean": 0.0009921340644428436,
+      "area_over_target": 6.421800087439606,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.297938169847281,
+      "peak_fraction": 0.1606395881290067,
+      "native_sobol_mean": 0.0002683815542792419,
+      "peak_sobol_mean": 0.0009922346952250137,
+      "native_sobol_max": 0.0030634907951068977,
+      "peak_sobol_max": 0.01734105957998642,
+      "wide_mean": 0.006323533073913567
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 11,
+    "success": true,
+    "iterations": 109,
+    "seconds": 2.534657799999991
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.8072148416421685,
+        0.8858032512923497,
+        2.244108773873444,
+        -0.7329156981978637,
+        1.4427450557982153
+      ],
+      "amplitudes": [
+        0.775306819495757,
+        1.022402285881514,
+        0.9323990250778778,
+        1.9412508481380228,
+        1.8036270611598049
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014832727695964198,
+      "native_mean": 0.0005328398920140155,
+      "peak_mean": 0.0032547020541155622,
+      "area_over_target": 6.474986039752976,
+      "duration_over_target": 9.706254240690114,
+      "native_fraction": 0.31890299745055817,
+      "peak_fraction": 0.16482265290463108,
+      "native_sobol_mean": 0.0005328826610067888,
+      "peak_sobol_mean": 0.0032549398610012283,
+      "native_sobol_max": 0.008295048060074854,
+      "peak_sobol_max": 0.0413615717625611,
+      "wide_mean": 0.0110778157579806
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 12,
+    "success": true,
+    "iterations": 126,
+    "seconds": 2.3807911000000104
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0223208673064725,
+        2.6338658592274706,
+        -2.0713816530632347,
+        2.63386585051782,
+        -1.0223208818081213
+      ],
+      "amplitudes": [
+        1.1244876634728127,
+        0.9879683179621327,
+        1.1268022426550448,
+        0.9879683183721678,
+        1.1244876638257535
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.142760237402141e-07,
+      "native_mean": 0.00043099440782746004,
+      "peak_mean": 0.0005595609312604451,
+      "area_over_target": 5.351714206287913,
+      "duration_over_target": 5.634011213275224,
+      "native_fraction": 0.3466250835375362,
+      "peak_fraction": 0.3078141630157669,
+      "native_sobol_mean": 0.00043104361829800143,
+      "peak_sobol_mean": 0.0005596239408895316,
+      "native_sobol_max": 0.003241794999128995,
+      "peak_sobol_max": 0.0033019251460184506,
+      "wide_mean": 0.00739614264098534
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 13,
+    "success": true,
+    "iterations": 118,
+    "seconds": 1.95962320000001
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.0363836651337435,
+        -2.61713403095135,
+        2.0960801147412917,
+        -2.617134034231973,
+        1.036383656951818
+      ],
+      "amplitudes": [
+        1.0833170404188739,
+        0.9846616525942403,
+        1.083825288082485,
+        0.9846616531241065,
+        1.0833170407955652
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.6499977866212675e-07,
+      "native_mean": 0.00044031380720409107,
+      "peak_mean": 0.0005236775068170856,
+      "area_over_target": 5.219782675015271,
+      "duration_over_target": 5.419126440412424,
+      "native_fraction": 0.35974357070369545,
+      "peak_fraction": 0.33212049206702804,
+      "native_sobol_mean": 0.0004403653238983581,
+      "peak_sobol_mean": 0.0005237385193636486,
+      "native_sobol_max": 0.0033162799759149904,
+      "peak_sobol_max": 0.003313554149857902,
+      "wide_mean": 0.007606853022237918
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 14,
+    "success": true,
+    "iterations": 137,
+    "seconds": 2.116377199999988
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        0.012958199356749134,
+        -1.8315435822365227,
+        1.803398094713076,
+        -0.0019863508840933797,
+        -3.0985182784834873
+      ],
+      "amplitudes": [
+        1e-05,
+        2.0,
+        1.9891136014351056,
+        1.2630306965985232,
+        0.26677311713184293
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.08470573917411e-05,
+      "native_mean": 0.0022568265072140784,
+      "peak_mean": 0.006182754013226395,
+      "area_over_target": 5.5189274151654715,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.20138115393183337,
+      "peak_fraction": 0.10069057696591668,
+      "native_sobol_mean": 0.002256981305126057,
+      "peak_sobol_mean": 0.00618311661499613,
+      "native_sobol_max": 0.031022687802935676,
+      "peak_sobol_max": 0.06582484138003576,
+      "wide_mean": 0.03100574249501878
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 15,
+    "success": true,
+    "iterations": 122,
+    "seconds": 1.9490198000000873
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.1225566459378236,
+        0.22285682799401263,
+        2.2451325411051997,
+        0.2228568313247985,
+        1.1225566535012508
+      ],
+      "amplitudes": [
+        0.9968403529211161,
+        1.9999999999998994,
+        1.0027386178104816,
+        1.9999999999998965,
+        0.9968403529096271
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.5574646928884165e-31,
+      "native_mean": 0.00038232345914606747,
+      "peak_mean": 0.0024066119107111344,
+      "area_over_target": 6.99641932364102,
+      "duration_over_target": 9.999999999999497,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.0003823308863661677,
+      "peak_sobol_mean": 0.002406651741097706,
+      "native_sobol_max": 0.0024293537472859054,
+      "peak_sobol_max": 0.011376906444657187,
+      "wide_mean": 0.008794188185763703
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "success": true,
+    "iterations": 13
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0190359929228663,
+        2.9187357957555005,
+        0.8964600905571967,
+        2.9187357957559827,
+        2.0190359929192834
+      ],
+      "amplitudes": [
+        0.9968403505037685,
+        2.0,
+        1.0027386198384147,
+        2.0,
+        0.9968403505037625
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.1047645816099941e-30,
+      "native_mean": 0.00038232345832979,
+      "peak_mean": 0.0024066119252377023,
+      "area_over_target": 6.996419320845946,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.00038233088554938865,
+      "peak_sobol_mean": 0.0024066517556234433,
+      "native_sobol_max": 0.0024293538653442277,
+      "peak_sobol_max": 0.011376906676691372,
+      "wide_mean": 0.008794187801091381
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "success": true,
+    "iterations": 17
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.019035992045234,
+        2.9187357956359934,
+        0.8964600899024466,
+        2.9187357939469276,
+        2.0190359931410775
+      ],
+      "amplitudes": [
+        0.996840350591516,
+        2.0,
+        1.0027386197597676,
+        1.9999999999999973,
+        0.9968403505931833
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.86624623717231e-31,
+      "native_mean": 0.00038232345824350863,
+      "peak_mean": 0.002406611926824758,
+      "area_over_target": 6.996419320944464,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.0003823308854630801,
+      "peak_sobol_mean": 0.0024066517572104732,
+      "native_sobol_max": 0.0024293538710313573,
+      "peak_sobol_max": 0.011376906608626669,
+      "wide_mean": 0.008794187782536727
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "success": true,
+    "iterations": 16
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0190359926573276,
+        2.9187357949615382,
+        0.8964600897559594,
+        2.9187357945258157,
+        2.0190359923858843
+      ],
+      "amplitudes": [
+        0.9968403503141889,
+        2.0,
+        1.0027386200006259,
+        2.0,
+        0.9968403503137844
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.334937749937978e-29,
+      "native_mean": 0.0003823234583332533,
+      "peak_mean": 0.002406611925134601,
+      "area_over_target": 6.996419320628598,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.000382330885552833,
+      "peak_sobol_mean": 0.002406651755520306,
+      "native_sobol_max": 0.0024293538820597386,
+      "peak_sobol_max": 0.01137690669245765,
+      "wide_mean": 0.008794187786228789
+    },
+    "cap": 2.0,
+    "area_cap": 7.0,
+    "success": true,
+    "iterations": 15
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.010029188311501,
+        -2.649142283325709,
+        2.050578655428426,
+        -2.6491421496805603,
+        1.0100294600335715
+      ],
+      "amplitudes": [
+        1.1518583220149368,
+        0.99170582134818,
+        1.1561555010633826,
+        0.9917058274578708,
+        1.1518583291305677
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.0032839194607205e-06,
+      "native_mean": 0.00042836276753655244,
+      "peak_mean": 0.0005955383412661179,
+      "area_over_target": 5.443283801014938,
+      "duration_over_target": 5.780777505316912,
+      "native_fraction": 0.33127892873938763,
+      "peak_fraction": 0.2865275611989802,
+      "native_sobol_mean": 0.000428410577381069,
+      "peak_sobol_mean": 0.0005956027929876792,
+      "native_sobol_max": 0.0030942475251724577,
+      "peak_sobol_max": 0.003505621737696434,
+      "wide_mean": 0.007305333507836006
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 0,
+    "success": true,
+    "iterations": 43,
+    "seconds": 1.7293423000000985
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0212159885651477,
+        2.635183946682935,
+        -2.069791032109602,
+        2.6351839355569524,
+        -1.0212159355668655
+      ],
+      "amplitudes": [
+        1.1275241549413548,
+        0.9884152881084568,
+        1.129795969381668,
+        0.98841534483197,
+        1.1275242129745586
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.0533114627766485e-06,
+      "native_mean": 0.0004301674837178367,
+      "peak_mean": 0.0005642864131721956,
+      "area_over_target": 5.361674970238008,
+      "duration_over_target": 5.64897984690834,
+      "native_fraction": 0.345189475508032,
+      "peak_fraction": 0.3052894730328457,
+      "native_sobol_mean": 0.000430216507711205,
+      "peak_sobol_mean": 0.0005643495604146152,
+      "native_sobol_max": 0.0031979570640370764,
+      "peak_sobol_max": 0.0033478590741374764,
+      "wide_mean": 0.007381845565806108
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 1,
+    "success": true,
+    "iterations": 36,
+    "seconds": 1.598640400000022
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.105198220769241,
+        -0.5246593507049662,
+        1.0452446106493412,
+        -0.524652455531351,
+        2.105211950705348
+      ],
+      "amplitudes": [
+        1.083395652230061,
+        0.9846697602549689,
+        1.083707875191472,
+        0.9846695797983934,
+        1.08339545884188
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.565307643813865e-07,
+      "native_mean": 0.0004404010206957181,
+      "peak_mean": 0.0005231618472637393,
+      "area_over_target": 5.219838326316776,
+      "duration_over_target": 5.4185393759573595,
+      "native_fraction": 0.35999108932947205,
+      "peak_fraction": 0.3322442513799163,
+      "native_sobol_mean": 0.0004404525155903881,
+      "peak_sobol_mean": 0.0005232228133652847,
+      "native_sobol_max": 0.0033303298864375925,
+      "peak_sobol_max": 0.0033276019571276223,
+      "wide_mean": 0.007602402970696556
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 2,
+    "success": true,
+    "iterations": 48,
+    "seconds": 1.6621054000002005
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.1289091431931535,
+        -0.495825143743557,
+        1.0868549785743147,
+        -0.49582546532628013,
+        2.1289084934707425
+      ],
+      "amplitudes": [
+        1.1459871287864665,
+        0.9907164642031444,
+        1.1499973533286416,
+        0.9907164802581866,
+        1.145987147095631
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.125480180139876e-06,
+      "native_mean": 0.000429038608823766,
+      "peak_mean": 0.000584133028438335,
+      "area_over_target": 5.423404573672071,
+      "duration_over_target": 5.749986766643208,
+      "native_fraction": 0.336551075468429,
+      "peak_fraction": 0.2923442489047301,
+      "native_sobol_mean": 0.0004290867518540306,
+      "peak_sobol_mean": 0.0005841971623735014,
+      "native_sobol_max": 0.0031790778879500618,
+      "peak_sobol_max": 0.0034104463985624887,
+      "wide_mean": 0.007324327558539481
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 3,
+    "success": true,
+    "iterations": 56,
+    "seconds": 1.7029775999999401
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.9755828635951076,
+        2.6005022198026637,
+        0.7196583229180367,
+        2.60050239088135,
+        1.9755834152793508
+      ],
+      "amplitudes": [
+        1.3475418764879217,
+        0.5419165562556155,
+        1.2893844332056301,
+        0.5419165360536743,
+        1.347541876487771
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00033063591476416396,
+      "native_mean": 0.0013438377144159013,
+      "peak_mean": 0.0014996435000279276,
+      "area_over_target": 5.068301278490613,
+      "duration_over_target": 6.737709382439607,
+      "native_fraction": 0.09123536546125095,
+      "peak_fraction": 0.0676220885621643,
+      "native_sobol_mean": 0.001343979359720627,
+      "peak_sobol_mean": 0.001499796634896726,
+      "native_sobol_max": 0.01046409574440773,
+      "peak_sobol_max": 0.010494437553319674,
+      "wide_mean": 0.024552641936018166
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 4,
+    "success": true,
+    "iterations": 135,
+    "seconds": 2.0050231000000167
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.0495810611354894,
+        -2.9973950146166564,
+        -0.9545001698320186,
+        -3.0046982391853714,
+        -2.0611073581524133
+      ],
+      "amplitudes": [
+        0.9943349308693857,
+        2.0,
+        0.9990483659866853,
+        1.9999999999999991,
+        0.9944160155794807
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00020381191735547812,
+      "native_mean": 0.0001957055835909492,
+      "peak_mean": 0.00162126582461524,
+      "area_over_target": 6.987799312435551,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.3181109378480731,
+      "peak_fraction": 0.15893170961114825,
+      "native_sobol_mean": 0.00019573307566605867,
+      "peak_sobol_mean": 0.0016214166582133077,
+      "native_sobol_max": 0.0017500440490027277,
+      "peak_sobol_max": 0.009523789450133479,
+      "wide_mean": 0.008976858658172472
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 5,
+    "success": true,
+    "iterations": 105,
+    "seconds": 1.9126530999999432
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.022205951903894,
+        2.92502306578314,
+        0.9005478159590474,
+        2.9250230649526223,
+        2.0222059507544916
+      ],
+      "amplitudes": [
+        0.9968870186392702,
+        2.0,
+        1.001950607238473,
+        2.0,
+        0.9968870186292951
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.346437783670809e-06,
+      "native_mean": 0.00033540025012822187,
+      "peak_mean": 0.0022798033588255413,
+      "area_over_target": 6.995724644507039,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.28224548897304524,
+      "peak_fraction": 0.14120937600554442,
+      "native_sobol_mean": 0.00033542907427328543,
+      "peak_sobol_mean": 0.0022799598842772302,
+      "native_sobol_max": 0.0022571418295752824,
+      "peak_sobol_max": 0.010979633337291093,
+      "wide_mean": 0.008728426968208488
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 6,
+    "success": true,
+    "iterations": 108,
+    "seconds": 1.6971076999998331
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0272977834669046,
+        2.9379867239476276,
+        0.9104074945679841,
+        2.937986723047193,
+        2.0272977809615362
+      ],
+      "amplitudes": [
+        0.9963857702178341,
+        2.0,
+        1.002205195224378,
+        2.0,
+        0.9963857702405795
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.9863044676161665e-06,
+      "native_mean": 0.0003286661707112181,
+      "peak_mean": 0.0022434264750834467,
+      "area_over_target": 6.994976735682791,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2959827727036459,
+      "peak_fraction": 0.14796663448924532,
+      "native_sobol_mean": 0.0003286956588953986,
+      "peak_sobol_mean": 0.0022435837798588073,
+      "native_sobol_max": 0.0023142634823203343,
+      "peak_sobol_max": 0.01100635348174166,
+      "wide_mean": 0.00886212270096834
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 5.0,
+    "start_index": 7,
+    "success": true,
+    "iterations": 118,
+    "seconds": 1.8522402999999485
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.410120724114771,
+        2.513941280433757,
+        0.00046128061862216185,
+        0.0006593508953116611,
+        -2.678441979494629
+      ],
+      "amplitudes": [
+        1.9999907699313468,
+        1.9999999999999978,
+        1.5145060704767808,
+        1.4849786330383037,
+        2.0
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.605842087469329e-07,
+      "native_mean": 0.0018119662909755498,
+      "peak_mean": 0.007199634071096007,
+      "area_over_target": 8.999475473446429,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.10606173114526868,
+      "peak_fraction": 0.0533897675800104,
+      "native_sobol_mean": 0.0018120135206462972,
+      "peak_sobol_mean": 0.0071998074503690866,
+      "native_sobol_max": 0.007592784014173863,
+      "peak_sobol_max": 0.029356193495811714,
+      "wide_mean": 0.010879712941786746
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 5.0,
+    "start_index": 8,
+    "success": true,
+    "iterations": 207,
+    "seconds": 2.022770600000058
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -0.3172014498799385,
+        -2.8382675447670307,
+        -0.48697319523132343,
+        -2.8001082760209064,
+        -1.9920718181784673
+      ],
+      "amplitudes": [
+        1.7466924885477526,
+        2.0,
+        0.9180506312142827,
+        1.3056307905901448,
+        0.46554258963936956
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00022262573551960494,
+      "native_mean": 0.0002445482443775145,
+      "peak_mean": 0.0011588345041466084,
+      "area_over_target": 6.435916499991549,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.38194599143585556,
+      "peak_fraction": 0.19420311378431226,
+      "native_sobol_mean": 0.00024457521401492473,
+      "peak_sobol_mean": 0.0011589415284790853,
+      "native_sobol_max": 0.0035860157749635618,
+      "peak_sobol_max": 0.020014086203748963,
+      "wide_mean": 0.006515833167496283
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 9,
+    "success": true,
+    "iterations": 176,
+    "seconds": 2.129727500000172
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        0.3069813335501195,
+        2.8348653895060014,
+        0.4850192457270812,
+        2.8074012491887785,
+        1.9939733754843338
+      ],
+      "amplitudes": [
+        1.7452599753213707,
+        2.0,
+        0.9165443483586833,
+        1.3070966097163896,
+        0.46133884823280863
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00024786048442748535,
+      "native_mean": 0.00024647963807881637,
+      "peak_mean": 0.0010957557517659855,
+      "area_over_target": 6.430239781629252,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.36434741714314,
+      "peak_fraction": 0.18774287765154327,
+      "native_sobol_mean": 0.00024650626988600863,
+      "peak_sobol_mean": 0.001095860449119982,
+      "native_sobol_max": 0.003339916722322321,
+      "peak_sobol_max": 0.018917655523863937,
+      "wide_mean": 0.006439552522020116
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 10,
+    "success": true,
+    "iterations": 142,
+    "seconds": 2.536900100000139
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.0363877420923222,
+        -2.616936674940055,
+        2.0963479967069603,
+        -2.6169368653267924,
+        1.036387354115087
+      ],
+      "amplitudes": [
+        1.0833956877462991,
+        0.9846696777649216,
+        1.083708002010075,
+        0.9846696764492431,
+        1.0833956841395458
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.565372476222336e-07,
+      "native_mean": 0.0004404009756813207,
+      "peak_mean": 0.0005231619502401631,
+      "area_over_target": 5.219838728110085,
+      "duration_over_target": 5.418540010050376,
+      "native_fraction": 0.35999108932947205,
+      "peak_fraction": 0.3322194995173387,
+      "native_sobol_mean": 0.0004404524705675381,
+      "peak_sobol_mean": 0.0005232229163467834,
+      "native_sobol_max": 0.0033303272537789624,
+      "peak_sobol_max": 0.0033275991498511225,
+      "wide_mean": 0.0076024021209408505
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 11,
+    "success": true,
+    "iterations": 113,
+    "seconds": 2.107441400000198
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        3.137705275400897,
+        3.1380142314022725,
+        0.6800689389780255,
+        -1.7317381755476478,
+        0.4153755370719754
+      ],
+      "amplitudes": [
+        1.4574919034834197,
+        1.5412808776595317,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.1883805132841151e-05,
+      "native_mean": 0.0026712094140177154,
+      "peak_mean": 0.010482244056395857,
+      "area_over_target": 8.998772781142952,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.09088883938516373,
+      "peak_fraction": 0.04527115665453826,
+      "native_sobol_mean": 0.0026712939047436714,
+      "peak_sobol_mean": 0.0104825447128904,
+      "native_sobol_max": 0.012945541649791406,
+      "peak_sobol_max": 0.0473254080467854,
+      "wide_mean": 0.019646379208049153
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 12,
+    "success": true,
+    "iterations": 133,
+    "seconds": 1.7825861999999688
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0223208890814792,
+        2.6338658513215254,
+        -2.071381645682318,
+        2.6338658668886534,
+        -1.0223208545437394
+      ],
+      "amplitudes": [
+        1.1244876708630696,
+        0.9879683180996016,
+        1.1268022501760935,
+        0.9879683181455942,
+        1.1244876707577673
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.142762639079084e-07,
+      "native_mean": 0.0004309944068849601,
+      "peak_mean": 0.0005595609383376711,
+      "area_over_target": 5.351714228042126,
+      "duration_over_target": 5.634011250880468,
+      "native_fraction": 0.3466250835375362,
+      "peak_fraction": 0.3078141630157669,
+      "native_sobol_mean": 0.00043104361735510485,
+      "peak_sobol_mean": 0.0005596239479671107,
+      "native_sobol_max": 0.0032417950554929787,
+      "peak_sobol_max": 0.0033019252050547863,
+      "wide_mean": 0.007396142593280929
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 13,
+    "success": true,
+    "iterations": 172,
+    "seconds": 2.039743999999928
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0363836741625594,
+        2.6171340230302738,
+        -2.096080118131929,
+        2.6171340378710157,
+        -1.0363836430056184
+      ],
+      "amplitudes": [
+        1.0833170528630227,
+        0.9846616524079883,
+        1.0838253007737892,
+        0.9846616528028491,
+        1.083317053190334
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.6499989867852903e-07,
+      "native_mean": 0.0004403138040515584,
+      "peak_mean": 0.0005236775138160376,
+      "area_over_target": 5.219782712037984,
+      "duration_over_target": 5.419126503868946,
+      "native_fraction": 0.35974357070369545,
+      "peak_fraction": 0.33212049206702804,
+      "native_sobol_mean": 0.000440365320744713,
+      "peak_sobol_mean": 0.0005237385263627267,
+      "native_sobol_max": 0.0033162800611273085,
+      "peak_sobol_max": 0.003313554234959073,
+      "wide_mean": 0.007606852856847187
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 14,
+    "success": true,
+    "iterations": 126,
+    "seconds": 2.782034500000009
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.125285163343526,
+        0.5003769964631122,
+        -1.0812324529535164,
+        0.5003769946938443,
+        -2.1252851685747802
+      ],
+      "amplitudes": [
+        1.137515077526278,
+        0.9893470299478805,
+        1.1412322230814733,
+        0.9893470296206418,
+        1.1375150771383316
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.0630927624590449e-07,
+      "native_mean": 0.00043173816471422515,
+      "peak_mean": 0.0005704055910350218,
+      "area_over_target": 5.394956437314606,
+      "duration_over_target": 5.706161115407366,
+      "native_fraction": 0.34115492190787355,
+      "peak_fraction": 0.29873022944976607,
+      "native_sobol_mean": 0.0004317867878238887,
+      "peak_sobol_mean": 0.0005704692798638847,
+      "native_sobol_max": 0.0033004293935339594,
+      "peak_sobol_max": 0.0032959642558358353,
+      "wide_mean": 0.007355399940957471
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 15,
+    "success": true,
+    "iterations": 216,
+    "seconds": 2.2766502000001765
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.2554033468255366,
+        -0.6710945921443732,
+        1.4387125922528918,
+        -0.6710946494284435,
+        2.255403275280882
+      ],
+      "amplitudes": [
+        0.6840430188925318,
+        1.4528789152973556,
+        0.8408070785452681,
+        1.4528789152978683,
+        0.6840430189106991
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.06886708130402e-06,
+      "native_mean": 0.00038350568502576037,
+      "peak_mean": 0.0010777619970143554,
+      "area_over_target": 5.114650946943722,
+      "duration_over_target": 7.264394576489342,
+      "native_fraction": 0.3091755154575382,
+      "peak_fraction": 0.21269275512982352,
+      "native_sobol_mean": 0.0003835380392064551,
+      "peak_sobol_mean": 0.0010778501957357293,
+      "native_sobol_max": 0.002073931982501752,
+      "peak_sobol_max": 0.008710982717293729,
+      "wide_mean": 0.007087377760979742
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.1,
+    "center_weight": 5.0,
+    "start_index": 16,
+    "success": true,
+    "iterations": 276,
+    "seconds": 2.0584698000000117
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.09722194664318,
+        -1.0539399806752487,
+        -2.1121026940031356,
+        -1.053939979007355,
+        2.097221976956349
+      ],
+      "amplitudes": [
+        1.9567382849404606,
+        0.950011720068153,
+        1.0043132594957063,
+        0.9500117208444171,
+        1.9567382849404027
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.6277558978510607e-05,
+      "native_mean": 0.0005138205057849509,
+      "peak_mean": 0.0027161271890008814,
+      "area_over_target": 6.81781327028914,
+      "duration_over_target": 9.783691424702305,
+      "native_fraction": 0.33702136085740453,
+      "peak_fraction": 0.17242147471597238,
+      "native_sobol_mean": 0.0005138662107252293,
+      "peak_sobol_mean": 0.0027163394883317283,
+      "native_sobol_max": 0.004897329197452935,
+      "peak_sobol_max": 0.021789695475933686,
+      "wide_mean": 0.011383583130026274
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "peak_weight": 0.3,
+    "center_weight": 5.0,
+    "start_index": 17,
+    "success": true,
+    "iterations": 163,
+    "seconds": 1.87306209999997
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.019035992526313,
+        -2.918735794741761,
+        -0.8964600897384778,
+        -2.9187357945990855,
+        -2.0190359924974652
+      ],
+      "amplitudes": [
+        0.9968403504742913,
+        2.0,
+        1.002738619861649,
+        2.0,
+        0.9968403504742475
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.461777148462898e-33,
+      "native_mean": 0.0003823234582772363,
+      "peak_mean": 0.002406611926194157,
+      "area_over_target": 6.996419320810188,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.0003823308854968132,
+      "peak_sobol_mean": 0.002406651756579867,
+      "native_sobol_max": 0.0024293538613133795,
+      "peak_sobol_max": 0.011376906681882246,
+      "wide_mean": 0.008794187785202592
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "success": true,
+    "iterations": 15
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -0.33521375646379026,
+        -2.8658381865356763,
+        -0.5096856431598691,
+        -2.813348084615656,
+        -1.9971669256711344
+      ],
+      "amplitudes": [
+        1.7385232026602828,
+        1.9999999999999998,
+        0.9255276916926704,
+        1.3081961383328873,
+        0.46331274318077836
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.694651478066337e-31,
+      "native_mean": 0.00047047629000176923,
+      "peak_mean": 0.0016050252674330865,
+      "area_over_target": 6.4355597758666185,
+      "duration_over_target": 9.999999999999998,
+      "native_fraction": 0.3545935659604107,
+      "peak_fraction": 0.1772874546800082,
+      "native_sobol_mean": 0.0004704852033283128,
+      "peak_sobol_mean": 0.0016050549043146846,
+      "native_sobol_max": 0.005329020919497865,
+      "peak_sobol_max": 0.021626927462815543,
+      "wide_mean": 0.007525601571003777
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "success": true,
+    "iterations": 15
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        0.3352137539244948,
+        2.865838186799735,
+        0.5096856457430508,
+        2.813348089111292,
+        1.997166922295266
+      ],
+      "amplitudes": [
+        1.7385232008031812,
+        2.0,
+        0.925527690699263,
+        1.3081961392440484,
+        0.46331274101356945
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.8534341696212413e-31,
+      "native_mean": 0.0004704762902487583,
+      "peak_mean": 0.0016050252626938438,
+      "area_over_target": 6.4355597717600626,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.3545935659604107,
+      "peak_fraction": 0.1772874546800082,
+      "native_sobol_mean": 0.0004704851913016812,
+      "peak_sobol_mean": 0.001605054869552041,
+      "native_sobol_max": 0.005248081417118392,
+      "peak_sobol_max": 0.02151668133609235,
+      "wide_mean": 0.007525601545984032
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "success": true,
+    "iterations": 22
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0190360008612718,
+        2.9187358001937707,
+        0.8964600909111589,
+        2.9187357924246147,
+        2.0190359853350213
+      ],
+      "amplitudes": [
+        0.9968403505012412,
+        2.0,
+        1.002738619851835,
+        2.0,
+        0.9968403504776484
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.309764714437112e-30,
+      "native_mean": 0.0003823234583690999,
+      "peak_mean": 0.002406611924528621,
+      "area_over_target": 6.996419320830724,
+      "duration_over_target": 10.0,
+      "native_fraction": 0.2357572403156697,
+      "peak_fraction": 0.11785996355744056,
+      "native_sobol_mean": 0.0003823308855887186,
+      "peak_sobol_mean": 0.0024066517549143815,
+      "native_sobol_max": 0.002429353925725852,
+      "peak_sobol_max": 0.01137690645626064,
+      "wide_mean": 0.008794187814703081
+    },
+    "cap": 2.0,
+    "area_cap": 9.0,
+    "success": true,
+    "iterations": 14
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.131556649973957,
+        -0.49245374789770313,
+        1.091013978125769,
+        -0.492447163469909,
+        2.131569970830677
+      ],
+      "amplitudes": [
+        1.1518584836592758,
+        0.9917059937733669,
+        1.1561554661554643,
+        0.9917056536202411,
+        1.1518581039410754
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.003271907773015e-06,
+      "native_mean": 0.0004283627682938556,
+      "peak_mean": 0.0005955382894347459,
+      "area_over_target": 5.443283701149423,
+      "duration_over_target": 5.780777330777322,
+      "native_fraction": 0.33127892873938763,
+      "peak_fraction": 0.2865275611989802,
+      "native_sobol_mean": 0.00042841057814061297,
+      "peak_sobol_mean": 0.0005956027411550986,
+      "native_sobol_max": 0.0030942490481423056,
+      "peak_sobol_max": 0.003505623914741158,
+      "wide_mean": 0.007305333818913672
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 0,
+    "success": true,
+    "iterations": 53,
+    "seconds": 2.2110918999999285
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.0212162029242098,
+        -2.635183826339195,
+        2.0697910250438216,
+        -2.6351840714151655,
+        1.0212157085608409
+      ],
+      "amplitudes": [
+        1.1275241950831834,
+        0.9884153209099692,
+        1.1297959766146128,
+        0.9884153113990369,
+        1.1275241845580384
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.053311300975823e-06,
+      "native_mean": 0.0004301674830229105,
+      "peak_mean": 0.0005642864193504791,
+      "area_over_target": 5.3616749885648405,
+      "duration_over_target": 5.648979883073064,
+      "native_fraction": 0.345189475508032,
+      "peak_fraction": 0.3052894730328457,
+      "native_sobol_mean": 0.0004302165070159777,
+      "peak_sobol_mean": 0.0005643495665933044,
+      "native_sobol_max": 0.0031979571458357328,
+      "peak_sobol_max": 0.003347856973464524,
+      "wide_mean": 0.007381845505161419
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 1,
+    "success": true,
+    "iterations": 46,
+    "seconds": 1.806036899999981
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0363875718429152,
+        2.616936737857399,
+        -2.0963480392295364,
+        2.6169367727876853,
+        -1.0363875573571888
+      ],
+      "amplitudes": [
+        1.0833955659340126,
+        0.9846696780302179,
+        1.0837078784316634,
+        0.9846696626159595,
+        1.0833955514921345
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.565312921048114e-07,
+      "native_mean": 0.00044040101874816235,
+      "peak_mean": 0.0005231618516843625,
+      "area_over_target": 5.219838336503988,
+      "duration_over_target": 5.4185393921583165,
+      "native_fraction": 0.35999108932947205,
+      "peak_fraction": 0.3322194995173387,
+      "native_sobol_mean": 0.0004404525136427517,
+      "peak_sobol_mean": 0.0005232228177862548,
+      "native_sobol_max": 0.0033303278413411045,
+      "peak_sobol_max": 0.0033275997474175928,
+      "wide_mean": 0.007602402952417191
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 2,
+    "success": true,
+    "iterations": 33,
+    "seconds": 1.7656242000000475
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.128908742320843,
+        -0.49582533423754827,
+        1.0868549961056573,
+        -0.4958252588925136,
+        2.128908904769025
+      ],
+      "amplitudes": [
+        1.1459871609732442,
+        0.9907164795188296,
+        1.1499973716492495,
+        0.9907164706679039,
+        1.1459871502370162
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.1254775108170333e-06,
+      "native_mean": 0.00042903861011683587,
+      "peak_mean": 0.0005841330387018512,
+      "area_over_target": 5.423404633046244,
+      "duration_over_target": 5.749986858246248,
+      "native_fraction": 0.336551075468429,
+      "peak_fraction": 0.2923442489047301,
+      "native_sobol_mean": 0.00042908675314644686,
+      "peak_sobol_mean": 0.0005841971726378312,
+      "native_sobol_max": 0.0031790780974924873,
+      "peak_sobol_max": 0.003410446175458292,
+      "wide_mean": 0.007324327555062422
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 3,
+    "success": true,
+    "iterations": 55,
+    "seconds": 1.7568935999997848
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.9755828635951076,
+        2.6005022198026637,
+        0.7196583229180367,
+        2.60050239088135,
+        1.9755834152793508
+      ],
+      "amplitudes": [
+        1.3475418764879217,
+        0.5419165562556155,
+        1.2893844332056301,
+        0.5419165360536743,
+        1.347541876487771
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00033063591476416396,
+      "native_mean": 0.0013438377144159013,
+      "peak_mean": 0.0014996435000279276,
+      "area_over_target": 5.068301278490613,
+      "duration_over_target": 6.737709382439607,
+      "native_fraction": 0.09123536546125095,
+      "peak_fraction": 0.0676220885621643,
+      "native_sobol_mean": 0.001343979359720627,
+      "peak_sobol_mean": 0.001499796634896726,
+      "native_sobol_max": 0.01046409574440773,
+      "peak_sobol_max": 0.010494437553319674,
+      "wide_mean": 0.024552641936018166
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 4,
+    "success": true,
+    "iterations": 135,
+    "seconds": 2.237470200000189
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.0541169265252734,
+        -2.997490942919115,
+        -0.9522163119612741,
+        -2.9974917317079406,
+        -2.054117457699325
+      ],
+      "amplitudes": [
+        0.9975902686309601,
+        2.0085845454658524,
+        1.0042631382875402,
+        2.0085845454658506,
+        0.9975902721116287
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00019446865518758883,
+      "native_mean": 0.00019660217427263738,
+      "peak_mean": 0.0016308034848548124,
+      "area_over_target": 7.016612769961832,
+      "duration_over_target": 10.042922727329263,
+      "native_fraction": 0.31273978366872107,
+      "peak_fraction": 0.15541694512512066,
+      "native_sobol_mean": 0.00019662974854282633,
+      "peak_sobol_mean": 0.0016309555410696968,
+      "native_sobol_max": 0.0016124246113172888,
+      "peak_sobol_max": 0.009388012060342956,
+      "wide_mean": 0.009115721250721865
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 5,
+    "success": true,
+    "iterations": 145,
+    "seconds": 2.2900560000000496
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.9440759919788997,
+        2.5852748988260306,
+        0.6297523518233676,
+        2.585275004517161,
+        1.944076348509701
+      ],
+      "amplitudes": [
+        1.3906130597503032,
+        0.5041427675671178,
+        1.3073806765670506,
+        0.5041427523667928,
+        1.3906130604582336
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.8622162460935376e-05,
+      "native_mean": 0.0017713875913186736,
+      "peak_mean": 0.0019031569694780012,
+      "area_over_target": 5.096892316709497,
+      "duration_over_target": 6.953065302291168,
+      "native_fraction": 0.21984604341476696,
+      "peak_fraction": 0.15801589069577485,
+      "native_sobol_mean": 0.0017715360238733532,
+      "peak_sobol_mean": 0.0019033194819446388,
+      "native_sobol_max": 0.01274681080105062,
+      "peak_sobol_max": 0.01353992085309845,
+      "wide_mean": 0.025644383771206963
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 6,
+    "success": true,
+    "iterations": 302,
+    "seconds": 2.939617799999951
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.025535418580498,
+        2.9300134029059386,
+        0.9078212685526399,
+        2.930013843648643,
+        2.0255367466637857
+      ],
+      "amplitudes": [
+        1.0092051763679009,
+        2.034590898670302,
+        1.0215764101819333,
+        2.034590898670302,
+        1.009205180132721
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.65789685819278e-06,
+      "native_mean": 0.0003130312546875379,
+      "peak_mean": 0.0021996443644183832,
+      "area_over_target": 7.109168564023159,
+      "duration_over_target": 10.17295449335151,
+      "native_fraction": 0.28392861562832605,
+      "peak_fraction": 0.13932823444964235,
+      "native_sobol_mean": 0.0003130618968936788,
+      "peak_sobol_mean": 0.0021998059926771527,
+      "native_sobol_max": 0.0019208191408913657,
+      "peak_sobol_max": 0.011194400396753845,
+      "wide_mean": 0.009616630665399459
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 5.0,
+    "start_index": 7,
+    "success": true,
+    "iterations": 118,
+    "seconds": 3.1158190000001014
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0308889286905725,
+        2.942621283731893,
+        0.9183110304527249,
+        2.9426220244885446,
+        2.030890233146698
+      ],
+      "amplitudes": [
+        1.0106455031835448,
+        2.040983542983139,
+        1.025581828907174,
+        2.0409835429824126,
+        1.010645519357005
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.673151861948234e-06,
+      "native_mean": 0.000308557770225576,
+      "peak_mean": 0.00214204055558922,
+      "area_over_target": 7.128839937413276,
+      "duration_over_target": 10.204917714915696,
+      "native_fraction": 0.3010321526694884,
+      "peak_fraction": 0.14771911586346873,
+      "native_sobol_mean": 0.00030858983917833127,
+      "peak_sobol_mean": 0.0021422041099352623,
+      "native_sobol_max": 0.0019239397940805638,
+      "peak_sobol_max": 0.01114707234753599,
+      "wide_mean": 0.009980254120633053
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 5.0,
+    "start_index": 8,
+    "success": true,
+    "iterations": 168,
+    "seconds": 3.0527589999999236
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.3363354578762614,
+        -3.0958824289014952,
+        -0.11428708372504648,
+        -1.617375191948489,
+        -0.16503460915219392
+      ],
+      "amplitudes": [
+        2.0086539626096966,
+        3.0,
+        3.0,
+        2.0065435325144585,
+        1.0026853127067665
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.0794661353961915e-05,
+      "native_mean": 0.0011934616511270263,
+      "peak_mean": 0.01014025331694171,
+      "area_over_target": 11.01788280783092,
+      "duration_over_target": 14.999999999999998,
+      "native_fraction": 0.12611073983317245,
+      "peak_fraction": 0.04192965520655429,
+      "native_sobol_mean": 0.0011935300825928648,
+      "peak_sobol_mean": 0.010140654833385658,
+      "native_sobol_max": 0.010789819081214841,
+      "peak_sobol_max": 0.06791123292192625,
+      "wide_mean": 0.022009637747702142
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.05,
+    "start_index": 9,
+    "success": true,
+    "iterations": 167,
+    "seconds": 3.2648991999999453
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.0599950009555865,
+        -2.0631907660764996,
+        2.1449353677103726,
+        -2.0631901472152405,
+        1.0599988563824247
+      ],
+      "amplitudes": [
+        0.8756878392351283,
+        1.872385438614349,
+        0.9895737213736379,
+        1.8723854386143488,
+        0.8756877741302301
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0003847922738859557,
+      "native_mean": 0.00022667175667830472,
+      "peak_mean": 0.001148375611167322,
+      "area_over_target": 6.485720211967695,
+      "duration_over_target": 9.361927193071747,
+      "native_fraction": 0.3325660255934259,
+      "peak_fraction": 0.1920744536026336,
+      "native_sobol_mean": 0.00022669572757754098,
+      "peak_sobol_mean": 0.0011484976266847538,
+      "native_sobol_max": 0.001716560527755636,
+      "peak_sobol_max": 0.012770461350341211,
+      "wide_mean": 0.0059131880416766645
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.05,
+    "start_index": 10,
+    "success": true,
+    "iterations": 135,
+    "seconds": 2.467665399999987
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.2451054281181122,
+        -1.5027025944863386,
+        2.2647431285303163,
+        -0.25036082062750786,
+        -2.972827095980131
+      ],
+      "amplitudes": [
+        1.0135143599320668,
+        0.9210968729520307,
+        1.950491138612117,
+        2.945185422712393,
+        1.9540130018069188
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0003429472670806352,
+      "native_mean": 0.0006924420394079881,
+      "peak_mean": 0.007369342273848193,
+      "area_over_target": 8.784300796015527,
+      "duration_over_target": 14.725927113561967,
+      "native_fraction": 0.0437365411747234,
+      "peak_fraction": 0.02141036112967501,
+      "native_sobol_mean": 0.0006924775603623556,
+      "peak_sobol_mean": 0.0073699315659965315,
+      "native_sobol_max": 0.007946207117377214,
+      "peak_sobol_max": 0.06112321386037751,
+      "wide_mean": 0.012616016004936951
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.05,
+    "start_index": 11,
+    "success": true,
+    "iterations": 80,
+    "seconds": 2.6688202000000274
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.571954872770757,
+        -2.1065761323396055,
+        0.8080007205122599,
+        -3.005870987033414,
+        -0.9005065866611384
+      ],
+      "amplitudes": [
+        2.002858028899177,
+        0.9761435552002231,
+        1.9804331234820853,
+        3.0,
+        0.9943147718968705
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.413202807672828e-06,
+      "native_mean": 0.00029884764283701797,
+      "peak_mean": 0.0034820898552422436,
+      "area_over_target": 8.953749479478356,
+      "duration_over_target": 14.999999999999998,
+      "native_fraction": 0.28816118412910574,
+      "peak_fraction": 0.09578970817554021,
+      "native_sobol_mean": 0.00029887544791496487,
+      "peak_sobol_mean": 0.0034823363502260816,
+      "native_sobol_max": 0.0044702625917950245,
+      "peak_sobol_max": 0.051087745558421174,
+      "wide_mean": 0.013887630836866578
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 0.5,
+    "start_index": 12,
+    "success": true,
+    "iterations": 99,
+    "seconds": 2.013284899999917
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.8118781836823032,
+        0.7058209474802579,
+        -0.7213032351612254,
+        2.5963962010574324,
+        0.9733015838958385
+      ],
+      "amplitudes": [
+        1.824967055978496,
+        1.4259436890787305,
+        2.041980110641167,
+        2.549196336173353,
+        1.449447487929826
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00020170546834743545,
+      "native_mean": 0.001124392537192002,
+      "peak_mean": 0.004644975400030359,
+      "area_over_target": 9.291534679801572,
+      "duration_over_target": 12.745981680866764,
+      "native_fraction": 0.145738966857256,
+      "peak_fraction": 0.06685478082225688,
+      "native_sobol_mean": 0.0011244881187623692,
+      "peak_sobol_mean": 0.004645252940393329,
+      "native_sobol_max": 0.013738117040581942,
+      "peak_sobol_max": 0.04659843875288862,
+      "wide_mean": 0.02123411602818097
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 0.5,
+    "start_index": 13,
+    "success": true,
+    "iterations": 234,
+    "seconds": 2.5636708999998064
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        0.9659006242054433,
+        3.025874573184204,
+        1.1739030336055336,
+        -1.444435800349386,
+        0.7050237365211478
+      ],
+      "amplitudes": [
+        0.16766061754098144,
+        1.2538973883223261,
+        1.9533784460821593,
+        1.9803214409332721,
+        0.2534915635003946
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00032951393624353395,
+      "native_mean": 0.0017484021981652477,
+      "peak_mean": 0.005266053453263532,
+      "area_over_target": 5.608749456379133,
+      "duration_over_target": 9.90160720466636,
+      "native_fraction": 0.09529467092398702,
+      "peak_fraction": 0.04883542486572114,
+      "native_sobol_mean": 0.0017485354409677897,
+      "peak_sobol_mean": 0.005266386456751468,
+      "native_sobol_max": 0.02485664441791727,
+      "peak_sobol_max": 0.058065514009385866,
+      "wide_mean": 0.028000829191377027
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 0.5,
+    "start_index": 14,
+    "success": true,
+    "iterations": 192,
+    "seconds": 2.18468299999995
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        3.1414513124701156,
+        -2.633770889037159,
+        0.9375110963578015,
+        -0.5605325967110639,
+        0.34330061604072837
+      ],
+      "amplitudes": [
+        3.0,
+        2.0072483118916367,
+        2.0035547362420356,
+        2.000771646498961,
+        2.0034972155027737
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.6026221303722968e-07,
+      "native_mean": 0.001275834312776827,
+      "peak_mean": 0.010384122681300808,
+      "area_over_target": 11.015071910135408,
+      "duration_over_target": 14.999999999999998,
+      "native_fraction": 0.10940323259325264,
+      "peak_fraction": 0.03636048612658103,
+      "native_sobol_mean": 0.0012759176338291273,
+      "peak_sobol_mean": 0.010384508009910788,
+      "native_sobol_max": 0.008900818799840626,
+      "peak_sobol_max": 0.05878948708626518,
+      "wide_mean": 0.029080015289447342
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.0,
+    "center_weight": 5.0,
+    "start_index": 15,
+    "success": true,
+    "iterations": 257,
+    "seconds": 2.313014199999998
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.3727487619115895,
+        1.2025867906528802,
+        -1.5915153443824543,
+        0.08186762012704474,
+        -2.6025575620873607
+      ],
+      "amplitudes": [
+        0.3916565972686518,
+        3.0,
+        2.8479628695765347,
+        1.2417034089255314,
+        0.5237540416843739
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.773700956220849e-05,
+      "native_mean": 0.003225069106954621,
+      "peak_mean": 0.014285822440881033,
+      "area_over_target": 8.00507691745509,
+      "duration_over_target": 14.999999999999998,
+      "native_fraction": 0.18454988737902528,
+      "peak_fraction": 0.061458874780327216,
+      "native_sobol_mean": 0.0032253115459737495,
+      "peak_sobol_mean": 0.01428686582789102,
+      "native_sobol_max": 0.023952303445509172,
+      "peak_sobol_max": 0.09912058320670086,
+      "wide_mean": 0.038726438204417665
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.1,
+    "center_weight": 5.0,
+    "start_index": 16,
+    "success": true,
+    "iterations": 209,
+    "seconds": 1.8788688000001912
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -0.4890326209716376,
+        -2.0176966600689203,
+        0.7980646841525374,
+        -1.5528744068224034,
+        -2.7936649228670523
+      ],
+      "amplitudes": [
+        2.5752523812642596,
+        1.0100238938082753,
+        1.9227717126024242,
+        0.86709551247826,
+        1.6533901048224482
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.746880972794057e-06,
+      "native_mean": 0.0007928202693365569,
+      "peak_mean": 0.007090663237235813,
+      "area_over_target": 8.028533604975667,
+      "duration_over_target": 12.8762619063213,
+      "native_fraction": 0.26873097200564344,
+      "peak_fraction": 0.10452711566545382,
+      "native_sobol_mean": 0.0007928638252137268,
+      "peak_sobol_mean": 0.007091123368364929,
+      "native_sobol_max": 0.010039210821769826,
+      "peak_sobol_max": 0.06087228436224921,
+      "wide_mean": 0.011802098133010811
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "peak_weight": 0.3,
+    "center_weight": 5.0,
+    "start_index": 17,
+    "success": true,
+    "iterations": 171,
+    "seconds": 1.9120018999999502
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -2.0178989359457193,
+        -2.912012227695848,
+        -0.895100247065101,
+        -2.9120122285727823,
+        -2.017898937208186
+      ],
+      "amplitudes": [
+        1.0100722770277821,
+        2.0359056364121315,
+        1.022337702895974,
+        2.0359056364121053,
+        1.0100722770368062
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.4514663835743345e-31,
+      "native_mean": 0.0003544673545257158,
+      "peak_mean": 0.002327091378322513,
+      "area_over_target": 7.114293529784798,
+      "duration_over_target": 10.179528182060658,
+      "native_fraction": 0.24050223568261392,
+      "peak_fraction": 0.11818956349773944,
+      "native_sobol_mean": 0.00035447506684971244,
+      "peak_sobol_mean": 0.002327132203969573,
+      "native_sobol_max": 0.002004763447802664,
+      "peak_sobol_max": 0.01156536749373523,
+      "wide_mean": 0.009577025596627087
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "success": true,
+    "iterations": 32
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.0127586628731402,
+        -2.1455066733597747,
+        2.0261296961987583,
+        -2.1455066777573135,
+        1.0127586522534342
+      ],
+      "amplitudes": [
+        0.9585362777925863,
+        1.938755176994346,
+        0.9807920379578077,
+        1.9387551769941933,
+        0.9585362779032434
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.0679341896191012e-30,
+      "native_mean": 0.0005244758635279452,
+      "peak_mean": 0.002526108361341035,
+      "area_over_target": 6.7753749476421765,
+      "duration_over_target": 9.69377588497173,
+      "native_fraction": 0.2625667750822445,
+      "peak_fraction": 0.13536607359406969,
+      "native_sobol_mean": 0.0005244846476173952,
+      "peak_sobol_mean": 0.002526154008125947,
+      "native_sobol_max": 0.00308086881394514,
+      "peak_sobol_max": 0.018287722954831293,
+      "wide_mean": 0.0066801017075054335
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "success": true,
+    "iterations": 91
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.628795773911662,
+        -2.0663546717643886,
+        0.8149290521811099,
+        -2.993106270028328,
+        -0.926337840859365
+      ],
+      "amplitudes": [
+        2.004214485796507,
+        0.9735316014069626,
+        1.9796260015803104,
+        2.9999999999999996,
+        0.9930726003551106
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.514822596148982e-31,
+      "native_mean": 0.000308414383742512,
+      "peak_mean": 0.003379897149651977,
+      "area_over_target": 8.950444689138891,
+      "duration_over_target": 14.999999999999996,
+      "native_fraction": 0.24366142001604468,
+      "peak_fraction": 0.0812184003830822,
+      "native_sobol_mean": 0.0003084213881858666,
+      "peak_sobol_mean": 0.003379957530017517,
+      "native_sobol_max": 0.004696846333559398,
+      "peak_sobol_max": 0.052741609344012785,
+      "wide_mean": 0.014136890464589108
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "success": true,
+    "iterations": 15
+  },
+  {
+    "name": "X5c",
+    "stage": "exact_polish",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.017898943643969,
+        2.9120122317020964,
+        0.8951002464494788,
+        2.9120122240944823,
+        2.0178989288689166
+      ],
+      "amplitudes": [
+        1.0100722770128252,
+        2.0359056365493373,
+        1.0223377030894376,
+        2.0359056365503427,
+        1.0100722769522337
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_x5c.py; seed=202610142",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.517400823951983e-28,
+      "native_mean": 0.00035446735457149767,
+      "peak_mean": 0.0023270913775895346,
+      "area_over_target": 7.114293530154177,
+      "duration_over_target": 10.179528182751714,
+      "native_fraction": 0.24050223568261392,
+      "peak_fraction": 0.11818956349773944,
+      "native_sobol_mean": 0.00035447506689556763,
+      "peak_sobol_mean": 0.0023271322032366436,
+      "native_sobol_max": 0.002004763498553344,
+      "peak_sobol_max": 0.011565367256802742,
+      "wide_mean": 0.009577025643645001
+    },
+    "cap": 3.0,
+    "area_cap": 12.0,
+    "success": true,
+    "iterations": 29
+  }
+]

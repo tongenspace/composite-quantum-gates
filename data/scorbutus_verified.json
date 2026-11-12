@@ -1,0 +1,100 @@
+{
+  "SCORBUTUS_X": {
+    "control": {
+      "name": "SCORBUTUS_X",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        -1.0471975511965979,
+        -2.0943951023931953,
+        1.0471975511965979,
+        -2.0943951023931953,
+        -1.0471975511965979
+      ],
+      "amplitudes": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "durations_T": [
+        1.0,
+        0.5,
+        2.0,
+        0.5,
+        1.0
+      ],
+      "origin": "Kukita et al., JPSJ 91,104001 (2022); Eqs.(5),(8)",
+      "model": "drive"
+    },
+    "normalized_area": 5.0,
+    "nominal": 1.0168466816897497e-31,
+    "small": {
+      "mean": 0.0018642129334658984,
+      "maximum": 0.015244028525898928,
+      "fraction": 0.18866398275563784,
+      "connected_fraction": 0.18866398275563784
+    },
+    "wide": {
+      "mean": 0.12011707797229136,
+      "maximum": 0.5040490161164979,
+      "fraction": 0.016968489762328925,
+      "connected_fraction": 0.016968489762328925
+    },
+    "validation": {
+      "max_matrix_infidelity_difference": 1.1102230246251565e-15,
+      "first_derivative_eps_norm": 5.277971644570833e-10,
+      "first_derivative_det_norm": 3.056280290014253e-10
+    }
+  },
+  "SCORBUTUS_H": {
+    "control": {
+      "name": "SCORBUTUS_H",
+      "N": 5,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -1.081292205671836,
+        -1.7552310210400144,
+        1.3863616325497787,
+        -1.7552310210400144,
+        -1.081292205671836
+      ],
+      "amplitudes": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "durations_T": [
+        0.639902003580675,
+        0.5181284712765692,
+        2.0362569425531385,
+        0.5181284712765692,
+        0.639902003580675
+      ],
+      "origin": "Kukita et al., JPSJ 91,104001 (2022); Eqs.(5),(8)",
+      "model": "drive"
+    },
+    "normalized_area": 8.704635784535254,
+    "nominal": 5.970382827600431e-32,
+    "small": {
+      "mean": 0.0015616220199108273,
+      "maximum": 0.014820119267139305,
+      "fraction": 0.24172811451353723,
+      "connected_fraction": 0.24172811451353723
+    },
+    "wide": {
+      "mean": 0.09941174075196958,
+      "maximum": 0.5699341343335382,
+      "fraction": 0.02175651222488743,
+      "connected_fraction": 0.02175651222488743
+    },
+    "validation": {
+      "max_matrix_infidelity_difference": 7.632783294297951e-16,
+      "first_derivative_eps_norm": 7.523586120867351e-11,
+      "first_derivative_det_norm": 3.660975805009424e-10
+    }
+  }
+}

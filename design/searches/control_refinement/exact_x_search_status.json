@@ -1,0 +1,7 @@
+{
+  "X5c": "Retained unchanged at the author request; mean/coverage/global searches completed without an accepted exact-nominal replacement.",
+  "X7c_corner_error_optional_search": "Stopped after the author chose wide threshold coverage over sampled maximum. Completed records are preserved, unfinished fits excluded.",
+  "X7c_corner_error_family_fits_completed": 6,
+  "X7c_corner_error_coverage_fits_completed": 5,
+  "current_policy": "Nominal and printed infidelity <1e-12, no increase in area/peak, no worse native/peak domain means; prioritize wider 1e-4 regions. Sampled maxima are diagnostics."
+}

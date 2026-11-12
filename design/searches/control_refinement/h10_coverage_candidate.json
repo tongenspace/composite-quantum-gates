@@ -1,0 +1,138 @@
+{
+  "controls": {
+    "name": "H10",
+    "N": 10,
+    "theta": 1.5707963267948966,
+    "phases": [
+      0.21895904456309445,
+      -3.056009532490215,
+      -0.920595330129812,
+      3.0692060504524505,
+      3.068189644118047,
+      0.3518566303480042,
+      -0.06432569943163813,
+      1.9859179695605889,
+      -0.15064715960538422,
+      -0.18969559948100745
+    ],
+    "amplitudes": [
+      0.07641137667415095,
+      1.4777979006040183,
+      0.8660040175031204,
+      1.350829166160159,
+      0.25768737344460607,
+      0.36919106111111766,
+      1.3041796920939204,
+      0.8880682207367532,
+      1.0954614427043554,
+      0.8370576344763382
+    ],
+    "durations_T": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "origin": "studies/control_refinement/refine_remaining_h.py; seed=202610155",
+    "model": "drive"
+  },
+  "metrics": {
+    "nominal": 1.4545059484133132e-28,
+    "native_mean": 2.623373413502533e-05,
+    "peak_mean": 3.3046723708635807e-05,
+    "area_over_target": 17.045375771017078,
+    "duration_over_target": 29.555958012080367,
+    "native_fraction": 0.9493672858988687,
+    "peak_fraction": 0.9257544798091025,
+    "native_sobol_mean": 2.623387039790497e-05,
+    "peak_sobol_mean": 3.30470300915518e-05,
+    "native_sobol_max": 0.00036053326799207353,
+    "peak_sobol_max": 0.00035999044641084164,
+    "wide_mean": 0.0006727639497350987
+  },
+  "baseline_metrics": {
+    "nominal": 1.7355728501739425e-05,
+    "native_mean": 2.3825674520536658e-05,
+    "peak_mean": 3.142580355890464e-05,
+    "area_over_target": 18.071283301804215,
+    "duration_over_target": 30.957298278808594,
+    "native_fraction": 1.0,
+    "peak_fraction": 0.9670729939635381,
+    "native_sobol_mean": 2.382566407483969e-05,
+    "peak_sobol_mean": 3.1426040388482815e-05,
+    "native_sobol_max": 7.491054132357646e-05,
+    "peak_sobol_max": 0.000592968413265321,
+    "wide_mean": 0.0003858791172962584
+  },
+  "grid_401_metrics": {
+    "nominal": 1.4545059484133132e-28,
+    "native_mean": 2.6233289854396447e-05,
+    "peak_mean": 3.3045843344758746e-05,
+    "area_over_target": 17.045375771017078,
+    "duration_over_target": 29.555958012080367,
+    "native_fraction": 0.949334892195944,
+    "peak_fraction": 0.9256658851624057,
+    "native_sobol_mean": 2.623387039790497e-05,
+    "peak_sobol_mean": 3.30470300915518e-05,
+    "native_sobol_max": 0.00036053326799207353,
+    "peak_sobol_max": 0.00035999044641084164,
+    "wide_mean": 0.0006727639497350987
+  },
+  "wide_domain_metrics": {
+    "name": "H10",
+    "N": 10,
+    "center": 1.4545059484133132e-28,
+    "mean": 0.017262962729516898,
+    "fraction_below_1e4": 0.22089741131949608,
+    "area_over_target": 17.045375771017078,
+    "duration_over_target": 29.555958012080367
+  },
+  "baseline_wide_domain_metrics": {
+    "name": "H10",
+    "N": 10,
+    "center": 1.7355728501739425e-05,
+    "mean": 0.019686613805462518,
+    "fraction_below_1e4": 0.19829769592005,
+    "area_over_target": 18.071283301804215,
+    "duration_over_target": 30.957298278808594
+  },
+  "wide_peak_domain_metrics": {
+    "name": "H10",
+    "N": 10,
+    "center": 1.4545059484133132e-28,
+    "mean": 0.04835423358248798,
+    "fraction_below_1e4": 0.14947607625299836,
+    "area_over_target": 17.045375771017078,
+    "duration_over_target": 29.555958012080367
+  },
+  "baseline_wide_peak_domain_metrics": {
+    "name": "H10",
+    "N": 10,
+    "center": 1.7355728501739425e-05,
+    "mean": 0.061123107145684856,
+    "fraction_below_1e4": 0.1281138900968047,
+    "area_over_target": 18.071283301804215,
+    "duration_over_target": 30.957298278808594
+  },
+  "printed_eight_decimal_nominal_infidelity": 8.797480425846036e-17,
+  "matrix_max_difference": 8.913768161089575e-16,
+  "selection": "Larger plotted 1e-4 region and exact nominal matching, within the specified resource bounds; native/common-peak mean budgets and trade-offs disclosed.",
+  "chosen_record": {
+    "stage": "coverage_polish",
+    "start_index": 0,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "nominal": "exact",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  }
+}

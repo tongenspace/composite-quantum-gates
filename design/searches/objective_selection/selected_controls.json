@@ -1,0 +1,310 @@
+{
+  "X15w": {
+    "controls": {
+      "name": "X15w",
+      "N": 15,
+      "theta": 3.141592653589793,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/objective_selection/search_width.py; seed=202610210",
+      "phases": [
+        -2.6561676775935714,
+        -0.00019264504283089678,
+        2.652870132376533,
+        -0.23918476101441533,
+        -2.324937349680334,
+        2.5359834521746505,
+        1.9270121243517764,
+        2.2374388159750005,
+        -2.684073730153172,
+        -0.10170317213784053,
+        -2.5501535567689997,
+        2.327965239225448,
+        1.5358510552068,
+        0.6787746521655995,
+        -1.0270452232831615
+      ],
+      "amplitudes": [
+        0.8703610009183764,
+        0.874032148345579,
+        0.8740321482197657,
+        0.8654018615529145,
+        0.8584797579581807,
+        0.8618174784968303,
+        0.8641817596199068,
+        0.8725868619026265,
+        0.8723430163621106,
+        0.8718854565099624,
+        0.8699313539419119,
+        0.8593165602118514,
+        0.8541861563449934,
+        0.874032148528835,
+        0.8732123244749664
+      ]
+    },
+    "original_name": "X15c",
+    "search_row": 18,
+    "selection": "Largest central connected 1e-4 area among successful final-grid fits satisfying original-window and resource checks",
+    "validation": {
+      "nominal": 1.1230283523741333e-26,
+      "printed_nominal": 5.792990631485748e-16,
+      "protected_half_width": 0.2,
+      "protected_window_grid_maximum": 9.83292250905903e-05,
+      "matrix_max_difference": 1.5035851253300536e-15,
+      "unitarity_error": 2.8865799109947328e-15,
+      "peak_rescaling_error": 2.594694236865542e-15,
+      "held_out": [
+        {
+          "seed": 202610213,
+          "samples": 131072,
+          "wide_fraction_below_1e4": 0.43569183349609375,
+          "wide_mean": 0.0072477266285729605
+        },
+        {
+          "seed": 202610214,
+          "samples": 131072,
+          "wide_fraction_below_1e4": 0.43572235107421875,
+          "wide_mean": 0.007247706686632229
+        }
+      ],
+      "area_cap": 15.000000000000004,
+      "peak_cap": 1.1402972273935241
+    },
+    "wide_metrics": {
+      "name": "X15w",
+      "N": 15,
+      "center": 1.1230283523741333e-26,
+      "mean": 0.00724761271981267,
+      "fraction_below_1e4": 0.4357193956991962,
+      "area_over_target": 13.015800033388812,
+      "duration_over_target": 13.110482227932525,
+      "central_connected_fraction": 0.4357193956991962,
+      "sampled_inscribed_square_half_width": 0.20037453183520598,
+      "sampled_maximum": 0.2598211451496183
+    },
+    "wide_metrics_401": {
+      "name": "X15w",
+      "N": 15,
+      "center": 1.1230283523741333e-26,
+      "mean": 0.007247335373956032,
+      "fraction_below_1e4": 0.43577465314270436,
+      "area_over_target": 13.015800033388812,
+      "duration_over_target": 13.110482227932525,
+      "central_connected_fraction": 0.43577465314270436,
+      "sampled_inscribed_square_half_width": 0.2007481296758105,
+      "sampled_maximum": 0.2579896751816418
+    },
+    "wide_metrics_1601": {
+      "name": "X15w",
+      "N": 15,
+      "center": 1.1230283523741333e-26,
+      "mean": 0.007247682257921455,
+      "fraction_below_1e4": 0.43569700542407713,
+      "area_over_target": 13.015800033388812,
+      "duration_over_target": 13.110482227932525,
+      "central_connected_fraction": 0.43569700542407713,
+      "sampled_inscribed_square_half_width": 0.20018738288569643,
+      "sampled_maximum": 0.26074245202778923
+    },
+    "small_metrics": {
+      "name": "X15w",
+      "N": 15,
+      "center": 1.1230283523741333e-26,
+      "mean": 1.571573596061277e-05,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 13.015800033388812,
+      "duration_over_target": 13.110482227932525
+    },
+    "original_wide_metrics": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 0.03495756020253439,
+      "fraction_below_1e4": 0.21295789750951136,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286,
+      "central_connected_fraction": 0.21295789750951136,
+      "sampled_inscribed_square_half_width": 0.17915106117353308,
+      "sampled_maximum": 0.5074133398975913
+    },
+    "original_small_metrics": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 2.570670543025513e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    }
+  },
+  "H15w": {
+    "controls": {
+      "name": "H15w",
+      "N": 15,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.9817384299409326,
+        1.0286869281257305,
+        -1.8192203886562524,
+        -0.7839434226016921,
+        -0.9272794842152736,
+        2.8785576158026434,
+        -1.3598873244908656,
+        -0.6831224820877004,
+        -1.6550369831885872,
+        1.611909575102307,
+        2.3663141561148144,
+        2.4222394213954557,
+        -0.0945441503615494,
+        1.7898646300915786,
+        1.9190077680712836
+      ],
+      "amplitudes": [
+        0.6221044472472632,
+        0.5056183319740488,
+        0.7495497275206406,
+        0.8106151304778959,
+        0.7585784125460349,
+        0.7570070209604479,
+        0.6790716447059879,
+        0.8213975862998549,
+        0.8213975863603299,
+        0.7255835730081694,
+        0.7919161560932627,
+        0.8213975863601143,
+        0.7544484949534839,
+        0.5966197122644562,
+        0.6367634376281968
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/objective_selection/search_width.py; seed=202610211",
+      "model": "drive"
+    },
+    "original_name": "H15",
+    "search_row": 11,
+    "selection": "Largest central connected 1e-4 area among successful final-grid fits satisfying original-window and resource checks",
+    "validation": {
+      "nominal": 1.0236150857226678e-22,
+      "printed_nominal": 1.6902684049246963e-16,
+      "protected_half_width": 0.2,
+      "protected_window_grid_maximum": 9.8870987536719e-05,
+      "matrix_max_difference": 1.1230166102604855e-15,
+      "unitarity_error": 2.331468978305797e-15,
+      "peak_rescaling_error": 2.3271238751995115e-15,
+      "held_out": [
+        {
+          "seed": 202610213,
+          "samples": 131072,
+          "wide_fraction_below_1e4": 0.4095458984375,
+          "wide_mean": 0.007273157888699932
+        },
+        {
+          "seed": 202610214,
+          "samples": 131072,
+          "wide_fraction_below_1e4": 0.40936279296875,
+          "wide_mean": 0.007273155908753269
+        }
+      ],
+      "area_cap": 10.986580759286882,
+      "peak_cap": 0.9586166981384515
+    },
+    "wide_metrics": {
+      "name": "H15w",
+      "N": 15,
+      "center": 1.0236150857226678e-22,
+      "mean": 0.007273064124866442,
+      "fraction_below_1e4": 0.4094024167668068,
+      "area_over_target": 21.704137696800373,
+      "duration_over_target": 24.6419275908099,
+      "central_connected_fraction": 0.4094024167668068,
+      "sampled_inscribed_square_half_width": 0.20037453183520598,
+      "sampled_maximum": 0.2113268878360826
+    },
+    "wide_metrics_401": {
+      "name": "H15w",
+      "N": 15,
+      "center": 1.0236150857226678e-22,
+      "mean": 0.007272796620820831,
+      "fraction_below_1e4": 0.4093817824516017,
+      "area_over_target": 21.704137696800373,
+      "duration_over_target": 24.6419275908099,
+      "central_connected_fraction": 0.4093817824516017,
+      "sampled_inscribed_square_half_width": 0.2007481296758105,
+      "sampled_maximum": 0.21034862698722048
+    },
+    "wide_metrics_1601": {
+      "name": "H15w",
+      "N": 15,
+      "center": 1.0236150857226678e-22,
+      "mean": 0.007273131196199575,
+      "fraction_below_1e4": 0.40938615426570135,
+      "area_over_target": 21.704137696800373,
+      "duration_over_target": 24.6419275908099,
+      "central_connected_fraction": 0.40938615426570135,
+      "sampled_inscribed_square_half_width": 0.20018738288569643,
+      "sampled_maximum": 0.21181608581834516
+    },
+    "small_metrics": {
+      "name": "H15w",
+      "N": 15,
+      "center": 1.0236150857226678e-22,
+      "mean": 1.0624438422773546e-05,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 21.704137696800373,
+      "duration_over_target": 24.6419275908099
+    },
+    "original_wide_metrics": {
+      "name": "H15",
+      "N": 15,
+      "center": 2.2199552492303536e-31,
+      "mean": 0.011369494654796843,
+      "fraction_below_1e4": 0.21554049946929635,
+      "area_over_target": 21.973161518573765,
+      "duration_over_target": 28.758500944153546,
+      "central_connected_fraction": 0.21554049946929635,
+      "sampled_inscribed_square_half_width": 0.17915106117353308,
+      "sampled_maximum": 0.16474583529771447
+    },
+    "original_small_metrics": {
+      "name": "H15",
+      "N": 15,
+      "center": 2.2199552492303536e-31,
+      "mean": 4.7039132935825377e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 21.973161518573765,
+      "duration_over_target": 28.758500944153546
+    }
+  }
+}

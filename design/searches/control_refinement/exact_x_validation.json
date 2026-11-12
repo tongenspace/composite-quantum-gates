@@ -1,0 +1,498 @@
+{
+  "protocol": {
+    "nominal_ceiling": 1e-12,
+    "grid": 801,
+    "held_out": "16384 scrambled Sobol points",
+    "acceptance": "No greater native/peak means or smaller native/peak 1e-4 fractions on half-width-0.15 and half-width-0.5 squares; no larger cumulative area or peak amplitude; exact nominal unitary and eight-decimal nominal infidelity below 1e-12. Selection prioritizes a wider low-error region over the sampled maximum. Maxima are reported as diagnostics, not certified worst-case bounds.",
+    "require_sampled_maximum": false
+  },
+  "gates": {
+    "X7c": {
+      "baseline_controls": {
+        "name": "X7c",
+        "N": 7,
+        "theta": 3.141592653589793,
+        "phases": [
+          1.1451105222334796,
+          0.3817035074111599,
+          0.37133625165431355,
+          2.3599644013766525,
+          0.40872120423203206,
+          0.4542742977090841,
+          1.264491043069892
+        ],
+        "amplitudes": [
+          0.9947,
+          0.8532,
+          1.1369,
+          0.9909,
+          1.1412,
+          0.853,
+          0.9884
+        ],
+        "durations_T": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "origin": "Published four-decimal manuscript parameters",
+        "model": "drive"
+      },
+      "baseline_metrics": {
+        "nominal": 1.3450233700687323e-05,
+        "native_mean": 5.1059768731778815e-05,
+        "peak_mean": 6.308636077028033e-05,
+        "area_over_target": 6.9582999999999995,
+        "duration_over_target": 7.9884,
+        "native_fraction": 0.8619110631061984,
+        "peak_fraction": 0.7985913363601366,
+        "native_sobol_mean": 5.106028772530692e-05,
+        "peak_sobol_mean": 6.308691544912776e-05,
+        "native_sobol_max": 0.0002544328640845544,
+        "peak_sobol_max": 0.00034178210537007763,
+        "wide_mean": 0.004305042347860346,
+        "native_worst": 0.00025596701800361993,
+        "peak_worst": 0.00034376661917361105
+      },
+      "baseline_wide": {
+        "native": {
+          "name": "X7c",
+          "N": 7,
+          "center": 1.3450233700687323e-05,
+          "mean": 0.07515863864708791,
+          "fraction_below_1e4": 0.09588202013400852,
+          "area_over_target": 6.9582999999999995,
+          "duration_over_target": 7.9884
+        },
+        "peak": {
+          "name": "X7c",
+          "N": 7,
+          "center": 1.3450233700687323e-05,
+          "mean": 0.07858173285474515,
+          "fraction_below_1e4": 0.08403665206257471,
+          "area_over_target": 6.9582999999999995,
+          "duration_over_target": 7.9884
+        }
+      },
+      "successful_exact_candidates": 20,
+      "qualified_candidates": 1,
+      "selected": {
+        "controls": {
+          "name": "X7c",
+          "N": 7,
+          "theta": 3.141592653589793,
+          "phases": [
+            1.2245343374973006,
+            0.4489217942818571,
+            0.4153670899410762,
+            2.3856630281638544,
+            0.41536875676358065,
+            0.44892496953496464,
+            1.2245390113200232
+          ],
+          "amplitudes": [
+            0.9873317817005428,
+            0.8415856535699726,
+            1.1412,
+            0.9858609544896616,
+            1.1412,
+            0.8415857319038077,
+            0.9873316162498176
+          ],
+          "durations_T": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "origin": "studies/control_refinement/refine_exact_x.py; seed=202610171",
+          "model": "drive"
+        },
+        "metrics": {
+          "nominal": 3.3858225255191335e-22,
+          "native_mean": 5.075233673247256e-05,
+          "peak_mean": 5.611552484645569e-05,
+          "area_over_target": 6.926095737913803,
+          "duration_over_target": 7.9884,
+          "native_fraction": 0.8799627806066387,
+          "peak_fraction": 0.8463312868901389,
+          "native_sobol_mean": 5.075321709564276e-05,
+          "peak_sobol_mean": 5.6116414432611834e-05,
+          "native_sobol_max": 0.000883614664525588,
+          "peak_sobol_max": 0.0008827252618883184,
+          "wide_mean": 0.004758391046634105,
+          "native_worst": 0.0008874490786233403,
+          "peak_worst": 0.0008874490786233403
+        },
+        "baseline_metrics": {
+          "nominal": 1.3450233700687323e-05,
+          "native_mean": 5.1059768731778815e-05,
+          "peak_mean": 6.308636077028033e-05,
+          "area_over_target": 6.9582999999999995,
+          "duration_over_target": 7.9884,
+          "native_fraction": 0.8619110631061984,
+          "peak_fraction": 0.7985913363601366,
+          "native_sobol_mean": 5.106028772530692e-05,
+          "peak_sobol_mean": 6.308691544912776e-05,
+          "native_sobol_max": 0.0002544328640845544,
+          "peak_sobol_max": 0.00034178210537007763,
+          "wide_mean": 0.004305042347860346,
+          "native_worst": 0.00025596701800361993,
+          "peak_worst": 0.00034376661917361105
+        },
+        "grid_401_metrics": {
+          "nominal": 3.3858225255191335e-22,
+          "native_mean": 5.074986084904859e-05,
+          "peak_mean": 5.611308715060481e-05,
+          "area_over_target": 6.926095737913803,
+          "duration_over_target": 7.9884,
+          "native_fraction": 0.8798639311944577,
+          "peak_fraction": 0.8462820504847607,
+          "native_sobol_mean": 5.075321709564276e-05,
+          "peak_sobol_mean": 5.6116414432611834e-05,
+          "native_sobol_max": 0.000883614664525588,
+          "peak_sobol_max": 0.0008827252618883184,
+          "wide_mean": 0.004758391046634105
+        },
+        "wide_domain_metrics": {
+          "name": "X7c",
+          "N": 7,
+          "center": 3.3858225255191335e-22,
+          "mean": 0.07440731765019662,
+          "fraction_below_1e4": 0.10183275898884198,
+          "area_over_target": 6.926095737913803,
+          "duration_over_target": 7.9884
+        },
+        "baseline_wide_domain_metrics": {
+          "name": "X7c",
+          "N": 7,
+          "center": 1.3450233700687323e-05,
+          "mean": 0.07515863864708791,
+          "fraction_below_1e4": 0.09588202013400852,
+          "area_over_target": 6.9582999999999995,
+          "duration_over_target": 7.9884
+        },
+        "peak_wide_domain_metrics": {
+          "name": "X7c",
+          "N": 7,
+          "center": 3.3858225255191335e-22,
+          "mean": 0.0774004864868067,
+          "fraction_below_1e4": 0.08923302800338528,
+          "area_over_target": 6.926095737913803,
+          "duration_over_target": 7.9884
+        },
+        "baseline_peak_wide_domain_metrics": {
+          "name": "X7c",
+          "N": 7,
+          "center": 1.3450233700687323e-05,
+          "mean": 0.07858173285474515,
+          "fraction_below_1e4": 0.08403665206257471,
+          "area_over_target": 6.9582999999999995,
+          "duration_over_target": 7.9884
+        },
+        "selection_criterion": "exact_robustness",
+        "maximum_is_constraint": false,
+        "matrix_max_difference": 9.43689570931383e-16,
+        "printed_eight_decimal_nominal_infidelity": 1.1985088687929797e-15,
+        "source_record": "x7c_exact_coverage_width_records.json",
+        "source_start_index": 0,
+        "source_protocol": {
+          "seed": 202610171,
+          "grid": 121,
+          "halfwidth": 0.5,
+          "temperature": 4e-05,
+          "mean_grid": 51,
+          "mean_budget_ratio": 0.99,
+          "worst_budgets": {},
+          "area_cap": 6.9582999999999995,
+          "peak_cap": 1.1412,
+          "nominal": "exact full unitary",
+          "baseline_wide": {
+            "native": {
+              "name": "X7c",
+              "N": 7,
+              "center": 1.3450233700687323e-05,
+              "mean": 0.07515863864708791,
+              "fraction_below_1e4": 0.09588202013400852,
+              "area_over_target": 6.9582999999999995,
+              "duration_over_target": 7.9884
+            },
+            "peak": {
+              "name": "X7c",
+              "N": 7,
+              "center": 1.3450233700687323e-05,
+              "mean": 0.07858173285474515,
+              "fraction_below_1e4": 0.08403665206257471,
+              "area_over_target": 6.9582999999999995,
+              "duration_over_target": 7.9884
+            }
+          }
+        }
+      }
+    },
+    "X11c": {
+      "baseline_controls": {
+        "name": "X11c",
+        "N": 11,
+        "theta": 3.141592653589793,
+        "phases": [
+          0.29311059457992766,
+          3.258459900303333,
+          5.949862326633709,
+          3.355535113299258,
+          2.157331675220111,
+          2.182464416448829,
+          3.7655129545927264,
+          0.592190215201676,
+          5.030003997662618,
+          3.948667806297011,
+          2.4183980247334227
+        ],
+        "amplitudes": [
+          0.9328,
+          0.978,
+          1.0012,
+          1.0091,
+          0.876,
+          1.1016,
+          0.9973,
+          1.0054,
+          1.0225,
+          0.9976,
+          0.9274
+        ],
+        "durations_T": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "origin": "Published four-decimal manuscript parameters",
+        "model": "drive"
+      },
+      "baseline_metrics": {
+        "nominal": 3.0794112579374043e-06,
+        "native_mean": 6.99614186375172e-06,
+        "peak_mean": 8.138890818984993e-06,
+        "area_over_target": 10.8489,
+        "duration_over_target": 12.1176,
+        "native_fraction": 1.0,
+        "peak_fraction": 1.0,
+        "native_sobol_mean": 6.996148235280454e-06,
+        "peak_sobol_mean": 8.13890288820652e-06,
+        "native_sobol_max": 4.1275449057671894e-05,
+        "peak_sobol_max": 4.849218856180386e-05,
+        "wide_mean": 0.00030829505411192863,
+        "native_worst": 4.142143017944237e-05,
+        "peak_worst": 4.906711631705967e-05
+      },
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      },
+      "successful_exact_candidates": 20,
+      "qualified_candidates": 1,
+      "selected": {
+        "controls": {
+          "name": "X11c",
+          "N": 11,
+          "theta": 3.141592653589793,
+          "phases": [
+            0.13197124604694732,
+            3.111201742173998,
+            -0.40530864867421457,
+            -2.971663638417298,
+            2.0998269853561418,
+            2.170868530427028,
+            -2.535099000985044,
+            0.5321122707091126,
+            -1.329538293196432,
+            -2.377431382622669,
+            2.5020073318841813
+          ],
+          "amplitudes": [
+            0.96052222707523,
+            0.9572014519856396,
+            0.9612686148295804,
+            0.9636670365022376,
+            0.8899928615738588,
+            1.015110350568942,
+            0.9576201986682087,
+            0.9574072097954308,
+            0.9507717514900205,
+            0.9529293087010661,
+            0.9620246104312401
+          ],
+          "durations_T": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+          "model": "drive"
+        },
+        "metrics": {
+          "nominal": 5.189774286093143e-24,
+          "native_mean": 6.933519095827517e-06,
+          "peak_mean": 7.054663534447496e-06,
+          "area_over_target": 10.528515621621453,
+          "duration_over_target": 11.166213856258361,
+          "native_fraction": 1.0,
+          "peak_fraction": 1.0,
+          "native_sobol_mean": 6.933533684600769e-06,
+          "peak_sobol_mean": 7.054678067413228e-06,
+          "native_sobol_max": 4.1152737401165007e-05,
+          "peak_sobol_max": 4.208915040713149e-05,
+          "wide_mean": 0.0004422293260900833,
+          "native_worst": 4.124104858780519e-05,
+          "peak_worst": 4.227435049232624e-05
+        },
+        "baseline_metrics": {
+          "nominal": 3.0794112579374043e-06,
+          "native_mean": 6.99614186375172e-06,
+          "peak_mean": 8.138890818984993e-06,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176,
+          "native_fraction": 1.0,
+          "peak_fraction": 1.0,
+          "native_sobol_mean": 6.996148235280454e-06,
+          "peak_sobol_mean": 8.13890288820652e-06,
+          "native_sobol_max": 4.1275449057671894e-05,
+          "peak_sobol_max": 4.849218856180386e-05,
+          "wide_mean": 0.00030829505411192863,
+          "native_worst": 4.142143017944237e-05,
+          "peak_worst": 4.906711631705967e-05
+        },
+        "grid_401_metrics": {
+          "nominal": 5.189774286093143e-24,
+          "native_mean": 6.933429629681725e-06,
+          "peak_mean": 7.054572610610845e-06,
+          "area_over_target": 10.528515621621453,
+          "duration_over_target": 11.166213856258361,
+          "native_fraction": 1.0,
+          "peak_fraction": 1.0,
+          "native_sobol_mean": 6.933533684600769e-06,
+          "peak_sobol_mean": 7.054678067413228e-06,
+          "native_sobol_max": 4.1152737401165007e-05,
+          "peak_sobol_max": 4.208915040713149e-05,
+          "wide_mean": 0.0004422293260900833
+        },
+        "wide_domain_metrics": {
+          "name": "X11c",
+          "N": 11,
+          "center": 5.189774286093143e-24,
+          "mean": 0.016175449329365276,
+          "fraction_below_1e4": 0.28925141949591726,
+          "area_over_target": 10.528515621621453,
+          "duration_over_target": 11.166213856258361
+        },
+        "baseline_wide_domain_metrics": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak_wide_domain_metrics": {
+          "name": "X11c",
+          "N": 11,
+          "center": 5.189774286093143e-24,
+          "mean": 0.01678283953262681,
+          "fraction_below_1e4": 0.2849231843466578,
+          "area_over_target": 10.528515621621453,
+          "duration_over_target": 11.166213856258361
+        },
+        "baseline_peak_wide_domain_metrics": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "selection_criterion": "exact_robustness",
+        "maximum_is_constraint": false,
+        "matrix_max_difference": 1.149687983703629e-15,
+        "printed_eight_decimal_nominal_infidelity": 1.620549454919686e-16,
+        "source_record": "x11c_exact_coverage_conservative_records.json",
+        "source_start_index": 0,
+        "source_protocol": {
+          "seed": 202610172,
+          "grid": 121,
+          "halfwidth": 0.5,
+          "temperature": 4e-06,
+          "mean_grid": 51,
+          "mean_budget_ratio": 0.99,
+          "worst_budgets": {
+            "native": 4.121432302854516e-05,
+            "peak": 4.882178073547437e-05
+          },
+          "area_cap": 10.8489,
+          "peak_cap": 1.1016,
+          "nominal": "exact full unitary",
+          "baseline_wide": {
+            "native": {
+              "name": "X11c",
+              "N": 11,
+              "center": 3.0794112579374043e-06,
+              "mean": 0.01613195292856318,
+              "fraction_below_1e4": 0.2496613939192738,
+              "area_over_target": 10.8489,
+              "duration_over_target": 12.1176
+            },
+            "peak": {
+              "name": "X11c",
+              "N": 11,
+              "center": 3.0794112579374043e-06,
+              "mean": 0.02132402585858295,
+              "fraction_below_1e4": 0.22660189120652866,
+              "area_over_target": 10.8489,
+              "duration_over_target": 12.1176
+            }
+          }
+        }
+      }
+    }
+  }
+}

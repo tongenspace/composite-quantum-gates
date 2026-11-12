@@ -1,0 +1,1703 @@
+[
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 0,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8162453766316418,
+        3.1412774350416175,
+        -1.917747460481289,
+        -1.2655512029985605,
+        2.9267279668331625,
+        -1.0022911885842873
+      ],
+      "amplitudes": [
+        1.2373666602260547,
+        0.8567489648945994,
+        0.37266876625449724,
+        1.237366660226061,
+        0.890308844544813,
+        0.8509192896803247
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.2047255220863678e-05,
+      "native_mean": 0.0004396683729419814,
+      "peak_mean": 0.0006870108923958173,
+      "area_over_target": 10.8907583716527,
+      "duration_over_target": 14.848399922712732,
+      "native_fraction": 0.3713026905274622,
+      "peak_fraction": 0.29996782257864907,
+      "native_sobol_mean": 0.0004397179666509542,
+      "peak_sobol_mean": 0.0006870862797547187,
+      "native_sobol_max": 0.004919173749546174,
+      "peak_sobol_max": 0.004996331054043901,
+      "wide_mean": 0.00819818888115876
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.2047255220863678e-05,
+      "mean": 0.06660547094603728,
+      "fraction_below_1e4": 0.03343262790654287,
+      "area_over_target": 10.8907583716527,
+      "duration_over_target": 14.848399922712732
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 208
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 1,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8227819510050143,
+        -3.1407066061574307,
+        -1.9329778427833224,
+        -1.252464510334164,
+        2.9368389435314635,
+        -0.9864017151241544
+      ],
+      "amplitudes": [
+        1.2473202962635666,
+        0.8481618459871308,
+        0.37152980762143395,
+        1.2473202962635668,
+        0.8882673509461635,
+        0.8430956491907661
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.601168124229172e-07,
+      "native_mean": 0.00046072128014493496,
+      "peak_mean": 0.0007193956357671146,
+      "area_over_target": 10.891390492545257,
+      "duration_over_target": 14.9678435551628,
+      "native_fraction": 0.34382812306626076,
+      "peak_fraction": 0.2757109972525433,
+      "native_sobol_mean": 0.00046077127969718556,
+      "peak_sobol_mean": 0.0007194720301535809,
+      "native_sobol_max": 0.0050380307409293185,
+      "peak_sobol_max": 0.005089617104611347,
+      "wide_mean": 0.008253634489713686
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.601168124229172e-07,
+      "mean": 0.06659741627755865,
+      "fraction_below_1e4": 0.030969956654498417,
+      "area_over_target": 10.891390492545257,
+      "duration_over_target": 14.9678435551628
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 551
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 2,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8178539992035425,
+        3.141501743095141,
+        -1.9203213423497276,
+        -1.2628768192784143,
+        2.9286693446369787,
+        -0.9995859057784529
+      ],
+      "amplitudes": [
+        1.239357452662967,
+        0.8552243240357719,
+        0.3722873697234458,
+        1.2393574526629725,
+        0.8902748152203189,
+        0.8497217726038807
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.1682495934721567e-05,
+      "native_mean": 0.00043880220619094563,
+      "peak_mean": 0.0006876301678933144,
+      "area_over_target": 10.892446373818714,
+      "duration_over_target": 14.87228943195567,
+      "native_fraction": 0.37162446474097177,
+      "peak_fraction": 0.29954704091482887,
+      "native_sobol_mean": 0.0004388516727367481,
+      "peak_sobol_mean": 0.0006877055241872379,
+      "native_sobol_max": 0.004910790138974011,
+      "peak_sobol_max": 0.005006651549619141,
+      "wide_mean": 0.008184213168339335
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.1682495934721567e-05,
+      "mean": 0.06652531173905599,
+      "fraction_below_1e4": 0.03343262790654287,
+      "area_over_target": 10.892446373818714,
+      "duration_over_target": 14.87228943195567
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 325
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 3,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8228653112045929,
+        -3.1407559849223157,
+        -1.9330517452786973,
+        -1.2524617954957122,
+        2.936846248711781,
+        -0.9863790148006473
+      ],
+      "amplitudes": [
+        1.247307239433502,
+        0.8481132420166055,
+        0.37155570517516756,
+        1.2473072394335407,
+        0.8883079967397041,
+        0.8430822581672851
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.6078812035397623e-07,
+      "native_mean": 0.0004606993859168931,
+      "peak_mean": 0.0007194261558276734,
+      "area_over_target": 10.89134736193161,
+      "duration_over_target": 14.967686873202489,
+      "native_fraction": 0.34377861934110543,
+      "peak_fraction": 0.2756367416648103,
+      "native_sobol_mean": 0.0004607493839338726,
+      "peak_sobol_mean": 0.0007195025506838747,
+      "native_sobol_max": 0.005037498935047242,
+      "peak_sobol_max": 0.005087558194509535,
+      "wide_mean": 0.008253637289937981
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.6078812035397623e-07,
+      "mean": 0.06659596829958314,
+      "fraction_below_1e4": 0.030957518920902233,
+      "area_over_target": 10.89134736193161,
+      "duration_over_target": 14.967686873202489
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 522
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 4,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8118836458285053,
+        -3.134240133444674,
+        -1.9045928086242965,
+        -1.2588318080646186,
+        2.9290424094072165,
+        -1.0040366348692586
+      ],
+      "amplitudes": [
+        1.236892514852079,
+        0.858510182245151,
+        0.37211947088633107,
+        1.2368925148520893,
+        0.8900861577905664,
+        0.8520614763379842
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.1851955037974996e-05,
+      "native_mean": 0.00043995994993123195,
+      "peak_mean": 0.0006864399360118591,
+      "area_over_target": 10.893124633928402,
+      "duration_over_target": 14.842710178225072,
+      "native_fraction": 0.37132744239003984,
+      "peak_fraction": 0.30019058934184795,
+      "native_sobol_mean": 0.0004400095292384109,
+      "peak_sobol_mean": 0.000686515228844509,
+      "native_sobol_max": 0.0049436359301845215,
+      "peak_sobol_max": 0.005014958473568023,
+      "wide_mean": 0.008184796581968521
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.1851955037974996e-05,
+      "mean": 0.06650761947993522,
+      "fraction_below_1e4": 0.033482378840927605,
+      "area_over_target": 10.893124633928402,
+      "duration_over_target": 14.842710178225072
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 350
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 5,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8227789007855009,
+        -3.140705783265835,
+        -1.9329880654035696,
+        -1.252464295150606,
+        2.9368436636624713,
+        -0.9863978123634389
+      ],
+      "amplitudes": [
+        1.2473209597318684,
+        0.8481581159729613,
+        0.37153217628812335,
+        1.2473209597324098,
+        0.8882677757834688,
+        0.8430948494209
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.6032652663353834e-07,
+      "native_mean": 0.00046071758536602597,
+      "peak_mean": 0.0007193955381473337,
+      "area_over_target": 10.891389673859463,
+      "duration_over_target": 14.967851516788917,
+      "native_fraction": 0.34382812306626076,
+      "peak_fraction": 0.2757109972525433,
+      "native_sobol_mean": 0.0004607675848733872,
+      "peak_sobol_mean": 0.0007194719326798205,
+      "native_sobol_max": 0.005037955103691565,
+      "peak_sobol_max": 0.005089576725582768,
+      "wide_mean": 0.008253659875699525
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.6032652663353834e-07,
+      "mean": 0.06659749857675384,
+      "fraction_below_1e4": 0.030969956654498417,
+      "area_over_target": 10.891389673859463,
+      "duration_over_target": 14.967851516788917
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 516
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 6,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8077439326269058,
+        -3.138172294578008,
+        -1.892812322446205,
+        -1.2705467857739343,
+        2.921856387177301,
+        -1.0160951646111442
+      ],
+      "amplitudes": [
+        1.2267081974070493,
+        0.8659950171463427,
+        0.3746925427407437,
+        1.2267081974070488,
+        0.8920611080256517,
+        0.8589214084859642
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.2268590536582247e-05,
+      "native_mean": 0.00044299109861679605,
+      "peak_mean": 0.0006842173977400311,
+      "area_over_target": 10.8901729424256,
+      "duration_over_target": 14.720498368884591,
+      "native_fraction": 0.3684067226058761,
+      "peak_fraction": 0.3005371154179352,
+      "native_sobol_mean": 0.00044304116347776586,
+      "peak_sobol_mean": 0.0006842926438041699,
+      "native_sobol_max": 0.004898127109084347,
+      "peak_sobol_max": 0.004938418433189994,
+      "wide_mean": 0.008262905428526687
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.2268590536582247e-05,
+      "mean": 0.06687324713925286,
+      "fraction_below_1e4": 0.033152778900628725,
+      "area_over_target": 10.8901729424256,
+      "duration_over_target": 14.720498368884591
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 299
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 7,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -2.5501659437468085,
+        2.6068410211974973,
+        1.2203973691259904,
+        -2.5605110099954524,
+        1.7250456621107713,
+        -2.1538249504266753
+      ],
+      "amplitudes": [
+        0.7049598725342834,
+        0.549587849890022,
+        0.6134705346106916,
+        1.5723531868884493,
+        0.5946016989882167,
+        1e-05
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.3947753728405764e-06,
+      "native_mean": 0.0006772582836030891,
+      "peak_mean": 0.0021182497850706873,
+      "area_over_target": 8.069966285823325,
+      "duration_over_target": 18.86823824266139,
+      "native_fraction": 0.24083562288062177,
+      "peak_fraction": 0.15323878121828668,
+      "native_sobol_mean": 0.0006773136543825912,
+      "peak_sobol_mean": 0.002118434170224241,
+      "native_sobol_max": 0.004781905216732461,
+      "peak_sobol_max": 0.020330516259393513,
+      "wide_mean": 0.011226799707503765
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 2.3947753728405764e-06,
+      "mean": 0.08905711127910196,
+      "fraction_below_1e4": 0.021629218723764155,
+      "area_over_target": 8.069966285823325,
+      "duration_over_target": 18.86823824266139
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 166
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 8,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8178603045606803,
+        3.1414829964575333,
+        -1.9203356144505932,
+        -1.26289729443271,
+        2.9286686305231306,
+        -0.9995865330606879
+      ],
+      "amplitudes": [
+        1.2393468651188286,
+        0.8552271332057557,
+        0.372288464524984,
+        1.2393468651188502,
+        0.8902742923492099,
+        0.8497238018867094
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.168214105029467e-05,
+      "native_mean": 0.00043881092321405564,
+      "peak_mean": 0.0006876379594964228,
+      "area_over_target": 10.892414844408675,
+      "duration_over_target": 14.872162381426202,
+      "native_fraction": 0.37162446474097177,
+      "peak_fraction": 0.29954704091482887,
+      "native_sobol_mean": 0.00043886039082831465,
+      "peak_sobol_mean": 0.0006877133165308197,
+      "native_sobol_max": 0.004910737165809309,
+      "peak_sobol_max": 0.005006987606884366,
+      "wide_mean": 0.008184392469243925
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.168214105029467e-05,
+      "mean": 0.06652615577556742,
+      "fraction_below_1e4": 0.03342640903974478,
+      "area_over_target": 10.892414844408675,
+      "duration_over_target": 14.872162381426202
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 366
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 9,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8227156449704154,
+        -3.1402016418688756,
+        -1.933550186655161,
+        -1.2515639063565054,
+        2.937390042298997,
+        -0.985551188925772
+      ],
+      "amplitudes": [
+        1.2479094558332524,
+        0.8475636011809793,
+        0.37140125894340786,
+        1.2479094558332717,
+        0.888078271794873,
+        0.8426399159406092
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.589274844275673e-07,
+      "native_mean": 0.00046089977112056906,
+      "peak_mean": 0.0007194434912937487,
+      "area_over_target": 10.891003919052785,
+      "duration_over_target": 14.97491346999926,
+      "native_fraction": 0.3445706789435905,
+      "peak_fraction": 0.27608227519120815,
+      "native_sobol_mean": 0.0004609497597077266,
+      "peak_sobol_mean": 0.0007195198972623613,
+      "native_sobol_max": 0.005054536019378139,
+      "peak_sobol_max": 0.005087570480393714,
+      "wide_mean": 0.008248092981895912
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.589274844275673e-07,
+      "mean": 0.06657111706673129,
+      "fraction_below_1e4": 0.031019707588883155,
+      "area_over_target": 10.891003919052785,
+      "duration_over_target": 14.97491346999926
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 491
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 10,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.815121851221166,
+        -3.140969972407868,
+        -1.913561588000471,
+        -1.2642460309604449,
+        2.927555487898914,
+        -1.0032213262001086
+      ],
+      "amplitudes": [
+        1.2365362971101486,
+        0.8579882582124992,
+        0.3726940083725568,
+        1.23653629711015,
+        0.8905105717674254,
+        0.8522406173398286
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.168828724538228e-05,
+      "native_mean": 0.00043960706216440536,
+      "peak_mean": 0.0006866201585839529,
+      "area_over_target": 10.893012099825217,
+      "duration_over_target": 14.838435565321797,
+      "native_fraction": 0.3714759535655058,
+      "peak_fraction": 0.30009158189153734,
+      "native_sobol_mean": 0.0004396566445328099,
+      "peak_sobol_mean": 0.0006866954479954849,
+      "native_sobol_max": 0.004911539985307156,
+      "peak_sobol_max": 0.004998200413500615,
+      "wide_mean": 0.008194868334363796
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.168828724538228e-05,
+      "mean": 0.0665798306317771,
+      "fraction_below_1e4": 0.03341397130614859,
+      "area_over_target": 10.893012099825217,
+      "duration_over_target": 14.838435565321797
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 298
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 11,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -1.8357197152424884,
+        2.4901185240249717,
+        2.37987696806392,
+        -1.9340978033719773,
+        2.7849720852866913,
+        3.044222726670398
+      ],
+      "amplitudes": [
+        0.6470517781358026,
+        0.5856077589291734,
+        0.6262714233195049,
+        0.8482937519331153,
+        0.8482937519331369,
+        1e-05
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.0037788839538404e-06,
+      "native_mean": 0.0017772412881937392,
+      "peak_mean": 0.001082475760628812,
+      "area_over_target": 7.111056928501466,
+      "duration_over_target": 10.179525023197643,
+      "native_fraction": 0.1540803445459271,
+      "peak_fraction": 0.18155491200712853,
+      "native_sobol_mean": 0.0017774068357810971,
+      "peak_sobol_mean": 0.0010825814779441795,
+      "native_sobol_max": 0.014054209622189017,
+      "peak_sobol_max": 0.007050743309333423,
+      "wide_mean": 0.02604306354848034
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.0037788839538404e-06,
+      "mean": 0.1408083555137646,
+      "fraction_below_1e4": 0.013899167293735736,
+      "area_over_target": 7.111056928501466,
+      "duration_over_target": 10.179525023197643
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 333
+  },
+  {
+    "name": "H6",
+    "stage": "penalty",
+    "start_index": 12,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -2.33232307869471,
+        -1.7385861307651806,
+        1.1668927728458112,
+        -0.05162092033189358,
+        1.2491786745253437,
+        -1.611157687007596
+      ],
+      "amplitudes": [
+        0.7012338817948419,
+        0.8299680665728184,
+        0.9720953544874539,
+        1.0465774026058714,
+        0.8334295928784136,
+        1.0465774026058012
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.618945696646311e-05,
+      "native_mean": 0.0003004154497637813,
+      "peak_mean": 0.00033829780111965086,
+      "area_over_target": 10.859763401890401,
+      "duration_over_target": 12.558928831270455,
+      "native_fraction": 0.4410781911338828,
+      "peak_fraction": 0.4214747159723769,
+      "native_sobol_mean": 0.00030044402303135457,
+      "peak_sobol_mean": 0.0003383298919624581,
+      "native_sobol_max": 0.004349760912703171,
+      "peak_sobol_max": 0.004775571683458737,
+      "wide_mean": 0.006614900165783695
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.618945696646311e-05,
+      "mean": 0.05310229440837603,
+      "fraction_below_1e4": 0.039639056971038734,
+      "area_over_target": 10.859763401890401,
+      "duration_over_target": 12.558928831270455
+    },
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "iterations": 283
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 0,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302757964671734,
+        3.1354833868975867,
+        -1.9510243920344132,
+        -1.2592816237189925,
+        2.9359575205189046,
+        -0.987397106746549
+      ],
+      "amplitudes": [
+        1.2431769708341662,
+        0.8441680946595398,
+        0.3704776543484304,
+        1.2431769708349654,
+        0.8839717656792556,
+        0.8363612605854763
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.520109320370842e-28,
+      "native_mean": 0.0004780969378262876,
+      "peak_mean": 0.0007411134984395023,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.918123650019584,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098636098904,
+      "peak_sobol_mean": 0.0007411331567958047,
+      "native_sobol_max": 0.005137537280059339,
+      "peak_sobol_max": 0.005171358454053784,
+      "wide_mean": 0.00844824045714168
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 7.520109320370842e-28,
+      "mean": 0.06743741753346763,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.918123650019584
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 187
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 1,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -2.325801576923533,
+        -1.7363371760821655,
+        1.1716303097882097,
+        -0.03553035945304295,
+        1.2852716281891716,
+        -1.5782584505009094
+      ],
+      "amplitudes": [
+        0.7151481454936778,
+        0.8161085217496774,
+        0.9617122793829704,
+        1.047124555850009,
+        0.8341146586154935,
+        1.047124555850005
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.351037872008158e-31,
+      "native_mean": 0.000402882790333365,
+      "peak_mean": 0.00044988793768575657,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 12.565494670200108,
+      "native_fraction": 0.3449916356241566,
+      "peak_fraction": 0.3294755629629169,
+      "native_sobol_mean": 0.00040289061080747815,
+      "peak_sobol_mean": 0.00044989668143949926,
+      "native_sobol_max": 0.005268386212742834,
+      "peak_sobol_max": 0.0057390535053704565,
+      "wide_mean": 0.006963025046904079
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 8.351037872008158e-31,
+      "mean": 0.05310054164144687,
+      "fraction_below_1e4": 0.03103836418927743,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 12.565494670200108
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 21
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 2,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302757802318812,
+        3.1354834126380275,
+        -1.9510244488225448,
+        -1.2592815802392892,
+        2.9359575282466723,
+        -0.9873970524038285
+      ],
+      "amplitudes": [
+        1.243177021944146,
+        0.8441680512549355,
+        0.3704776446646705,
+        1.243177021945791,
+        0.883971746646415,
+        0.836361230485876
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.3686370409370484e-30,
+      "native_mean": 0.0004780969545912639,
+      "peak_mean": 0.0007411134816440077,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.91812426334949,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098803745328,
+      "peak_sobol_mean": 0.0007411331400003348,
+      "native_sobol_max": 0.005137539229153755,
+      "peak_sobol_max": 0.005171357512640749,
+      "wide_mean": 0.00844823968459292
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 2.3686370409370484e-30,
+      "mean": 0.06743741459106894,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.91812426334949
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 23
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 3,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302756953051436,
+        3.13548345850052,
+        -1.9510242313144124,
+        -1.2592815977034526,
+        2.935957520826796,
+        -0.9873971479590811
+      ],
+      "amplitudes": [
+        1.2431769376936097,
+        0.8441681261854974,
+        0.3704776580798306,
+        1.2431769376944366,
+        0.883971758292208,
+        0.8363612989962514
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.677562018759058e-29,
+      "native_mean": 0.0004780969682331316,
+      "peak_mean": 0.0007411134680537814,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.918123252333238,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098940172346,
+      "peak_sobol_mean": 0.0007411331264097953,
+      "native_sobol_max": 0.005137538823322376,
+      "peak_sobol_max": 0.005171358072402199,
+      "wide_mean": 0.008448240111212809
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.677562018759058e-29,
+      "mean": 0.06743741612590647,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.918123252333238
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 25
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 4,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302756598154417,
+        3.135483513704343,
+        -1.9510240261400105,
+        -1.259281596223314,
+        2.935957477687026,
+        -0.9873972446333958
+      ],
+      "amplitudes": [
+        1.2431768835796528,
+        0.844168181754224,
+        0.37047766125369924,
+        1.2431768835796444,
+        0.8839717721981017,
+        0.8363613345765106
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.47541165929239e-28,
+      "native_mean": 0.00047809697133538226,
+      "peak_mean": 0.000741113464972875,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.918122602955835,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098971198866,
+      "peak_sobol_mean": 0.0007411331233287027,
+      "native_sobol_max": 0.005137538509165762,
+      "peak_sobol_max": 0.005171357929757337,
+      "wide_mean": 0.008448240297645017
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 8.47541165929239e-28,
+      "mean": 0.06743741650932658,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.918122602955835
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 23
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 5,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302758072502776,
+        3.1354834204964046,
+        -1.951024490036378,
+        -1.2592815448330388,
+        2.935957557352949,
+        -0.9873970004383548
+      ],
+      "amplitudes": [
+        1.2431770493347716,
+        0.8441680181598641,
+        0.3704776429586604,
+        1.2431770493364418,
+        0.8839717513624826,
+        0.8363612057896133
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.476431944948586e-30,
+      "native_mean": 0.00047809694598343325,
+      "peak_mean": 0.0007411134902163549,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.918124592037302,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098717662977,
+      "peak_sobol_mean": 0.0007411331485727154,
+      "native_sobol_max": 0.005137539341470778,
+      "peak_sobol_max": 0.0051713577391273875,
+      "wide_mean": 0.008448239511258194
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.476431944948586e-30,
+      "mean": 0.06743741343848882,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 14.918124592037302
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 26
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 6,
+    "training_halfwidth": 0.15,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8302757566380699,
+        3.135483444824673,
+        -1.9510243471264985,
+        -1.2592815697012156,
+        2.9359575302186007,
+        -0.9873970801293659
+      ],
+      "amplitudes": [
+        1.2431769936951211,
+        0.8441680725794777,
+        0.37047764993723126,
+        1.2431769936964692,
+        0.8839717572828113,
+        0.8363612497507227
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.354170517433325e-29,
+      "native_mean": 0.00047809695529254164,
+      "peak_mean": 0.0007411134809475706,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.91812392435763,
+      "native_fraction": 0.3309494343940647,
+      "peak_fraction": 0.26615506122474364,
+      "native_sobol_mean": 0.0004781098810759839,
+      "peak_sobol_mean": 0.0007411331393037659,
+      "native_sobol_max": 0.0051375390647920415,
+      "peak_sobol_max": 0.0051713578303293475,
+      "wide_mean": 0.0084482397890304
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 8.354170517433325e-29,
+      "mean": 0.067437414618705,
+      "fraction_below_1e4": 0.029794590829659018,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.91812392435763
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 27
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 0,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8236834773843924,
+        -3.1369552089746016,
+        -1.8970750657428397,
+        -1.2396045705288845,
+        2.925705917890907,
+        -0.978347441463221
+      ],
+      "amplitudes": [
+        1.24624143388854,
+        0.8420601473882379,
+        0.3630396298251038,
+        1.2462414338885686,
+        0.8832117345088292,
+        0.8405383374425529
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.1216615996111262e-30,
+      "native_mean": 0.0005521847475078013,
+      "peak_mean": 0.0007725001029361986,
+      "area_over_target": 10.842665433883663,
+      "duration_over_target": 14.954897206662823,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.28761015167816123,
+      "native_sobol_mean": 0.0005521978624079009,
+      "peak_sobol_mean": 0.0007725196518640414,
+      "native_sobol_max": 0.006849256107757547,
+      "peak_sobol_max": 0.006840128720837805,
+      "wide_mean": 0.007992411265540126
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.1216615996111262e-30,
+      "mean": 0.06506937828721981,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433883663,
+      "duration_over_target": 14.954897206662823
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 116
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 1,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -2.30568260857145,
+        -1.7206652319171827,
+        1.191362429244215,
+        -2.581604874940524e-05,
+        1.3246458195655553,
+        -1.557126935435301
+      ],
+      "amplitudes": [
+        0.7297070934643167,
+        0.7994893211059015,
+        0.9437417594307621,
+        1.0591450229459731,
+        0.8301044970488304,
+        1.0591450229460293
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.4667110236852245e-31,
+      "native_mean": 0.00042338268527492245,
+      "peak_mean": 0.00048495389029599946,
+      "area_over_target": 10.842665433883626,
+      "duration_over_target": 12.709740275352353,
+      "native_fraction": 0.37925759168164375,
+      "peak_fraction": 0.3600972630767222,
+      "native_sobol_mean": 0.0004233902180633555,
+      "peak_sobol_mean": 0.0004849625928115027,
+      "native_sobol_max": 0.005012053655543825,
+      "peak_sobol_max": 0.005555995298060893,
+      "wide_mean": 0.006504763365888119
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 6.4667110236852245e-31,
+      "mean": 0.0504031482172535,
+      "fraction_below_1e4": 0.034321925858670034,
+      "area_over_target": 10.842665433883626,
+      "duration_over_target": 12.709740275352353
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 43
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 2,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8236835781752152,
+        -3.136955072865817,
+        -1.8970756530287698,
+        -1.2396041977207055,
+        2.925706610269537,
+        -0.9783466449660914
+      ],
+      "amplitudes": [
+        1.2462416943224457,
+        0.8420598078967493,
+        0.36303963829965746,
+        1.2462416943224779,
+        0.8832117761846519,
+        0.840538105915852
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.245546840983578e-27,
+      "native_mean": 0.0005521841636508897,
+      "peak_mean": 0.0007724997665057382,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954900331869734,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.28761015167816123,
+      "native_sobol_mean": 0.0005521972785447544,
+      "peak_sobol_mean": 0.0007725193154312104,
+      "native_sobol_max": 0.006849250838394834,
+      "peak_sobol_max": 0.006840123609324204,
+      "wide_mean": 0.007992410276928194
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 3.245546840983578e-27,
+      "mean": 0.06506937226949337,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954900331869734
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 40
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 3,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.823682354954288,
+        -3.1369544776487306,
+        -1.8970736036884013,
+        -1.2396047717028456,
+        2.925705575474968,
+        -0.9783487843234706
+      ],
+      "amplitudes": [
+        1.2462406771855086,
+        0.842060618127551,
+        0.3630400272359454,
+        1.2462406771855368,
+        0.8832118381035585,
+        0.8405388791037341
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.622880006153317e-26,
+      "native_mean": 0.0005521839684229071,
+      "peak_mean": 0.0007724995371156739,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954888126226441,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.2876163705449593,
+      "native_sobol_mean": 0.0005521970833290612,
+      "peak_sobol_mean": 0.0007725190860468187,
+      "native_sobol_max": 0.00684924354741972,
+      "peak_sobol_max": 0.006840115824533911,
+      "wide_mean": 0.00799241719841703
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 4.622880006153317e-26,
+      "mean": 0.06506940615569347,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954888126226441
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 38
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 4,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8236834533171127,
+        -3.136955164812946,
+        -1.8970750903793565,
+        -1.2396045056385887,
+        2.9257059812529214,
+        -0.978347412864899
+      ],
+      "amplitudes": [
+        1.246241455046503,
+        0.8420601315424594,
+        0.3630396268354341,
+        1.2462414550465137,
+        0.8832117233153913,
+        0.8405383251555322
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.443400106898746e-26,
+      "native_mean": 0.0005521846875171935,
+      "peak_mean": 0.0007725000538884178,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954897460558165,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.28761015167816123,
+      "native_sobol_mean": 0.0005521978024169113,
+      "peak_sobol_mean": 0.000772519602816124,
+      "native_sobol_max": 0.006849255563181224,
+      "peak_sobol_max": 0.006840128172401155,
+      "wide_mean": 0.00799241129499038
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 6.443400106898746e-26,
+      "mean": 0.06506937853679393,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433883669,
+      "duration_over_target": 14.954897460558165
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 33
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 5,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8236835247952143,
+        -3.1369552051952354,
+        -1.8970752710929029,
+        -1.2396044817899181,
+        2.9257060035495863,
+        -0.9783472939624431
+      ],
+      "amplitudes": [
+        1.2462415308367443,
+        0.842060054889381,
+        0.3630396137309905,
+        1.2462415308367294,
+        0.8832117211342468,
+        0.8405382655137407
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.0214680360735638e-26,
+      "native_mean": 0.0005521847436916482,
+      "peak_mean": 0.0007725000918624758,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.954898370040931,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.28761015167816123,
+      "native_sobol_mean": 0.0005521978585907155,
+      "peak_sobol_mean": 0.0007725196407901616,
+      "native_sobol_max": 0.006849256932375194,
+      "peak_sobol_max": 0.006840129539099048,
+      "wide_mean": 0.007992410662281523
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 2.0214680360735638e-26,
+      "mean": 0.06506937529653581,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 14.954898370040931
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 35
+  },
+  {
+    "name": "H6",
+    "stage": "exact_polish",
+    "start_index": 6,
+    "training_halfwidth": 0.22,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        -0.8236833674696094,
+        -3.136955043637876,
+        -1.897074572089097,
+        -1.2396044453283999,
+        2.925705796462708,
+        -0.9783476582991462
+      ],
+      "amplitudes": [
+        1.246241349361803,
+        0.8420602157180405,
+        0.36303963436960884,
+        1.2462413493634548,
+        0.8832117510341524,
+        0.8405384170842082
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_x9_h6.py; seed=202610147",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.909741806966132e-24,
+      "native_mean": 0.0005521851292221275,
+      "peak_mean": 0.000772500367266638,
+      "area_over_target": 10.842665433862535,
+      "duration_over_target": 14.954896192361458,
+      "native_fraction": 0.35846170110882397,
+      "peak_fraction": 0.28761015167816123,
+      "native_sobol_mean": 0.0005521982441245787,
+      "peak_sobol_mean": 0.0007725199161954419,
+      "native_sobol_max": 0.006849261308519664,
+      "peak_sobol_max": 0.006840133870049512,
+      "wide_mean": 0.007992410880069021
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 8.909741806966132e-24,
+      "mean": 0.06506937290527878,
+      "fraction_below_1e4": 0.03226969981529965,
+      "area_over_target": 10.842665433862535,
+      "duration_over_target": 14.954896192361458
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 112
+  }
+]

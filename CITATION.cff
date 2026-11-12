@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and this repository when using these controls or results."
+title: "Composite quantum gates simultaneously compensated for multiple errors: controls, data, and reproduction code"
+type: software
+version: "2026-11-12"
+date-released: "2026-11-12"
+url: "https://github.com/tongenspace/composite-quantum-gates"
+repository-code: "https://github.com/tongenspace/composite-quantum-gates"
+authors:
+  - family-names: Tonchev
+    given-names: Hristo G.
+  - family-names: Vitanov
+    given-names: Nikolay V.
+abstract: "Pulse controls, two-level models, numerical results, and reproduction procedures for manuscript AR12946."

@@ -1,0 +1,1073 @@
+[
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.4788178150367504,
+        -2.086549533032623,
+        0.4089131438478759,
+        -2.43628347525895,
+        2.352670483636288,
+        2.1663164302934526,
+        -2.783520839550426,
+        0.011529875141269574,
+        -2.1376256480660336,
+        2.8183591952730573,
+        1.1557777297147283
+      ],
+      "amplitudes": [
+        0.9450960012460669,
+        0.941306901035046,
+        0.9405886833834773,
+        0.9379169925455821,
+        0.8855294359506755,
+        1.0070338853172722,
+        0.9357863712255694,
+        0.9398340725968838,
+        0.941566262267048,
+        0.9484213171532367,
+        0.9475101665889843
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.7949653957304452e-24,
+      "native_mean": 6.9952229671365e-06,
+      "peak_mean": 7.076153850149275e-06,
+      "area_over_target": 10.37059008930984,
+      "duration_over_target": 11.077372738489995,
+      "native_fraction": 0.9954229140366042,
+      "peak_fraction": 0.9952860989670462,
+      "native_sobol_mean": 6.99542803552655e-06,
+      "peak_sobol_mean": 7.076361437981149e-06,
+      "native_sobol_max": 0.00019814010089459538,
+      "peak_sobol_max": 0.00020023962354466518,
+      "wide_mean": 0.0006046555431490707
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 1.7949653957304452e-24,
+        "mean": 0.01580435935187998,
+        "fraction_below_1e4": 0.2935740449375315,
+        "area_over_target": 10.37059008930984,
+        "duration_over_target": 11.077372738489995
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 1.7949653957304452e-24,
+        "mean": 0.016064897342898052,
+        "fraction_below_1e4": 0.2915902264289401,
+        "area_over_target": 10.37059008930984,
+        "duration_over_target": 11.077372738489995
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 81,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.5925052238794333,
+        -1.9943053837917528,
+        0.4795397332605411,
+        -2.3902101028923273,
+        2.3737476605808485,
+        2.1664307879562044,
+        -2.8052090440017343,
+        -0.03560157626380889,
+        -2.210608785701244,
+        2.7213967933231764,
+        1.0395654837770998
+      ],
+      "amplitudes": [
+        0.9464128209758937,
+        0.9429034372024983,
+        0.9418473718259184,
+        0.9387971677240774,
+        0.8881025711485661,
+        1.0081114553577715,
+        0.9363841186468566,
+        0.9409466718397093,
+        0.9431919316248278,
+        0.9503243261656951,
+        0.9488121200643812
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.4303722718022606e-24,
+      "native_mean": 6.994694395504488e-06,
+      "peak_mean": 7.092287927702851e-06,
+      "area_over_target": 10.385833992576195,
+      "duration_over_target": 11.089226008935485,
+      "native_fraction": 0.9960448007164134,
+      "peak_fraction": 0.9958893290464611,
+      "native_sobol_mean": 6.994893032301952e-06,
+      "peak_sobol_mean": 7.0924895394124006e-06,
+      "native_sobol_max": 0.00019030526247669407,
+      "peak_sobol_max": 0.00019285260653286734,
+      "wide_mean": 0.0006015672323939877
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 2.4303722718022606e-24,
+        "mean": 0.015774976754842598,
+        "fraction_below_1e4": 0.2952780144402087,
+        "area_over_target": 10.385833992576195,
+        "duration_over_target": 11.089226008935485
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 2.4303722718022606e-24,
+        "mean": 0.01606963154156168,
+        "fraction_below_1e4": 0.29281534318816427,
+        "area_over_target": 10.385833992576195,
+        "duration_over_target": 11.089226008935485
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 43,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 0,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.6078823977392345,
+        -1.9826967100932702,
+        0.48796337989734795,
+        -2.3853442533126223,
+        2.3764330601065167,
+        2.1677549742337963,
+        -2.8054926072880733,
+        -0.03857847342636145,
+        -2.2168963861292594,
+        2.710928563587144,
+        1.0240383083333775
+      ],
+      "amplitudes": [
+        0.9455901721493808,
+        0.9428271129566724,
+        0.9422263941853556,
+        0.9392478608837909,
+        0.8878388368066271,
+        1.0093788338138732,
+        0.9370420190620173,
+        0.9422830926375636,
+        0.9451881436400921,
+        0.9508000415143181,
+        0.947707893917148
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.241415182508476e-26,
+      "native_mean": 6.994531989871096e-06,
+      "peak_mean": 7.1107332201537544e-06,
+      "area_over_target": 10.390130401566838,
+      "duration_over_target": 11.103167171952604,
+      "native_fraction": 0.9963681817899143,
+      "peak_fraction": 0.9961816157859715,
+      "native_sobol_mean": 6.994728196250002e-06,
+      "peak_sobol_mean": 7.110932855236638e-06,
+      "native_sobol_max": 0.00018421786749972356,
+      "peak_sobol_max": 0.00018704576614612944,
+      "wide_mean": 0.0005943091440975853
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 2.241415182508476e-26,
+        "mean": 0.015685669593258424,
+        "fraction_below_1e4": 0.2965901953346061,
+        "area_over_target": 10.390130401566838,
+        "duration_over_target": 11.103167171952604
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 2.241415182508476e-26,
+        "mean": 0.01602500072107571,
+        "fraction_below_1e4": 0.2938663316770418,
+        "area_over_target": 10.390130401566838,
+        "duration_over_target": 11.103167171952604
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 27,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.4943759216649424,
+        -0.7458476696222798,
+        2.989910457232453,
+        1.3511665281472434,
+        1.0930823934966698,
+        2.1557295018144895,
+        -1.608176797102974,
+        2.4653726828260254,
+        1.663613733141692,
+        1.5944206394253522,
+        1.1858013744707216
+      ],
+      "amplitudes": [
+        0.9492680837608394,
+        0.9408406913680128,
+        0.938495371422982,
+        0.9641367240175468,
+        0.889431495666894,
+        0.9398969699536889,
+        0.9385292768982273,
+        0.9398826107834395,
+        0.8711421768739898,
+        0.9641367238035791,
+        0.9641367240181866
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.932018354642749e-23,
+      "native_mean": 6.996701599366061e-06,
+      "peak_mean": 6.902332322343141e-06,
+      "area_over_target": 10.299896848567386,
+      "duration_over_target": 10.605503964200054,
+      "native_fraction": 0.9991542341154594,
+      "peak_fraction": 0.999123139781469,
+      "native_sobol_mean": 6.996960841091481e-06,
+      "peak_sobol_mean": 6.902593070958809e-06,
+      "native_sobol_max": 0.00010991136106382727,
+      "peak_sobol_max": 0.00010988067815205643,
+      "wide_mean": 0.0005002029768189923
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 4.932018354642749e-23,
+        "mean": 0.017503718587246083,
+        "fraction_below_1e4": 0.2784559797513697,
+        "area_over_target": 10.299896848567386,
+        "duration_over_target": 10.605503964200054
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 4.932018354642749e-23,
+        "mean": 0.017070407957455576,
+        "fraction_below_1e4": 0.28874198543541396,
+        "area_over_target": 10.299896848567386,
+        "duration_over_target": 10.605503964200054
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 221,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.536493581511686,
+        -0.7120042850623398,
+        3.015505740286108,
+        1.369966048415952,
+        1.1043267250818136,
+        2.1552938420736263,
+        -1.619102706421141,
+        2.4493194988174807,
+        1.641738657080956,
+        1.5620920836499472,
+        1.1436366604144332
+      ],
+      "amplitudes": [
+        0.9482321307217049,
+        0.9395669988268445,
+        0.9374686103506585,
+        0.9627931858419512,
+        0.8880406345655191,
+        0.9386520236624324,
+        0.9371184180936439,
+        0.9376122699372013,
+        0.8707163999324568,
+        0.9627931858417449,
+        0.9627931855460115
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.781116439116166e-26,
+      "native_mean": 6.996682936236539e-06,
+      "peak_mean": 6.876292134687896e-06,
+      "area_over_target": 10.28578704332017,
+      "duration_over_target": 10.590725044261465,
+      "native_fraction": 0.9997512453280764,
+      "peak_fraction": 0.9997388075944801,
+      "native_sobol_mean": 6.996942290303919e-06,
+      "peak_sobol_mean": 6.876552345025071e-06,
+      "native_sobol_max": 0.00010398781312905605,
+      "peak_sobol_max": 0.00010400175125647133,
+      "wide_mean": 0.0005029560742682353
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 8.781116439116166e-26,
+        "mean": 0.017333823301047373,
+        "fraction_below_1e4": 0.2794447795722663,
+        "area_over_target": 10.28578704332017,
+        "duration_over_target": 10.590725044261465
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 8.781116439116166e-26,
+        "mean": 0.01689024874123424,
+        "fraction_below_1e4": 0.29006660406340756,
+        "area_over_target": 10.28578704332017,
+        "duration_over_target": 10.590725044261465
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 68,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 1,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.5368422591966535,
+        -0.7120214719696731,
+        3.0164847190021895,
+        1.3713752573445683,
+        1.1055582808504791,
+        2.15536104226104,
+        -1.6196644109614933,
+        2.4502270075636545,
+        1.643640279076532,
+        1.5626161185578624,
+        1.1428441769380475
+      ],
+      "amplitudes": [
+        0.949296286415498,
+        0.9403415393058384,
+        0.938194612030769,
+        0.9635180479972977,
+        0.8887354039197921,
+        0.9393596727015476,
+        0.9379626083362691,
+        0.9381382154909648,
+        0.8717557181812424,
+        0.9635180479823245,
+        0.9635180479822575
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.708895044369514e-26,
+      "native_mean": 6.996367152264857e-06,
+      "peak_mean": 6.868889322116087e-06,
+      "area_over_target": 10.2943382003438,
+      "duration_over_target": 10.598698527970274,
+      "native_fraction": 1.0,
+      "peak_fraction": 1.0,
+      "native_sobol_mean": 6.996620640527197e-06,
+      "peak_sobol_mean": 6.869143311389931e-06,
+      "native_sobol_max": 9.770107289297737e-05,
+      "peak_sobol_max": 9.769524667841243e-05,
+      "wide_mean": 0.0004918293603257391
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 9.708895044369514e-26,
+        "mean": 0.01720559864577997,
+        "fraction_below_1e4": 0.28017238698764313,
+        "area_over_target": 10.2943382003438,
+        "duration_over_target": 10.598698527970274
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 9.708895044369514e-26,
+        "mean": 0.01676814627385736,
+        "fraction_below_1e4": 0.2906511775424282,
+        "area_over_target": 10.2943382003438,
+        "duration_over_target": 10.598698527970274
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 81,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.4943556384780026,
+        -0.7458642232567771,
+        2.989897094193088,
+        1.351157478086237,
+        1.0930783552238,
+        2.155730096697254,
+        -1.608172602695202,
+        2.465380224377572,
+        1.6636249872232192,
+        1.594436095602207,
+        1.1858215647959387
+      ],
+      "amplitudes": [
+        0.9492676847769609,
+        0.9408401902825709,
+        0.9384949345084143,
+        0.964136523868208,
+        0.8894314129313664,
+        0.93989661528346,
+        0.9385290861839539,
+        0.9398826367271319,
+        0.871141602944453,
+        0.9641365215049191,
+        0.964136523194975
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.054647232173744e-24,
+      "native_mean": 6.996701710949927e-06,
+      "peak_mean": 6.902334173159416e-06,
+      "area_over_target": 10.299893732206412,
+      "duration_over_target": 10.605501762550288,
+      "native_fraction": 0.9991542341154594,
+      "peak_fraction": 0.999123139781469,
+      "native_sobol_mean": 6.996960954279911e-06,
+      "peak_sobol_mean": 6.902594923287981e-06,
+      "native_sobol_max": 0.00010991232759524226,
+      "peak_sobol_max": 0.00010988162891538043,
+      "wide_mean": 0.0005002054019453248
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 9.054647232173744e-24,
+        "mean": 0.01750374605982339,
+        "fraction_below_1e4": 0.2784559797513697,
+        "area_over_target": 10.299893732206412,
+        "duration_over_target": 10.605501762550288
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 9.054647232173744e-24,
+        "mean": 0.017070429144332266,
+        "fraction_below_1e4": 0.28874198543541396,
+        "area_over_target": 10.299893732206412,
+        "duration_over_target": 10.605501762550288
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 154,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.5365190108337101,
+        -0.7119952284982491,
+        3.0155033174957904,
+        1.3699644528082988,
+        1.1043293803715812,
+        2.155293398655319,
+        -1.619113811806613,
+        2.449297014554274,
+        1.6417105437871902,
+        1.5620652376914395,
+        1.14360788242616
+      ],
+      "amplitudes": [
+        0.9482320787906541,
+        0.9395667201275162,
+        0.9374681835508908,
+        0.9627931984982269,
+        0.8880400831642301,
+        0.9386521245011453,
+        0.9371185593239452,
+        0.9376122195832783,
+        0.8707157552482598,
+        0.9627931978484903,
+        0.962793197883274
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 3.061218123995875e-25,
+      "native_mean": 6.99668306626692e-06,
+      "peak_mean": 6.876292158751331e-06,
+      "area_over_target": 10.28578531851991,
+      "duration_over_target": 10.590725183480496,
+      "native_fraction": 0.9997512453280764,
+      "peak_fraction": 0.9997388075944801,
+      "native_sobol_mean": 6.996942422765859e-06,
+      "peak_sobol_mean": 6.876552371209026e-06,
+      "native_sobol_max": 0.00010398882456243326,
+      "peak_sobol_max": 0.00010400275952747078,
+      "wide_mean": 0.0005029642558683657
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 3.061218123995875e-25,
+        "mean": 0.017333923397055112,
+        "fraction_below_1e4": 0.2794447795722663,
+        "area_over_target": 10.28578531851991,
+        "duration_over_target": 10.590725183480496
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 3.061218123995875e-25,
+        "mean": 0.016890345218615557,
+        "fraction_below_1e4": 0.2900603851966095,
+        "area_over_target": 10.28578531851991,
+        "duration_over_target": 10.590725183480496
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 58,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 1.5e-05,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  },
+  {
+    "name": "X11c",
+    "stage": "coverage",
+    "start_index": 2,
+    "controls": {
+      "name": "X11c",
+      "N": 11,
+      "theta": 3.141592653589793,
+      "phases": [
+        1.5369227763783968,
+        -0.7119651372099147,
+        3.0165296072548733,
+        1.3714096028137082,
+        1.1055771739039244,
+        2.1553620955221477,
+        -1.6196790718451195,
+        2.450198739399382,
+        1.6435978935764792,
+        1.5625578211686024,
+        1.1427621593814425
+      ],
+      "amplitudes": [
+        0.9492959424420511,
+        0.9403411554300009,
+        0.9381942978011044,
+        0.9635173786602191,
+        0.8887351812874651,
+        0.9393601824619757,
+        0.9379624401412097,
+        0.9381370098480436,
+        0.871756837166279,
+        0.9635173786601032,
+        0.9635173785160395
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/refine_exact_x.py; seed=202610172",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.565135306556486e-25,
+      "native_mean": 6.9963673938648175e-06,
+      "peak_mean": 6.868874386444086e-06,
+      "area_over_target": 10.294335182414493,
+      "duration_over_target": 10.59869116526241,
+      "native_fraction": 1.0,
+      "peak_fraction": 1.0,
+      "native_sobol_mean": 6.996620886498172e-06,
+      "peak_sobol_mean": 6.869128380297443e-06,
+      "native_sobol_max": 9.770280423957092e-05,
+      "peak_sobol_max": 9.76970450152454e-05,
+      "wide_mean": 0.0004918311601982143
+    },
+    "wide_domain_metrics": {
+      "native": {
+        "name": "X11c",
+        "N": 11,
+        "center": 6.565135306556486e-25,
+        "mean": 0.017205525563547222,
+        "fraction_below_1e4": 0.28017238698764313,
+        "area_over_target": 10.294335182414493,
+        "duration_over_target": 10.59869116526241
+      },
+      "peak": {
+        "name": "X11c",
+        "N": 11,
+        "center": 6.565135306556486e-25,
+        "mean": 0.016768078129975553,
+        "fraction_below_1e4": 0.2906511775424282,
+        "area_over_target": 10.294335182414493,
+        "duration_over_target": 10.59869116526241
+      }
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 80,
+    "protocol": {
+      "seed": 202610172,
+      "grid": 121,
+      "halfwidth": 0.5,
+      "temperature": 4e-06,
+      "mean_grid": 51,
+      "mean_budget_ratio": 0.998,
+      "area_cap": 10.8489,
+      "peak_cap": 1.1016,
+      "nominal": "exact full unitary",
+      "baseline_wide": {
+        "native": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.01613195292856318,
+          "fraction_below_1e4": 0.2496613939192738,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        },
+        "peak": {
+          "name": "X11c",
+          "N": 11,
+          "center": 3.0794112579374043e-06,
+          "mean": 0.02132402585858295,
+          "fraction_below_1e4": 0.22660189120652866,
+          "area_over_target": 10.8489,
+          "duration_over_target": 12.1176
+        }
+      }
+    }
+  }
+]

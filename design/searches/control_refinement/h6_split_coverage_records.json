@@ -1,0 +1,632 @@
+[
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 0,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.5506631114083911,
+        3.1198624503800794,
+        2.437926741127476,
+        0.6141898731959876,
+        3.0266604911403823,
+        1.631773104571538
+      ],
+      "amplitudes": [
+        1.0018896560274169,
+        1.4090443315534855,
+        0.48157673959258696,
+        0.7700661013790874,
+        1.4538385376506853,
+        0.30491735073857107
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 5.115559810428194e-26,
+      "native_mean": 0.0003838698835366114,
+      "peak_mean": 0.0005252800797641401,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 17.446062451808224,
+      "native_fraction": 0.5428262262050609,
+      "peak_fraction": 0.4182063544380943,
+      "native_sobol_mean": 0.0003838761060901058,
+      "peak_sobol_mean": 0.000525291686391699,
+      "native_sobol_max": 0.004342417861258349,
+      "peak_sobol_max": 0.006573554743877955,
+      "wide_mean": 0.004939910485445258
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 5.115559810428194e-26,
+      "mean": 0.04716352917325361,
+      "fraction_below_1e4": 0.08709522950727919,
+      "area_over_target": 10.842665433883665,
+      "duration_over_target": 17.446062451808224
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 39,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 0,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.531293738642804,
+        3.094952419546713,
+        2.4192451755702447,
+        0.5958826397642372,
+        3.0115207767870045,
+        1.6387645422738846
+      ],
+      "amplitudes": [
+        1.0071751862028768,
+        1.4100694691074502,
+        0.478108252646532,
+        0.7694031233053125,
+        1.4500077197553698,
+        0.3065689659242919
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.822815746616288e-23,
+      "native_mean": 0.00039947704457965775,
+      "peak_mean": 0.0005176227698193785,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 17.40009263706444,
+      "native_fraction": 0.5548721711929652,
+      "peak_fraction": 0.42628466240881585,
+      "native_sobol_mean": 0.000399483376945864,
+      "peak_sobol_mean": 0.0005176341513066899,
+      "native_sobol_max": 0.004541857901710202,
+      "peak_sobol_max": 0.006056715935706145,
+      "wide_mean": 0.004934292460268125
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 6.822815746616288e-23,
+      "mean": 0.0469986817655195,
+      "fraction_below_1e4": 0.08797830859260826,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 17.40009263706444
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 18,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 0,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.5136745809670993,
+        3.0737229820693255,
+        2.401947475606365,
+        0.5798983141079308,
+        3.0003515335830366,
+        1.6471642349302424
+      ],
+      "amplitudes": [
+        1.0110395139978026,
+        1.4092367348798194,
+        0.4766512153877312,
+        0.7684545532196649,
+        1.4455668179383625,
+        0.3094781578998373
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.4238065337966582e-24,
+      "native_mean": 0.00041794515783322416,
+      "peak_mean": 0.0005128727461043005,
+      "area_over_target": 10.840853986646437,
+      "duration_over_target": 17.34680181526035,
+      "native_fraction": 0.5605624343132194,
+      "peak_fraction": 0.4309612502409811,
+      "native_sobol_mean": 0.00041795162552884894,
+      "peak_sobol_mean": 0.0005128839333440646,
+      "native_sobol_max": 0.004784582124106352,
+      "peak_sobol_max": 0.005344487666683562,
+      "wide_mean": 0.004949432247942018
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.4238065337966582e-24,
+      "mean": 0.046928281346562135,
+      "fraction_below_1e4": 0.08850069340364798,
+      "area_over_target": 10.840853986646437,
+      "duration_over_target": 17.34680181526035
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 22,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 1,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        1.3061011912627913,
+        -1.0281545323385983,
+        -1.8472586593552693,
+        -0.5970703436581655,
+        2.676569855396469,
+        1.4533430969920227
+      ],
+      "amplitudes": [
+        0.49152013476181783,
+        0.9009435859274961,
+        0.7599598824737706,
+        0.9983233196596109,
+        0.9973914876362783,
+        1.2731943064828595
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.148053864639897e-31,
+      "native_mean": 0.00044328002606325436,
+      "peak_mean": 0.0007558811658684813,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.278331677794313,
+      "native_fraction": 0.4371179283710922,
+      "peak_fraction": 0.35792687856418803,
+      "native_sobol_mean": 0.00044328723595510105,
+      "peak_sobol_mean": 0.0007558939050070938,
+      "native_sobol_max": 0.006349591948912391,
+      "peak_sobol_max": 0.008064550073257133,
+      "wide_mean": 0.007286521946798849
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 2.148053864639897e-31,
+      "mean": 0.05526470493682502,
+      "fraction_below_1e4": 0.058264563031324434,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.278331677794313
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 38,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 1,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        1.3080325664862071,
+        -1.0278528815038879,
+        -1.8490656635366298,
+        -0.5987714371388062,
+        2.674368055158416,
+        1.4481820111678907
+      ],
+      "amplitudes": [
+        0.4917949021572662,
+        0.8980474165917611,
+        0.7647145938898233,
+        0.9958098092904638,
+        0.9956019351473453,
+        1.2753640598651734
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 2.024665952869488e-30,
+      "native_mean": 0.0004432793217311603,
+      "peak_mean": 0.000757861676741114,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.304368718382081,
+      "native_fraction": 0.4383306073967202,
+      "peak_fraction": 0.3584368256416316,
+      "native_sobol_mean": 0.0004432865148739517,
+      "peak_sobol_mean": 0.0007578744156079707,
+      "native_sobol_max": 0.006347920702441942,
+      "peak_sobol_max": 0.008042344445851004,
+      "wide_mean": 0.007280351610455298
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 2.024665952869488e-30,
+      "mean": 0.055179442254534555,
+      "fraction_below_1e4": 0.05825212529772825,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.304368718382081
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 17,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 1,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        1.3042650342510074,
+        -1.0304765614929123,
+        -1.850382980380205,
+        -0.6032632942996381,
+        2.6708820863356575,
+        1.4495798884285147
+      ],
+      "amplitudes": [
+        0.4918508544742488,
+        0.8991794925206706,
+        0.7612126076719788,
+        0.998076497097049,
+        0.9972705859148611,
+        1.2737426792630249
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 6.325177641955448e-29,
+      "native_mean": 0.0004432796084610829,
+      "peak_mean": 0.0007590069986190457,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.2849121511563,
+      "native_fraction": 0.4327398461452354,
+      "peak_fraction": 0.3540027736145919,
+      "native_sobol_mean": 0.00044328680846757727,
+      "peak_sobol_mean": 0.0007590197561269122,
+      "native_sobol_max": 0.006267203467715252,
+      "peak_sobol_max": 0.007967556924266856,
+      "wide_mean": 0.007262539800822288
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 6.325177641955448e-29,
+      "mean": 0.055126882333462746,
+      "fraction_below_1e4": 0.05820237436334351,
+      "area_over_target": 10.842665433883667,
+      "duration_over_target": 15.2849121511563
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 17,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 2,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.668609398074794,
+        0.7231766137509639,
+        2.808625068464284,
+        0.9060306387836681,
+        0.754530973296843,
+        2.3701017069452988
+      ],
+      "amplitudes": [
+        0.8990458269300575,
+        1.1739498957418757,
+        0.9234561277421249,
+        0.9079653610766936,
+        0.8730053895375621,
+        0.6440699489344754
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.104753570049314e-09,
+      "native_mean": 0.00044593079960079897,
+      "peak_mean": 0.000532040679520835,
+      "area_over_target": 10.842985099925578,
+      "duration_over_target": 14.087398748902508,
+      "native_fraction": 0.35953756506489387,
+      "peak_fraction": 0.30652172561115915,
+      "native_sobol_mean": 0.0004459398690196134,
+      "peak_sobol_mean": 0.0005320515150558044,
+      "native_sobol_max": 0.003543217871499407,
+      "peak_sobol_max": 0.003821798206816418,
+      "wide_mean": 0.006200282642039302
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.104753570049314e-09,
+      "mean": 0.04208821497527014,
+      "fraction_below_1e4": 0.03236920168406913,
+      "area_over_target": 10.842985099925578,
+      "duration_over_target": 14.087398748902508
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 475,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 2,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.668614348484514,
+        0.7231886641501619,
+        2.8086559401341553,
+        0.9060667745919586,
+        0.7545525875631376,
+        2.3701133571234525
+      ],
+      "amplitudes": [
+        0.8990284110501781,
+        1.1739664886316445,
+        0.9234587105289107,
+        0.907963190327813,
+        0.8730107037629795,
+        0.6440683747365833
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.0542664220571493e-09,
+      "native_mean": 0.0004459582346052589,
+      "peak_mean": 0.0005320853468442553,
+      "area_over_target": 10.84299175807622,
+      "duration_over_target": 14.087597863579733,
+      "native_fraction": 0.3595126895977015,
+      "peak_fraction": 0.30651550674436107,
+      "native_sobol_mean": 0.0004459673041172285,
+      "peak_sobol_mean": 0.00053209618279602,
+      "native_sobol_max": 0.003543242539218349,
+      "peak_sobol_max": 0.003822353929907872,
+      "wide_mean": 0.006200331655322767
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.0542664220571493e-09,
+      "mean": 0.042088345546373106,
+      "fraction_below_1e4": 0.032362982817271034,
+      "area_over_target": 10.84299175807622,
+      "duration_over_target": 14.087597863579733
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 113,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  },
+  {
+    "name": "H6",
+    "stage": "coverage_polish",
+    "start_index": 2,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "H6",
+      "N": 6,
+      "theta": 1.5707963267948966,
+      "phases": [
+        0.6686103648219177,
+        0.7231846782342326,
+        2.808652854350674,
+        0.9060640476554997,
+        0.7545516106061414,
+        2.370112331716159
+      ],
+      "amplitudes": [
+        0.8990317653763352,
+        1.1739645185670804,
+        0.9234588010984242,
+        0.9079632827773119,
+        0.8730109944185644,
+        0.6440698410232821
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/coverage_x9_h6.py; deterministic starts from h6_split_seed_records.json",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 1.0374697274229692e-09,
+      "native_mean": 0.00044596350932399396,
+      "peak_mean": 0.0005320881142013059,
+      "area_over_target": 10.842998406521996,
+      "duration_over_target": 14.087574222804966,
+      "native_fraction": 0.3595126895977015,
+      "peak_fraction": 0.30650928787756293,
+      "native_sobol_mean": 0.0004459725788477169,
+      "peak_sobol_mean": 0.0005320989501194339,
+      "native_sobol_max": 0.0035432813513001705,
+      "peak_sobol_max": 0.003822308753012533,
+      "wide_mean": 0.006200324010249973
+    },
+    "wide_domain_metrics": {
+      "name": "H6",
+      "N": 6,
+      "center": 1.0374697274229692e-09,
+      "mean": 0.04208827094625065,
+      "fraction_below_1e4": 0.032362982817271034,
+      "area_over_target": 10.842998406521996,
+      "duration_over_target": 14.087574222804966
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 131,
+    "protocol": {
+      "grid": 101,
+      "halfwidth": 0.5,
+      "nominal": "exact unitary",
+      "native_mean_budget": 1.1,
+      "peak_mean_budget": 1.05
+    }
+  }
+]

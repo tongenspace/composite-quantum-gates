@@ -1,0 +1,752 @@
+[
+  {
+    "name": "X5c",
+    "start_index": 0,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.070988518813973,
+        3.049564017424875,
+        0.9871859040564388,
+        3.049564030373098,
+        2.070988537061001
+      ],
+      "amplitudes": [
+        0.9937619439142442,
+        1.994017424411844,
+        0.995818175354794,
+        1.994017424412403,
+        0.9937619440007573
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014887948346125544,
+      "native_mean": 0.00022640285006708208,
+      "peak_mean": 0.0017519287182502386,
+      "area_over_target": 6.971376912094042,
+      "duration_over_target": 9.970087122062015,
+      "native_fraction": 0.47040752234127897,
+      "peak_fraction": 0.23569505164768875,
+      "native_sobol_mean": 0.00022641193301365032,
+      "peak_sobol_mean": 0.001751969490601972,
+      "native_sobol_max": 0.002302503750188936,
+      "peak_sobol_max": 0.010259663856412596,
+      "wide_mean": 0.01022833719807433
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 57
+  },
+  {
+    "name": "X5c",
+    "start_index": 0,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0685061967844334,
+        3.043768819656126,
+        0.9823948916202232,
+        3.043768904258279,
+        2.068506374433941
+      ],
+      "amplitudes": [
+        0.9936993250851855,
+        1.9947546419873938,
+        0.9965706677063307,
+        1.994754641989097,
+        0.9936993253845319
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014538583490108467,
+      "native_mean": 0.00022640080438665865,
+      "peak_mean": 0.001751923489744468,
+      "area_over_target": 6.973478602152539,
+      "duration_over_target": 9.973773209945485,
+      "native_fraction": 0.4710915976890691,
+      "peak_fraction": 0.23618012325793994,
+      "native_sobol_mean": 0.00022640983876362085,
+      "peak_sobol_mean": 0.001751964137219751,
+      "native_sobol_max": 0.0023164929954120794,
+      "peak_sobol_max": 0.010326109860612984,
+      "wide_mean": 0.010191775285649511
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 31
+  },
+  {
+    "name": "X5c",
+    "start_index": 0,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.065527210301978,
+        3.036698461837764,
+        0.9766806696266706,
+        3.0366982718798923,
+        2.065526945209129
+      ],
+      "amplitudes": [
+        0.9939034960694954,
+        1.9966478662974816,
+        0.9981398996662385,
+        1.9966478662976728,
+        0.993903494672795
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014094018193463255,
+      "native_mean": 0.0002263978866173492,
+      "peak_mean": 0.0017519183687182908,
+      "area_over_target": 6.9792426230036835,
+      "duration_over_target": 9.983239331488365,
+      "native_fraction": 0.47142119762936796,
+      "peak_fraction": 0.23609927798956473,
+      "native_sobol_mean": 0.00022640685170956685,
+      "peak_sobol_mean": 0.0017519588933081012,
+      "native_sobol_max": 0.002321815607053627,
+      "peak_sobol_max": 0.010417748319918508,
+      "wide_mean": 0.010157465801994059
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 77
+  },
+  {
+    "name": "X5c",
+    "start_index": 1,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.070988495277426,
+        3.0495640076145536,
+        0.9871858867393106,
+        3.0495640036987037,
+        2.070988542657152
+      ],
+      "amplitudes": [
+        0.9937619494121085,
+        1.9940174211961585,
+        0.9958181665608942,
+        1.9940174211963975,
+        0.9937619496619745
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0001488794834632976,
+      "native_mean": 0.000226402850088302,
+      "peak_mean": 0.0017519287182625426,
+      "area_over_target": 6.971376908027533,
+      "duration_over_target": 9.970087105981987,
+      "native_fraction": 0.47040752234127897,
+      "peak_fraction": 0.23569505164768875,
+      "native_sobol_mean": 0.00022641193303534927,
+      "peak_sobol_mean": 0.0017519694906144119,
+      "native_sobol_max": 0.0023025033244618394,
+      "peak_sobol_max": 0.010259662596882753,
+      "wide_mean": 0.010228337453946077
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 62
+  },
+  {
+    "name": "X5c",
+    "start_index": 1,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.068506457134399,
+        3.0437690190335847,
+        0.9823949441623352,
+        3.0437688036077057,
+        2.0685061675741414
+      ],
+      "amplitudes": [
+        0.9936992863255066,
+        1.994754518742602,
+        0.9965705870758929,
+        1.9947545187750282,
+        0.993699285161407
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014538588860275493,
+      "native_mean": 0.00022640080437251944,
+      "peak_mean": 0.00175192349056829,
+      "area_over_target": 6.973478196080436,
+      "duration_over_target": 9.973772593875141,
+      "native_fraction": 0.4710915976890691,
+      "peak_fraction": 0.23618012325793994,
+      "native_sobol_mean": 0.0002264098387475224,
+      "peak_sobol_mean": 0.0017519641380385688,
+      "native_sobol_max": 0.0023164960181132283,
+      "peak_sobol_max": 0.010326098440676237,
+      "wide_mean": 0.010191772215795548
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 72
+  },
+  {
+    "name": "X5c",
+    "start_index": 1,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.065527378220777,
+        3.036698514775461,
+        0.9766807947809664,
+        3.0366985806489186,
+        2.065526913898376
+      ],
+      "amplitudes": [
+        0.9939035156587311,
+        1.9966478599985527,
+        0.9981398801205419,
+        1.9966478600034838,
+        0.9939035131182298
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014094032861288825,
+      "native_mean": 0.00022639788688095359,
+      "peak_mean": 0.0017519183792501268,
+      "area_over_target": 6.979242628899539,
+      "duration_over_target": 9.983239300017418,
+      "native_fraction": 0.47142119762936796,
+      "peak_fraction": 0.23609927798956473,
+      "native_sobol_mean": 0.00022640685197809502,
+      "peak_sobol_mean": 0.001751958903847109,
+      "native_sobol_max": 0.0023218129381203565,
+      "peak_sobol_max": 0.010417751182087601,
+      "wide_mean": 0.010157469406485464
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 70
+  },
+  {
+    "name": "X5c",
+    "start_index": 2,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0709885092834437,
+        3.049564008594313,
+        0.9871859041413442,
+        3.0495640267159736,
+        2.07098854607138
+      ],
+      "amplitudes": [
+        0.9937619295698658,
+        1.9940173888677513,
+        0.9958181548033042,
+        1.994017388867937,
+        0.99376192970489
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014887948345723148,
+      "native_mean": 0.00022640285002451262,
+      "peak_mean": 0.001751928718160923,
+      "area_over_target": 6.971376791813748,
+      "duration_over_target": 9.970086944339686,
+      "native_fraction": 0.47040752234127897,
+      "peak_fraction": 0.23569505164768875,
+      "native_sobol_mean": 0.00022641193297002864,
+      "peak_sobol_mean": 0.0017519694905103857,
+      "native_sobol_max": 0.0023025041242946166,
+      "peak_sobol_max": 0.010259663669004014,
+      "wide_mean": 0.010228335930849387
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 101
+  },
+  {
+    "name": "X5c",
+    "start_index": 2,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.06850631578628,
+        3.043768874113212,
+        0.9823948572990577,
+        3.0437687453830264,
+        2.0685062195854087
+      ],
+      "amplitudes": [
+        0.9936992940137261,
+        1.9947545605260113,
+        0.996570619258214,
+        1.994754560514106,
+        0.9936992938933278
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014538582658082418,
+      "native_mean": 0.00022640080434205206,
+      "peak_mean": 0.0017519234896777008,
+      "area_over_target": 6.973478328205385,
+      "duration_over_target": 9.973772802630055,
+      "native_fraction": 0.4710915976890691,
+      "peak_fraction": 0.23618012325793994,
+      "native_sobol_mean": 0.00022640983871671328,
+      "peak_sobol_mean": 0.0017519641371472054,
+      "native_sobol_max": 0.0023164954241584267,
+      "peak_sobol_max": 0.010326102990805747,
+      "wide_mean": 0.010191772363168372
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 67
+  },
+  {
+    "name": "X5c",
+    "start_index": 2,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.06552673618582,
+        3.0366986279740766,
+        0.9766810714247818,
+        3.0366990706256747,
+        2.0655278312358902
+      ],
+      "amplitudes": [
+        0.9939034533313315,
+        1.9966476615120476,
+        0.9981397389352108,
+        1.9966476615131732,
+        0.9939034625464414
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014094043880981923,
+      "native_mean": 0.0002263978868710044,
+      "peak_mean": 0.0017519183689310924,
+      "area_over_target": 6.979241977838204,
+      "duration_over_target": 9.983238307565866,
+      "native_fraction": 0.47142119762936796,
+      "peak_fraction": 0.23609927798956473,
+      "native_sobol_mean": 0.00022640685196647495,
+      "peak_sobol_mean": 0.001751958893525762,
+      "native_sobol_max": 0.0023218106988918135,
+      "peak_sobol_max": 0.010417760166147427,
+      "wide_mean": 0.010157465944700335
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 66
+  },
+  {
+    "name": "X5c",
+    "start_index": 3,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0709885006149023,
+        3.0495640221977887,
+        0.9871859138651944,
+        3.049564049308959,
+        2.0709885646199186
+      ],
+      "amplitudes": [
+        0.9937619498657658,
+        1.9940174346161847,
+        0.995818179167895,
+        1.994017434616683,
+        0.9937619494246331
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014887948346032774,
+      "native_mean": 0.0002264028500826998,
+      "peak_mean": 0.001751928718292031,
+      "area_over_target": 6.971376947691161,
+      "duration_over_target": 9.970087173083416,
+      "native_fraction": 0.47040752234127897,
+      "peak_fraction": 0.23569505164768875,
+      "native_sobol_mean": 0.00022641193302960143,
+      "peak_sobol_mean": 0.0017519694906447136,
+      "native_sobol_max": 0.0023025033374386465,
+      "peak_sobol_max": 0.010259664094792391,
+      "wide_mean": 0.010228337620491542
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 44
+  },
+  {
+    "name": "X5c",
+    "start_index": 3,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0685063111428432,
+        3.0437690224186404,
+        0.9823950435867879,
+        3.0437690833426547,
+        2.0685064180549784
+      ],
+      "amplitudes": [
+        0.9936993426536695,
+        1.9947546677185874,
+        0.996570676629706,
+        1.994754667718633,
+        0.993699343026596
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014538593161306988,
+      "native_mean": 0.0002264008045075226,
+      "peak_mean": 0.0017519234939404975,
+      "area_over_target": 6.973478697747192,
+      "duration_over_target": 9.973773338593164,
+      "native_fraction": 0.4710915976890691,
+      "peak_fraction": 0.23618012325793994,
+      "native_sobol_mean": 0.00022640983888714186,
+      "peak_sobol_mean": 0.001751964141422452,
+      "native_sobol_max": 0.00231649254054313,
+      "peak_sobol_max": 0.01032610814007125,
+      "wide_mean": 0.010191777935061461
+    },
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 70
+  },
+  {
+    "name": "X5c",
+    "start_index": 3,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0655273055212637,
+        3.0366987500333593,
+        0.9766809471319302,
+        3.03669871661433,
+        2.0655271499540673
+      ],
+      "amplitudes": [
+        0.9939035064104577,
+        1.9966478977250537,
+        0.9981399314765511,
+        1.9966478977250555,
+        0.9939035020192378
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014094041917528543,
+      "native_mean": 0.0002263978867262773,
+      "peak_mean": 0.001751918368697572,
+      "area_over_target": 6.9792427353563555,
+      "duration_over_target": 9.983239488625276,
+      "native_fraction": 0.4714087598957718,
+      "peak_fraction": 0.23609927798956473,
+      "native_sobol_mean": 0.00022640685182341623,
+      "peak_sobol_mean": 0.001751958893298319,
+      "native_sobol_max": 0.0023218157659721976,
+      "peak_sobol_max": 0.010417754475743864,
+      "wide_mean": 0.01015747033269419
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 72
+  },
+  {
+    "name": "X5c",
+    "start_index": 4,
+    "temperature": 4e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0709886351396314,
+        3.0495640848818546,
+        0.9871859090564108,
+        3.0495639802872736,
+        2.070988425985722
+      ],
+      "amplitudes": [
+        0.9937619519364767,
+        1.9940174444883783,
+        0.9958181873459852,
+        1.9940174444905865,
+        0.9937619511299705
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0001488794834611883,
+      "native_mean": 0.00022640285008931684,
+      "peak_mean": 0.0017519287183115834,
+      "area_over_target": 6.9713769793913976,
+      "duration_over_target": 9.970087222452934,
+      "native_fraction": 0.47040752234127897,
+      "peak_fraction": 0.23569505164768875,
+      "native_sobol_mean": 0.00022641193303640837,
+      "peak_sobol_mean": 0.0017519694906646221,
+      "native_sobol_max": 0.0023025044266765065,
+      "peak_sobol_max": 0.01025966050462679,
+      "wide_mean": 0.010228337879069484
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 90
+  },
+  {
+    "name": "X5c",
+    "start_index": 4,
+    "temperature": 1.5e-05,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.068506150048816,
+        3.0437685447462837,
+        0.9823946977572211,
+        3.0437686811666014,
+        2.068506221876964
+      ],
+      "amplitudes": [
+        0.9936992699988278,
+        1.9947545187323699,
+        0.996570602333988,
+        1.9947545187313007,
+        0.993699270180885
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00014538574699851778,
+      "native_mean": 0.00022640080418504668,
+      "peak_mean": 0.00175192348923694,
+      "area_over_target": 6.973478179977371,
+      "duration_over_target": 9.973772593661849,
+      "native_fraction": 0.4710915976890691,
+      "peak_fraction": 0.23618012325793994,
+      "native_sobol_mean": 0.00022640983855698923,
+      "peak_sobol_mean": 0.0017519641366989407,
+      "native_sobol_max": 0.0023164944358580915,
+      "peak_sobol_max": 0.01032611061104491,
+      "wide_mean": 0.010191769398200984
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 76
+  },
+  {
+    "name": "X5c",
+    "start_index": 4,
+    "temperature": 4e-06,
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0655278967997965,
+        3.0366973361818648,
+        0.9766795585132053,
+        3.036696651048368,
+        2.0655251095446188
+      ],
+      "amplitudes": [
+        0.9939035446423734,
+        1.9966482507674996,
+        0.9981402250323477,
+        1.9966482508422887,
+        0.9939035246231435
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/search_coverage.py; seed=202610143",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.0001409394247980201,
+      "native_mean": 0.00022639788582697387,
+      "peak_mean": 0.0017519183668003894,
+      "area_over_target": 6.979243795907653,
+      "duration_over_target": 9.983241254211444,
+      "native_fraction": 0.47142119762936796,
+      "peak_fraction": 0.23610549685636284,
+      "native_sobol_mean": 0.00022640685090483467,
+      "peak_sobol_mean": 0.0017519588913657155,
+      "native_sobol_max": 0.0023218206552709083,
+      "peak_sobol_max": 0.010417745069777388,
+      "wide_mean": 0.010157458954305792
+    },
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 43
+  }
+]

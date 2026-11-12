@@ -1,0 +1,9 @@
+{
+  "reference_controls_sha256": "d487c93db85e92d19007d2a4394a6d93d42d9917ee593bfa4e226f2280e70f7e",
+  "extended_registry_sha256": "c27ca9c9ff468549c7a440cfe963ebc2b9156915fcf3ff7701cc2cdd45825b36",
+  "existing_controls_preserved": true,
+  "added_controls": [
+    "X13c",
+    "X15c"
+  ]
+}

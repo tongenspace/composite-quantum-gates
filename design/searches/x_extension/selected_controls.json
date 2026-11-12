@@ -1,0 +1,308 @@
+{
+  "X13c": {
+    "controls": {
+      "name": "X13c",
+      "N": 13,
+      "theta": 3.141592653589793,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/x_extension/extend_x.py; seed=202610203",
+      "phases": [
+        -3.0759862687089274,
+        -0.15595969764908624,
+        -1.2634568321135393,
+        -0.6341876643577105,
+        -3.0398876496265355,
+        -0.9751802906447224,
+        -0.1761335549790033,
+        -1.3766702266443929,
+        2.41288345326935,
+        -1.8283048678440739,
+        -2.7792781110949054,
+        -2.4330405252465455,
+        0.5251914054048243
+      ],
+      "amplitudes": [
+        1.0768826305697583,
+        0.9910076959875151,
+        0.9554430566599643,
+        1.0121972032800366,
+        0.9710675345472101,
+        0.9135001942401754,
+        1.1313637847840483,
+        0.9532492849956232,
+        0.9654833940287678,
+        1.0708786059389828,
+        0.7968526276081015,
+        1.100117209229889,
+        1.061956778129926
+      ]
+    },
+    "native": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 5.635766294503936e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "peak": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 7.741005687165476e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "coarse_native": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 5.63531542765081e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "coarse_peak": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 7.740442868292006e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "wide_native": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 0.020314748705103233,
+      "fraction_below_1e4": 0.22223780823284253,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "wide_peak": {
+      "name": "X13c",
+      "N": 13,
+      "center": 1.7491041809650607e-31,
+      "mean": 0.022736540806768055,
+      "fraction_below_1e4": 0.19643516765092323,
+      "area_over_target": 12.999999999999998,
+      "duration_over_target": 14.70772920219263
+    },
+    "native_worst": 7.228630590348016e-06,
+    "peak_worst": 1.2050444337646384e-05,
+    "held_out": [
+      {
+        "seed": 202610194,
+        "points": 32768,
+        "native_mean": 5.635917543335492e-07,
+        "peak_mean": 7.741194840070133e-07
+      },
+      {
+        "seed": 202610195,
+        "points": 32768,
+        "native_mean": 5.635935882183979e-07,
+        "peak_mean": 7.741216821364409e-07
+      }
+    ],
+    "matrix_max_difference": 1.2368578383714635e-15,
+    "unitarity_max_error": 2.442509957314994e-15,
+    "nominal_matrix_residual": 1.7025697537556534e-15,
+    "printed_eight_decimal_nominal_infidelity": 4.72421275799453e-16,
+    "selection": {
+      "criterion": "Lowest equally weighted native/common-peak mean among successful polished feasible candidates",
+      "source_stage": "polish",
+      "start_index": 1,
+      "seed": 202610203,
+      "training_grids": [
+        25,
+        51
+      ],
+      "validation_grids": [
+        401,
+        801
+      ],
+      "half_width": 0.15,
+      "area_cap_over_pi": 13,
+      "amplitude_bounds": [
+        0.05,
+        2.0
+      ],
+      "nominal": "Full target unitary up to global phase; supplied/printed infidelity <1e-12",
+      "limitation": "Best found under the disclosed search; no global-optimality or perturbative-order claim"
+    }
+  },
+  "X15c": {
+    "controls": {
+      "name": "X15c",
+      "N": 15,
+      "theta": 3.141592653589793,
+      "model": "drive",
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/x_extension/extend_x.py; seed=202610205",
+      "phases": [
+        2.4980563544965406,
+        2.761813815452408,
+        1.879758730062652,
+        -0.5127213003033555,
+        1.8632644958906095,
+        2.7145165541118956,
+        2.2417319764847923,
+        1.0496252376803277,
+        -0.7280690304534416,
+        1.712631227221582,
+        1.6618568708748915,
+        -0.6462043391844929,
+        1.2042380531021966,
+        0.15599090299327223,
+        2.8132607094438447
+      ],
+      "amplitudes": [
+        1.140297227356545,
+        0.7171899216349111,
+        1.075814382527477,
+        1.024548990477205,
+        1.0799302519692102,
+        0.7480583989206571,
+        1.1402972273935241,
+        1.001428682845813,
+        1.0123562114329556,
+        1.0207150940784484,
+        0.9785985204520947,
+        1.0000604949875207,
+        0.9791758840119995,
+        1.0522022637502417,
+        1.0293264481613986
+      ]
+    },
+    "native": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 1.5245182034491335e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "peak": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 2.570670543025513e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "coarse_native": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 1.524381432769546e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "coarse_peak": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 2.5704125085468924e-07,
+      "fraction_below_1e4": 1.0,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "wide_native": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 0.028741213454103305,
+      "fraction_below_1e4": 0.2428409556718272,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "wide_peak": {
+      "name": "X15c",
+      "N": 15,
+      "center": 1.0678591575784129e-26,
+      "mean": 0.03495756020253439,
+      "fraction_below_1e4": 0.21295789750951136,
+      "area_over_target": 15.000000000000004,
+      "duration_over_target": 17.10445841090286
+    },
+    "native_worst": 3.3990500678276994e-06,
+    "peak_worst": 9.491277076861503e-06,
+    "held_out": [
+      {
+        "seed": 202610194,
+        "points": 32768,
+        "native_mean": 1.5245642937830685e-07,
+        "peak_mean": 2.570758366370432e-07
+      },
+      {
+        "seed": 202610195,
+        "points": 32768,
+        "native_mean": 1.524555157255643e-07,
+        "peak_mean": 2.570739691842396e-07
+      }
+    ],
+    "matrix_max_difference": 2.3141211169530607e-15,
+    "unitarity_max_error": 4.440898641200652e-15,
+    "nominal_matrix_residual": 1.808503903604457e-13,
+    "printed_eight_decimal_nominal_infidelity": 3.356208482077719e-16,
+    "selection": {
+      "criterion": "Lowest equally weighted native/common-peak mean among successful polished feasible candidates",
+      "source_stage": "polish",
+      "start_index": 5,
+      "seed": 202610205,
+      "training_grids": [
+        25,
+        51
+      ],
+      "validation_grids": [
+        401,
+        801
+      ],
+      "half_width": 0.15,
+      "area_cap_over_pi": 15,
+      "amplitude_bounds": [
+        0.05,
+        2.0
+      ],
+      "nominal": "Full target unitary up to global phase; supplied/printed infidelity <1e-12",
+      "limitation": "Best found under the disclosed search; no global-optimality or perturbative-order claim"
+    }
+  }
+}

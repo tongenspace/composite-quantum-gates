@@ -1,0 +1,522 @@
+[
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0514018706906594,
+        2.995307312900203,
+        0.9493587187923893,
+        2.995307744658426,
+        2.0514022778947583
+      ],
+      "amplitudes": [
+        0.9925343283038955,
+        1.999999976279716,
+        1.000602562108536,
+        1.9999999785418565,
+        0.9925343407327442
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00015715485016711851,
+      "native_mean": 0.00021544689121577096,
+      "peak_mean": 0.001683427869224249,
+      "area_over_target": 6.985671185966749,
+      "duration_over_target": 9.999999892709283,
+      "native_fraction": 0.34720555220427735,
+      "peak_fraction": 0.17358722893514344,
+      "native_sobol_mean": 0.00021545428801972858,
+      "peak_sobol_mean": 0.0016834663229983037,
+      "native_sobol_max": 0.0020272575367368344,
+      "peak_sobol_max": 0.01002529385191394,
+      "wide_mean": 0.009179551109698394
+    },
+    "nominal_ratio": 0.95,
+    "native_ratio": 0.95,
+    "start_index": 0,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 30,
+    "seconds": 2.9550759999999627
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.051401785417143,
+        2.9952951420362437,
+        0.9493512849785084,
+        2.9952902538832493,
+        2.051396107628376
+      ],
+      "amplitudes": [
+        0.9925379258122616,
+        1.999999999999856,
+        1.0006004155549513,
+        1.999999999999856,
+        0.9925378905750417
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00015715058948056625,
+      "native_mean": 0.0002154161928183665,
+      "peak_mean": 0.001683445723360588,
+      "area_over_target": 6.985676231941967,
+      "duration_over_target": 9.999999999999279,
+      "native_fraction": 0.34718067673708497,
+      "peak_fraction": 0.17358722893514344,
+      "native_sobol_mean": 0.0002154235885814295,
+      "peak_sobol_mean": 0.001683484176386813,
+      "native_sobol_max": 0.0020267827086842215,
+      "peak_sobol_max": 0.010024197550004289,
+      "wide_mean": 0.009178898926503065
+    },
+    "nominal_ratio": 0.95,
+    "native_ratio": 0.95,
+    "start_index": 1,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 31,
+    "seconds": 0.7998833999999988
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0439868605372595,
+        2.9753221564264427,
+        0.9368324968722508,
+        2.9753222527851513,
+        2.0439881302089296
+      ],
+      "amplitudes": [
+        0.9955161375917394,
+        1.9999999978576635,
+        1.000394267541107,
+        1.9999999978367509,
+        0.9955161343881564
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.271159078440755e-05,
+      "native_mean": 0.00022669644752027718,
+      "peak_mean": 0.0018682684536104885,
+      "area_over_target": 6.991426535215417,
+      "duration_over_target": 9.999999989288318,
+      "native_fraction": 0.37442553217952623,
+      "peak_fraction": 0.18721276608976312,
+      "native_sobol_mean": 0.00022670360378703936,
+      "peak_sobol_mean": 0.0018683072395590246,
+      "native_sobol_max": 0.0019377796512660937,
+      "peak_sobol_max": 0.00998790218087912,
+      "wide_mean": 0.008901581835190176
+    },
+    "nominal_ratio": 0.5,
+    "native_ratio": 1.0,
+    "start_index": 0,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 33,
+    "seconds": 0.8600304999999935
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0439847005397684,
+        2.975313127716901,
+        0.9368255293899752,
+        2.975312672903568,
+        2.04398357935254
+      ],
+      "amplitudes": [
+        0.9955168003475866,
+        1.9999999999978748,
+        1.0003939806937316,
+        1.9999999999978435,
+        0.995516800779215
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 8.271082415545781e-05,
+      "native_mean": 0.00022669457337641814,
+      "peak_mean": 0.0018682822536882668,
+      "area_over_target": 6.99142758181625,
+      "duration_over_target": 9.999999999989374,
+      "native_fraction": 0.37442553217952623,
+      "peak_fraction": 0.18721276608976312,
+      "native_sobol_mean": 0.00022670172942426317,
+      "peak_sobol_mean": 0.0018683210393903565,
+      "native_sobol_max": 0.001937689240025827,
+      "peak_sobol_max": 0.009987745801144652,
+      "wide_mean": 0.008901428688928913
+    },
+    "nominal_ratio": 0.5,
+    "native_ratio": 1.0,
+    "start_index": 1,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 33,
+    "seconds": 0.6425434000000223
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.05215629811649,
+        2.9948564301959593,
+        0.9499372010711449,
+        2.994856391452311,
+        2.052156251262547
+      ],
+      "amplitudes": [
+        0.9938800835116814,
+        1.9999999735719376,
+        0.9997364840641187,
+        1.9999999709354481,
+        0.9938800968452123
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00016547152416986402,
+      "native_mean": 0.0002041492479506902,
+      "peak_mean": 0.0016757045254966857,
+      "area_over_target": 6.9874966089283985,
+      "duration_over_target": 9.999999867859687,
+      "native_fraction": 0.3370687993233873,
+      "peak_fraction": 0.16851263362790034,
+      "native_sobol_mean": 0.00020415635955027862,
+      "peak_sobol_mean": 0.0016757427945409428,
+      "native_sobol_max": 0.0018447444286785934,
+      "peak_sobol_max": 0.009662422769944147,
+      "wide_mean": 0.009022703448065718
+    },
+    "nominal_ratio": 1.0,
+    "native_ratio": 0.9,
+    "start_index": 0,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 25,
+    "seconds": 0.8134018999999171
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.052151445476314,
+        2.994832408165699,
+        0.9499267374192097,
+        2.9948337180856575,
+        2.0521546069496015
+      ],
+      "amplitudes": [
+        0.9938917850170861,
+        1.999999990490124,
+        0.9997318844955322,
+        1.9999999890662963,
+        0.9938917900924457
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 0.00016542181697285996,
+      "native_mean": 0.00020408813990964529,
+      "peak_mean": 0.001675881959271604,
+      "area_over_target": 6.987515439161483,
+      "duration_over_target": 9.99999995245062,
+      "native_fraction": 0.33711855025777204,
+      "peak_fraction": 0.16854994682868887,
+      "native_sobol_mean": 0.00020409524969223022,
+      "peak_sobol_mean": 0.0016759202278163,
+      "native_sobol_max": 0.0018436150154396511,
+      "peak_sobol_max": 0.009660361551235529,
+      "wide_mean": 0.009021534359413972
+    },
+    "nominal_ratio": 1.0,
+    "native_ratio": 0.9,
+    "start_index": 1,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 44,
+    "seconds": 1.1044753999999557
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0445487462072975,
+        2.975092426846407,
+        0.9364994559723296,
+        2.975091669435807,
+        2.044547938286275
+      ],
+      "amplitudes": [
+        0.9963949301887334,
+        1.999999999534179,
+        0.9998661002354351,
+        1.9999999995444344,
+        0.9963949175926202
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.962370165415399e-05,
+      "native_mean": 0.0002163857736416088,
+      "peak_mean": 0.001843542262236119,
+      "area_over_target": 6.992655947095402,
+      "duration_over_target": 9.99999999772217,
+      "native_fraction": 0.40398380607085776,
+      "peak_fraction": 0.20204476340321267,
+      "native_sobol_mean": 0.00021639272766945836,
+      "peak_sobol_mean": 0.0018435808270117595,
+      "native_sobol_max": 0.0017980049127904523,
+      "peak_sobol_max": 0.009854494219559307,
+      "wide_mean": 0.008803553054848283
+    },
+    "nominal_ratio": 0.5,
+    "native_ratio": 0.95,
+    "start_index": 0,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 190,
+    "seconds": 5.465975999999955
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.0441793595611113,
+        2.9742556931117905,
+        0.9358987786095128,
+        2.974251387091414,
+        2.0441698280056917
+      ],
+      "amplitudes": [
+        0.9964011599308092,
+        1.9999999930030092,
+        0.9998998116455091,
+        1.9999999935448565,
+        0.9964010020469114
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 9.702357750599155e-05,
+      "native_mean": 0.00021761626269269804,
+      "peak_mean": 0.0018498038560606435,
+      "area_over_target": 6.992701960171096,
+      "duration_over_target": 9.999999967724284,
+      "native_fraction": 0.4049228549573697,
+      "peak_fraction": 0.20244898974508865,
+      "native_sobol_mean": 0.0002176232221406281,
+      "peak_sobol_mean": 0.0018498424345169222,
+      "native_sobol_max": 0.0018051051428307537,
+      "peak_sobol_max": 0.009871033940008116,
+      "wide_mean": 0.008801441563923179
+    },
+    "nominal_ratio": 0.5,
+    "native_ratio": 0.95,
+    "start_index": 1,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 1062,
+    "seconds": 50.01301960000001
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.041078641486701,
+        2.966423822583618,
+        0.9299889631055445,
+        2.965715752429576,
+        2.0399365099929927
+      ],
+      "amplitudes": [
+        0.9964910126193597,
+        1.9999999990000055,
+        1.0002065677340717,
+        1.9999999990000055,
+        0.9964754022639637
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 7.35934759858387e-05,
+      "native_mean": 0.0002308590206828541,
+      "peak_mean": 0.0019122290662725173,
+      "area_over_target": 6.993172980617406,
+      "duration_over_target": 9.999999995000026,
+      "native_fraction": 0.41025242380333454,
+      "peak_fraction": 0.2051417590686625,
+      "native_sobol_mean": 0.0002308660386860003,
+      "peak_sobol_mean": 0.0019122677831060512,
+      "native_sobol_max": 0.001879402938731374,
+      "peak_sobol_max": 0.0100350803872154,
+      "wide_mean": 0.008786445634796785
+    },
+    "nominal_ratio": 0.1,
+    "native_ratio": 1.0,
+    "start_index": 0,
+    "success": false,
+    "message": "Inequality constraints incompatible",
+    "iterations": 84,
+    "seconds": 2.822108999999955
+  },
+  {
+    "name": "X5c",
+    "controls": {
+      "name": "X5c",
+      "N": 5,
+      "theta": 3.141592653589793,
+      "phases": [
+        2.034484429619771,
+        2.9524544449520604,
+        0.920257325159282,
+        2.9524522529005397,
+        2.03447890972447
+      ],
+      "amplitudes": [
+        0.9962779216781485,
+        1.999945012553698,
+        1.0009120844146344,
+        1.999945130128107,
+        0.9962777280110833
+      ],
+      "durations_T": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "origin": "studies/control_refinement/polish_x5c.py",
+      "model": "drive"
+    },
+    "metrics": {
+      "nominal": 4.269794489724055e-05,
+      "native_mean": 0.00025720948730589306,
+      "peak_mean": 0.0020168029701441064,
+      "area_over_target": 6.993357876785671,
+      "duration_over_target": 9.999725650640535,
+      "native_fraction": 0.3834864211043464,
+      "peak_fraction": 0.19172144451837986,
+      "native_sobol_mean": 0.00025721656182495293,
+      "peak_sobol_mean": 0.0020168418611053417,
+      "native_sobol_max": 0.0020076601359694433,
+      "peak_sobol_max": 0.010283895318455683,
+      "wide_mean": 0.008742335777929025
+    },
+    "nominal_ratio": 0.1,
+    "native_ratio": 1.0,
+    "start_index": 1,
+    "success": false,
+    "message": "Positive directional derivative for linesearch",
+    "iterations": 823,
+    "seconds": 24.8812504
+  }
+]

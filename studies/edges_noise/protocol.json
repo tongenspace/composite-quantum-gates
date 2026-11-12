@@ -1,0 +1,24 @@
+{
+  "peak_Rabi_Hz": 5000000.0,
+  "edge_durations_ns": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "domain_halfwidth": 0.15,
+  "midpoint_grid_n": 81,
+  "noise_A_Hz2": 360000.0,
+  "noise_lower_Hz": 1.0,
+  "principal_upper_Hz": 1000000.0,
+  "noise_RMS_Hz": 2230.153313309903,
+  "domain_trajectories": 128,
+  "domain_independent_antithetic_pairs": 64,
+  "domain_seed": 2026102242,
+  "domain_modes": 96,
+  "nominal_trajectories": 512,
+  "nominal_seed": 2026102243,
+  "nominal_modes": 192,
+  "fixed_controls": true,
+  "no_optimization": true
+}

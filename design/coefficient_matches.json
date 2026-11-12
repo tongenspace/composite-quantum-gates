@@ -1,0 +1,298 @@
+{
+  "X5c": [
+    {
+      "file": "design/searches/control_refinement/coverage_balanced_candidates.json",
+      "json_pointer": "/eligible/12/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/exact_x_baselines.json",
+      "json_pointer": "/X5c"
+    },
+    {
+      "file": "design/searches/control_refinement/selection_inputs.json",
+      "json_pointer": "/X5c/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/selected_controls.json",
+      "json_pointer": "/X5c/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/x5c_coverage_balanced_records.json",
+      "json_pointer": "/12/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X5c"
+    },
+    {
+      "file": "design/searches/x_extension/reference_controls.json",
+      "json_pointer": "/sequences/X5c"
+    }
+  ],
+  "X7c": [
+    {
+      "file": "design/searches/control_refinement/exact_x_validation.json",
+      "json_pointer": "/gates/X7c/selected/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/selected_controls.json",
+      "json_pointer": "/X7c/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/x7c_exact_coverage_width_records.json",
+      "json_pointer": "/0/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X7c"
+    },
+    {
+      "file": "design/searches/x_extension/reference_controls.json",
+      "json_pointer": "/sequences/X7c"
+    }
+  ],
+  "X9c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/X9_mean_records.json",
+      "json_pointer": "/1/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/X9_mean_selected.json",
+      "json_pointer": "/controls"
+    }
+  ],
+  "X11c": [
+    {
+      "file": "design/searches/control_refinement/exact_x_validation.json",
+      "json_pointer": "/gates/X11c/selected/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/selected_controls.json",
+      "json_pointer": "/X11c/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/x11c_exact_coverage_conservative_records.json",
+      "json_pointer": "/2/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X11c"
+    },
+    {
+      "file": "design/searches/higher_order/comparison.json",
+      "json_pointer": "/controls/X11c"
+    },
+    {
+      "file": "design/searches/x_extension/reference_controls.json",
+      "json_pointer": "/sequences/X11c"
+    }
+  ],
+  "H5c": [
+    {
+      "file": "design/searches/control_refinement/h5_remaining_records.json",
+      "json_pointer": "/21/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/selection_inputs.json",
+      "json_pointer": "/H5/controls"
+    },
+    {
+      "file": "design/searches/control_refinement/selected_controls.json",
+      "json_pointer": "/H5/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H5c"
+    },
+    {
+      "file": "design/searches/x_extension/reference_controls.json",
+      "json_pointer": "/sequences/H5"
+    }
+  ],
+  "H7c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H7_records.json",
+      "json_pointer": "/8/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H7c"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_seven.json",
+      "json_pointer": "/H7c/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_seven.json",
+      "json_pointer": "/H7c/selection/controls"
+    }
+  ],
+  "H9c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H9_mean_records.json",
+      "json_pointer": "/3/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H9_mean_selected.json",
+      "json_pointer": "/controls"
+    }
+  ],
+  "H11c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H11_records.json",
+      "json_pointer": "/9/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H11c"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h.json",
+      "json_pointer": "/H11c/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h.json",
+      "json_pointer": "/H11c/selection/controls"
+    }
+  ],
+  "X13c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X13p"
+    },
+    {
+      "file": "design/searches/higher_order/comparison.json",
+      "json_pointer": "/controls/X13c"
+    },
+    {
+      "file": "design/searches/x_extension/selected_controls.json",
+      "json_pointer": "/X13c/controls"
+    },
+    {
+      "file": "design/searches/x_extension/x13c_search_records.json",
+      "json_pointer": "/6/controls"
+    }
+  ],
+  "X13w": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X13c"
+    },
+    {
+      "file": "design/searches/x13_width/search_records.json",
+      "json_pointer": "/12/controls"
+    }
+  ],
+  "X15c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X15p"
+    },
+    {
+      "file": "design/searches/higher_order/comparison.json",
+      "json_pointer": "/controls/X15c"
+    },
+    {
+      "file": "design/searches/x_extension/selected_controls.json",
+      "json_pointer": "/X15c/controls"
+    },
+    {
+      "file": "design/searches/x_extension/x15c_search_records.json",
+      "json_pointer": "/9/controls"
+    },
+    {
+      "file": "design/searches/x_extension/x15c_search_records.json",
+      "json_pointer": "/10/controls"
+    }
+  ],
+  "X15w": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/X15c"
+    },
+    {
+      "file": "design/searches/higher_order/comparison.json",
+      "json_pointer": "/controls/X15w"
+    },
+    {
+      "file": "design/searches/objective_selection/selected_controls.json",
+      "json_pointer": "/X15w/controls"
+    },
+    {
+      "file": "design/searches/objective_selection/x15w_bounded_search.json",
+      "json_pointer": "/18/controls"
+    }
+  ],
+  "H13c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H13_records.json",
+      "json_pointer": "/5/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H13p"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_long.json",
+      "json_pointer": "/H13p/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_long.json",
+      "json_pointer": "/H13p/selection/controls"
+    }
+  ],
+  "H13w": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H13_width015_records.json",
+      "json_pointer": "/3/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H13c"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_long.json",
+      "json_pointer": "/H13c/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_long.json",
+      "json_pointer": "/H13c/selection/controls"
+    }
+  ],
+  "H15c": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H15_records.json",
+      "json_pointer": "/4/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H15p"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_fifteen.json",
+      "json_pointer": "/H15p/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_fifteen.json",
+      "json_pointer": "/H15p/selection/controls"
+    }
+  ],
+  "H15w": [
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/H15_fine_constraint.json",
+      "json_pointer": "/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/search_input_controls.json",
+      "json_pointer": "/sequences/H15c"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_fifteen.json",
+      "json_pointer": "/H15c/controls"
+    },
+    {
+      "file": "design/searches/hadamard_and_nine_pulse/selected_h_fifteen.json",
+      "json_pointer": "/H15c/selection/controls"
+    }
+  ]
+}

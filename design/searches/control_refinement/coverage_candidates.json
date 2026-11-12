@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "nominal": 0.0001654216482888478,
+    "native_mean": 0.00022602087011068295,
+    "peak_mean": 0.0017502153323604862,
+    "area_over_target": 6.9933,
+    "duration_over_target": 10.0,
+    "native_fraction": 0.4599971393212729,
+    "peak_fraction": 0.2299363809926555,
+    "native_sobol_mean": 0.00022603031296773582,
+    "peak_sobol_mean": 0.0017502568164243393,
+    "native_sobol_max": 0.0021521383111599126,
+    "peak_sobol_max": 0.010147192381245276,
+    "wide_mean": 0.010601239191120455
+  },
+  "eligible": []
+}
